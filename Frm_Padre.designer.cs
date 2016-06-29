@@ -493,6 +493,7 @@
             this._Mnu_IV_exportacionSPI = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator95 = new System.Windows.Forms.ToolStripSeparator();
             this._Mnu_ReporteUniticket = new System.Windows.Forms.ToolStripMenuItem();
+            this.Import_Nomina_ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contenidoDeLaAyudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem91 = new System.Windows.Forms.ToolStripSeparator();
@@ -511,7 +512,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this._Tm_TiempoUserRestric = new System.Windows.Forms.Timer(this.components);
             this._Ctrl_Buscar1 = new T3.CONTROLES._Ctrl_Buscar();
-            this.pRUEBAToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.statusBarPanel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.statusBarPanel6)).BeginInit();
@@ -4143,7 +4143,7 @@
             this._Mnu_IV,
             this.toolStripSeparator95,
             this._Mnu_ReporteUniticket,
-            this.pRUEBAToolStripMenuItem1});
+            this.Import_Nomina_ToolStripMenuItem1});
             this.nóminaToolStripMenuItem.Name = "nóminaToolStripMenuItem";
             this.nóminaToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.nóminaToolStripMenuItem.Text = "Nómina";
@@ -4399,6 +4399,13 @@
             this._Mnu_ReporteUniticket.Text = "Generación de reporte UNITICKET...";
             this._Mnu_ReporteUniticket.Click += new System.EventHandler(this._Mnu_ReporteUniticket_Click);
             // 
+            // Import_Nomina_ToolStripMenuItem1
+            // 
+            this.Import_Nomina_ToolStripMenuItem1.Name = "Import_Nomina_ToolStripMenuItem1";
+            this.Import_Nomina_ToolStripMenuItem1.Size = new System.Drawing.Size(261, 22);
+            this.Import_Nomina_ToolStripMenuItem1.Text = "Importar Nomina";
+            this.Import_Nomina_ToolStripMenuItem1.Click += new System.EventHandler(this.PRUEBAToolStripMenuItem1_Click_1);
+            // 
             // ayudaToolStripMenuItem
             // 
             this.ayudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -4555,13 +4562,6 @@
             this._Ctrl_Buscar1.Size = new System.Drawing.Size(894, 23);
             this._Ctrl_Buscar1.TabIndex = 26;
             this._Ctrl_Buscar1.Load += new System.EventHandler(this._Ctrl_Buscar1_Load);
-            // 
-            // pRUEBAToolStripMenuItem1
-            // 
-            this.pRUEBAToolStripMenuItem1.Name = "PRUEBAToolStripMenuItem1";
-            this.pRUEBAToolStripMenuItem1.Size = new System.Drawing.Size(261, 22);
-            this.pRUEBAToolStripMenuItem1.Text = "PRUEBA";
-            this.pRUEBAToolStripMenuItem1.Click += new System.EventHandler(this.PRUEBAToolStripMenuItem1_Click_1);
             // 
             // Frm_Padre
             // 
@@ -5081,6 +5081,6 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator114;
         private System.Windows.Forms.ToolStripMenuItem _Mnu_ComplementoLibroCompras;
         private System.Windows.Forms.ToolStripMenuItem _Mnu_CompRetenIaeManual;
-        private System.Windows.Forms.ToolStripMenuItem pRUEBAToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem Import_Nomina_ToolStripMenuItem1;
     }
 }

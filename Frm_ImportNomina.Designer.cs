@@ -32,21 +32,21 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.DateMaxPicker = new System.Windows.Forms.DateTimePicker();
+            this.DateMinPicker = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
             this._Bt_Importar = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this._Dg_Grid = new System.Windows.Forms.DataGridView();
-            this.label3 = new System.Windows.Forms.Label();
-            this.L_Debe = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.L_Haber = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.L_Saldo = new System.Windows.Forms.Label();
-            this.FCont = new System.Windows.Forms.Label();
-            this.ACont = new System.Windows.Forms.Label();
             this.MCont = new System.Windows.Forms.Label();
+            this.ACont = new System.Windows.Forms.Label();
+            this.FCont = new System.Windows.Forms.Label();
+            this.L_Saldo = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.L_Haber = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.L_Debe = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this._Dg_Grid = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this._Dg_Grid)).BeginInit();
@@ -56,8 +56,8 @@
             // 
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.dateTimePicker2);
-            this.panel1.Controls.Add(this.dateTimePicker1);
+            this.panel1.Controls.Add(this.DateMaxPicker);
+            this.panel1.Controls.Add(this.DateMinPicker);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this._Bt_Importar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -84,21 +84,21 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Fecha de Inicio";
             // 
-            // dateTimePicker2
+            // DateMaxPicker
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(507, 42);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 18);
-            this.dateTimePicker2.TabIndex = 6;
+            this.DateMaxPicker.Location = new System.Drawing.Point(507, 42);
+            this.DateMaxPicker.Name = "DateMaxPicker";
+            this.DateMaxPicker.Size = new System.Drawing.Size(200, 18);
+            this.DateMaxPicker.TabIndex = 6;
             // 
-            // dateTimePicker1
+            // DateMinPicker
             // 
-            this.dateTimePicker1.CustomFormat = "";
-            this.dateTimePicker1.Location = new System.Drawing.Point(507, 18);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 18);
-            this.dateTimePicker1.TabIndex = 5;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            this.DateMinPicker.CustomFormat = "";
+            this.DateMinPicker.Location = new System.Drawing.Point(507, 18);
+            this.DateMinPicker.Name = "DateMinPicker";
+            this.DateMinPicker.Size = new System.Drawing.Size(200, 18);
+            this.DateMinPicker.TabIndex = 5;
+            this.DateMinPicker.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // button1
             // 
@@ -148,6 +148,96 @@
             this.panel2.Size = new System.Drawing.Size(1101, 88);
             this.panel2.TabIndex = 1;
             // 
+            // MCont
+            // 
+            this.MCont.AutoSize = true;
+            this.MCont.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MCont.Location = new System.Drawing.Point(21, 61);
+            this.MCont.Name = "MCont";
+            this.MCont.Size = new System.Drawing.Size(204, 18);
+            this.MCont.TabIndex = 17;
+            this.MCont.Text = "Mes de Contabilización:";
+            // 
+            // ACont
+            // 
+            this.ACont.AutoSize = true;
+            this.ACont.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ACont.Location = new System.Drawing.Point(22, 35);
+            this.ACont.Name = "ACont";
+            this.ACont.Size = new System.Drawing.Size(203, 18);
+            this.ACont.TabIndex = 16;
+            this.ACont.Text = "Año de Contabilización:";
+            // 
+            // FCont
+            // 
+            this.FCont.AutoSize = true;
+            this.FCont.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FCont.Location = new System.Drawing.Point(6, 9);
+            this.FCont.Name = "FCont";
+            this.FCont.Size = new System.Drawing.Size(219, 18);
+            this.FCont.TabIndex = 15;
+            this.FCont.Text = "Fecha de Contabilización:";
+            // 
+            // L_Saldo
+            // 
+            this.L_Saldo.AutoSize = true;
+            this.L_Saldo.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.L_Saldo.Location = new System.Drawing.Point(888, 61);
+            this.L_Saldo.Name = "L_Saldo";
+            this.L_Saldo.Size = new System.Drawing.Size(18, 18);
+            this.L_Saldo.TabIndex = 14;
+            this.L_Saldo.Text = "0";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(825, 61);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(66, 18);
+            this.label8.TabIndex = 13;
+            this.label8.Text = "Saldo: ";
+            // 
+            // L_Haber
+            // 
+            this.L_Haber.AutoSize = true;
+            this.L_Haber.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.L_Haber.Location = new System.Drawing.Point(888, 35);
+            this.L_Haber.Name = "L_Haber";
+            this.L_Haber.Size = new System.Drawing.Size(18, 18);
+            this.L_Haber.TabIndex = 12;
+            this.L_Haber.Text = "0";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(822, 35);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(69, 18);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "Haber: ";
+            // 
+            // L_Debe
+            // 
+            this.L_Debe.AutoSize = true;
+            this.L_Debe.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.L_Debe.Location = new System.Drawing.Point(888, 9);
+            this.L_Debe.Name = "L_Debe";
+            this.L_Debe.Size = new System.Drawing.Size(18, 18);
+            this.L_Debe.TabIndex = 10;
+            this.L_Debe.Text = "0";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(828, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(63, 18);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Debe: ";
+            // 
             // _Dg_Grid
             // 
             this._Dg_Grid.AllowUserToAddRows = false;
@@ -163,96 +253,6 @@
             this._Dg_Grid.Size = new System.Drawing.Size(1101, 372);
             this._Dg_Grid.TabIndex = 2;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(828, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 18);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Debe: ";
-            // 
-            // L_Debe
-            // 
-            this.L_Debe.AutoSize = true;
-            this.L_Debe.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.L_Debe.Location = new System.Drawing.Point(888, 9);
-            this.L_Debe.Name = "L_Debe";
-            this.L_Debe.Size = new System.Drawing.Size(18, 18);
-            this.L_Debe.TabIndex = 10;
-            this.L_Debe.Text = "0";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(822, 35);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 18);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "Haber: ";
-            // 
-            // L_Haber
-            // 
-            this.L_Haber.AutoSize = true;
-            this.L_Haber.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.L_Haber.Location = new System.Drawing.Point(888, 35);
-            this.L_Haber.Name = "L_Haber";
-            this.L_Haber.Size = new System.Drawing.Size(18, 18);
-            this.L_Haber.TabIndex = 12;
-            this.L_Haber.Text = "0";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(825, 61);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(66, 18);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "Saldo: ";
-            // 
-            // L_Saldo
-            // 
-            this.L_Saldo.AutoSize = true;
-            this.L_Saldo.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.L_Saldo.Location = new System.Drawing.Point(888, 61);
-            this.L_Saldo.Name = "L_Saldo";
-            this.L_Saldo.Size = new System.Drawing.Size(18, 18);
-            this.L_Saldo.TabIndex = 14;
-            this.L_Saldo.Text = "0";
-            // 
-            // FCont
-            // 
-            this.FCont.AutoSize = true;
-            this.FCont.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FCont.Location = new System.Drawing.Point(6, 9);
-            this.FCont.Name = "FCont";
-            this.FCont.Size = new System.Drawing.Size(219, 18);
-            this.FCont.TabIndex = 15;
-            this.FCont.Text = "Fecha de Contabilización:";
-            // 
-            // ACont
-            // 
-            this.ACont.AutoSize = true;
-            this.ACont.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ACont.Location = new System.Drawing.Point(22, 35);
-            this.ACont.Name = "ACont";
-            this.ACont.Size = new System.Drawing.Size(203, 18);
-            this.ACont.TabIndex = 16;
-            this.ACont.Text = "Año de Contabilización:";
-            // 
-            // MCont
-            // 
-            this.MCont.AutoSize = true;
-            this.MCont.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MCont.Location = new System.Drawing.Point(21, 61);
-            this.MCont.Name = "MCont";
-            this.MCont.Size = new System.Drawing.Size(204, 18);
-            this.MCont.TabIndex = 17;
-            this.MCont.Text = "Mes de Contabilización:";
-            // 
             // Frm_ImportNomina
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -266,7 +266,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Frm_ImportNomina";
-            this.Text = "Comprobantes contables";
+            this.Text = "Importar Nomina";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Frm_ImportNomina_FormClosed);
             this.Load += new System.EventHandler(this.Frm_ImportNomina_Load);
             this.panel1.ResumeLayout(false);
@@ -285,8 +285,8 @@
         private System.Windows.Forms.DataGridView _Dg_Grid;
         private System.Windows.Forms.Button _Bt_Importar;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker DateMinPicker;
+        private System.Windows.Forms.DateTimePicker DateMaxPicker;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label L_Saldo;

@@ -1706,7 +1706,6 @@ namespace T3
             var cidcom = _Cls_Variosmetodos._Mtd_Consecutivo_TCOMPROBANC();
 
             string _Str_Sql = Tcomprobanc_Ins2() + " \n";
-            string _Str_Sql2 = "";//
 
             foreach (DataGridViewRow _Dg_Row in _Dg_Grid.Rows)
             {
@@ -1740,13 +1739,17 @@ namespace T3
                 }
             }
 
-            //foreach (DataGridViewRow _Dg_Row in _Dg_Grid.Rows)
-            //{
-            //    if (Convert.ToString(_Dg_Row.Cells["Cuenta"].Value).Trim().Length > 0){
-            //        _Str_Sql += "INSERT INTO TCOMPROBAND VALUES ('" + Frm_Padre._Str_Comp + "', " + cidcom + ", " + _Dg_Row.Index + 1 + ", '" + _Dg_Row.Cells[0].Value.ToString() + "', '" + _Dg_Row.Cells[2].Value.ToString() + "', '" + _Dg_Row.Cells[6].Value.ToString() + "', " + _Dg_Row.Cells[0].Value.ToString() + ", " + Val_Null(Convert.ToDecimal(_Dg_Row.Cells[7].Value).ToString().Replace(',', '.')) + ", " + Val_Null(Convert.ToDecimal(_Dg_Row.Cells[8].Value).ToString().Replace(',', '.')) + ", " + "GETDATE(), '" + Frm_Padre._Str_Use + "') \n";}
-            //}
-            
-            //Program._MyClsCnn._mtd_conexion._Mtd_EjecutarSentencia(_Str_Sql);
+            try
+            {
+                Program._MyClsCnn._mtd_conexion._Mtd_EjecutarSentencia(_Str_Sql);
+                MessageBox.Show("La operación ha sido realizadad correctamente. Comprobante: " + _Mtd_RetornarID_Correl(cidcom.ToString()), "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show("Error al procesar");
+                
+            }
         }
 
         public string Tcomprobanc_Ins2()

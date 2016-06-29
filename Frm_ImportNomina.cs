@@ -31,14 +31,14 @@ namespace T3
 
         private void Frm_ImportNomina_Load(object sender, EventArgs e)
         {
-            dateTimePicker1.MaxDate = DateTime.Today;
-            dateTimePicker2.MinDate = dateTimePicker1.Value;
+            DateMinPicker.MaxDate = DateTime.Today;
+            DateMaxPicker.MinDate = DateMinPicker.Value;
             
             //string[] ListaUsuarios = new string[] {"36","1","18","19","27", "34", "30"};
             //if (!ListaUsuarios.Contains(Frm_Padre._Str_UserGroup))
             //{
-            //    CLASES._Cls_Empleados_SPI _Cls_Empleados_SPI = new CLASES._Cls_Empleados_SPI();
-            //    _Cls_Empleados_SPI._Mtd_ActualizarTablaEmpleadosSPI(false, false, true);
+            CLASES._Cls_Empleados_SPI _Cls_Empleados_SPI = new CLASES._Cls_Empleados_SPI();
+            _Cls_Empleados_SPI._Mtd_ActualizarTablaEmpleadosSPI(false, false, true);
             //}
         }
                 
@@ -65,12 +65,12 @@ namespace T3
         private void button1_Click(object sender, EventArgs e)
         {
             //if (debe == haber){
-                if (dateTimePicker1.Value <= dateTimePicker2.Value){
-                    Datemin = dateTimePicker1.Value;
-                    Datemax = dateTimePicker2.Value;
+                if (DateMinPicker.Value <= DateMaxPicker.Value){
+                    Datemin = DateMinPicker.Value;
+                    Datemax = DateMaxPicker.Value;
                     Frm_ComprobanteContable frm2 = new Frm_ComprobanteContable();
-                    //frm2.StartPosition = FormStartPosition.Manual;
-                    //frm2.Location = new Point(this.Location.X, this.Location.Y);
+                    frm2.StartPosition = FormStartPosition.Manual;
+                    frm2.Location = new Point(this.Location.X, this.Location.Y);
                     frm2.Width = this.Size.Width;
                     frm2.Height = this.Size.Height;
                     frm2.ShowDialog();
@@ -86,7 +86,7 @@ namespace T3
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
-            dateTimePicker2.MinDate = dateTimePicker1.Value;
+            DateMaxPicker.MinDate = DateMinPicker.Value;
         }
 
     }

@@ -4313,7 +4313,6 @@ namespace T3
             }
         }
 
-        public static object th;
         public void PRUEBAToolStripMenuItem1_Click_1(object sender, EventArgs e)
         {
             if (CLASES._Cls_Varios_Metodos._Mtd_VerificarCnn(this))
@@ -4321,7 +4320,6 @@ namespace T3
                 Frm_ImportNomina _Frm = new Frm_ImportNomina();
                 if (!_Mtd_AbiertoOno(_Frm))
                 {
-                    var a = this.GetType();
                     _Frm.MdiParent = this; _Frm.Dock = DockStyle.Fill; _Frm.Show(); }
                 else
                 { _Frm.Dispose(); }

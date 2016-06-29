@@ -1,0 +1,932 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="T3" Class="_Dat_CntxTablasDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=SDC1\SQL_2008;Initial Catalog=T3;Persist Security Info=True;User ID=sa" SettingsObjectName="T3.Properties.Settings" SettingsPropertyName="T3ConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TPROVEEDOR" Member="TPROVEEDOR">
+    <Type Name="TPROVEEDOR">
+      <Column Name="cproveedor" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="c_rif" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="c_nit" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="clinea" Type="System.Char" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="c_nomb_comer" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="c_nomb_fiscal" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="c_nomb_abreviado" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="c_direcc_comer" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="c_direcc_fiscal" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="c_telefono" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="c_fax" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="c_email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="c_www" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="c_inf_replegal" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="c_fech_inicio" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="c_tip_contribuy" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="c_saldo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="c_dia_credito" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="c_des_ppago" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="c_lun_visita" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="c_mar_visita" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="c_mie_visita" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="c_jue_visita" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="c_vie_visita" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="c_sab_visita" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="c_dom_visita" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="c_lun_despa" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="c_mar_despa" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="c_mie_despa" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="c_juev_despa" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="c_vie_despa" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="c_sab_despa" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="c_dom_despa" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="c_activo" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="c_info_cont_1" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="c_info_cont_2" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="c_info_cont_3" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="ctcount" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="cauxiliar" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="c_banco_1" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="c_banco_2" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="c_banco_3" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="c_cuenta_1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="c_cuenta_2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="c_cuenta_3" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="c_notas" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="c_nuevo_web" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="c_nuevo_win" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cdelete" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cuserdel" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="cdatedel" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuseradd" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="c_num_pedi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="c_edit_2" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="c_limt_credit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="c_edit_1" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cporcinvendible" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cporincvolcomp" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="c_tipvisita" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="c_inventminp" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cdiasdespa" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cfrecuenciatmpo" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="c_fech_ultimo" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ccompany" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cgrupovta" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cglobal" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="ccliente" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="ccatproveedor" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="cpjuridica" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cdomiciliada" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="ctcountcxc" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cporcenreteniva" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="casignado" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cpordevmalestado" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cnotarecojo" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cporcmalsodica" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="cidauxiliarcont" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cfactorinvmin" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cfactorinvmax" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="c_interfaz_nestle" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="c_interfaz_nestle_usuario" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TCOUNT" Member="TCOUNT">
+    <Type Name="TCOUNT">
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ccount" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="clevel1" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="clevel2" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="clevel3" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="clevel4" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="clevel5" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="clevel6" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="clevel7" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="clevel8" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="clevel9" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="clevel10" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cname" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="ccostcent" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="cbegindate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cbudget" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="ccurreadd" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="cauxiliary" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="cwdocu" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="cwddocu" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="cactivate" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="cnactivate" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="cadjinfla" Type="System.String" DbType="Char(3)" CanBeNull="true" />
+      <Column Name="cnotes" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuseradd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserdel" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cdatedel" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cdelete" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="ctcount" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="cpadrecount" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="rowguid" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="creplico" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cidorden" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cclasificauxiliar" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cresumido" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TCUENTBANC" Member="TCUENTBANC">
+    <Type Name="TCUENTBANC">
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cnumcuenta" Type="System.String" DbType="NVarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cname" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="cdate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cbanco" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="csucur" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="cphone1" Type="System.String" DbType="NVarChar(14)" CanBeNull="true" />
+      <Column Name="cphone2" Type="System.String" DbType="NVarChar(14)" CanBeNull="true" />
+      <Column Name="cinfocont1" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="cinfocont2" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="ccount" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="ccurrency" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="cfechaconci" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="csaldodiferconci" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="csaldoactuconci" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="csaldoini" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="csaldoactual" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="cactivo" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cformcheque" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="cproxnumcheq" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuseradd" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cdelete" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="cdatedel" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserdel" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cproxnumTransf" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TCOMPROBANC" Member="TCOMPROBANC">
+    <Type Name="TCOMPROBANC">
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidcomprob" Type="System.Decimal" DbType="Decimal(10,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ctypcomp" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="cname" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="cyearacco" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cmontacco" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cregdate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ctotdebe" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ctothaber" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cbalance" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ctotdebeo" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ctothabero" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="cbalanceo" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="cactdes" Type="System.Char" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="cfield1" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cfield2" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cfield3" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cfield4" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="cfield5" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuseradd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cvalidate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cstatus" Type="System.Char" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="clvalidado" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cidcomprobret" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cestatusfirma" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="ccuadrado" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="csistema" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cidcorrel" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TCOMPROBAND" Member="TCOMPROBAND">
+    <Type Name="TCOMPROBAND">
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidcomprob" Type="System.Decimal" DbType="Decimal(10,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="corder" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ccount" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cdescrip" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="comentary" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ctdocument" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="cnumdocu" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="cdatedocu" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ctotdebe" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ctothaber" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ctotdebeo" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ctothabero" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="cfield1" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cfield2" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cfield3" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cfield4" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="cfield5" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuseradd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cstatus" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="cnivel1" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="cnivel2" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="cnive3" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="cnivel4" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="cnivel5" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="cnivel6" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="cnivel7" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="cnivel8" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="cnivel9" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="cnivel10" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TPAGOSCXPM" Member="TPAGOSCXPM">
+    <Type Name="TPAGOSCXPM">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidordpago" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cproveedor" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ctippago" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cfpago" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cfecha" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserfirmante" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cmontototal" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="cdescpppago" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="cbanco" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="ccaja" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cnumcuentad" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="ccancelado" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="canulado" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cidemisioncheq" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cidemisioncaja" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cmontototaltext" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="cidcomprob" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cotrospago" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cconcepto" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="cbeneficiario" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="ctipotrospago" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="antidescontado" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cidordpagodesc" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="crif" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TEMICHEQTRANSM" Member="TEMICHEQTRANSM">
+    <Type Name="TEMICHEQTRANSM">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidordpago" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidemisioncheq" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cbanco" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cnumcuentad" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="cnumcheqtransac" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cusersolicitante" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cfusersolicitante" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cuserfirmante1" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cfuserfirmante1" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cuseraprobador" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cfuseraprobador" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cconcepto" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="cidcomprob" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cpagarse" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ccantidadletras" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="cfechaemision" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cimpimiocheq" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cuserimprime" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cfechaimprimio" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="canulado" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="centregado" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cpersrecibename" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="cpersrecibeced" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TREPOSICIONESD" Member="TREPOSICIONESD">
+    <Type Name="TREPOSICIONESD">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidreposiciones" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ciddreposiciones" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cproveedor" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="ctipodocument" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cnumdocu" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="cglobal" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="ccatproveedor" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="cnumdocuctrl" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cfechaemision" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cconcepto" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="cfactunolibcomp" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="ccuentaexep" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="cmontototal" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cmontosi" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cmontoimp" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cimpuesto" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cmontoexento" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="canticipogasto" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cidordpagoanticipo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ctipodocumentodetalle" Type="System.Byte" DbType="TinyInt" CanBeNull="false" />
+      <Column Name="cnumdocumafec" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TCONFIGCXP" Member="TCONFIGCXP">
+    <Type Name="TCONFIGCXP">
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ctipoprovotro" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="ctipodocnd" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="ctipodocnc" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="ctipdocfact" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="ctipdocretiva" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="ctipdocretislr" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cprovretislr" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cprovretiva" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="ctipimpuesto" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cciudadcheque" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ctdocumentopcheq" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="ctdocumentoptransf" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="ctdocumentopordenp" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cvarislrib" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cvarislrin" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cvarislrmpagar" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cvarislrimp" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cvarislrbi" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="csustraendoa" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="csustraendob" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cmotivodescppp" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="ctipodocndp" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="ctipodocncp" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="cprocecontserv" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cprocecontciarel" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cprocecontaccio" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ccatproveciarel" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="ccatproveaccio" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="ccountsobfalcaj" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="ccountreteniva" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="ccountretenislr" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cdiascaducacheq" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="ccountiva" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cfactormaxfacrepos" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TUNITRIBUT" Member="TUNITRIBUT">
+    <Type Name="TUNITRIBUT">
+      <Column Name="cunitrib" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cvalor" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="csustraendoa" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="csustraendob" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuseradd" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cdelete" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cdatedel" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserdel" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TCONFCAPBANCD" Member="TCONFCAPBANCD">
+    <Type Name="TCONFCAPBANCD">
+      <Column Name="ccompany" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cbanco" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cascciexcel" Type="System.Char" DbType="NVarChar(1) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cposdatemovi" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cposnumdocu" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cpostipoperacio" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cposconcepto" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cposmontomov" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cpossaldomov" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cposmontomov1" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cposoficinabanc" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuseradd" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="cdelete" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cdatedel" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserdel" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ctiposeparador" Type="System.Byte" DbType="tinyint" CanBeNull="false" />
+      <Column Name="cdelimitador" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="clineainiciodatos" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="false" />
+      <Column Name="cformatofecha" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="ctiposeparadordecimal" Type="System.Byte" DbType="TinyInt" CanBeNull="false" />
+      <Column Name="ccantidaddigitosdecimales" Type="System.Byte" DbType="TinyInt" CanBeNull="false" />
+      <Column Name="cobtenermontoregistroseguncolumnasaldo" Type="System.Byte" DbType="TinyInt" CanBeNull="false" />
+      <Column Name="cobtenertipooperacionseguncolumnaconcepto" Type="System.Byte" DbType="TinyInt" CanBeNull="false" />
+      <Column Name="cobtenertipooperacionsegunsignomonto" Type="System.Byte" DbType="TinyInt" CanBeNull="false" />
+      <Column Name="cobtenertipooperacionsegunelusuario" Type="System.Byte" DbType="TinyInt" CanBeNull="false" />
+      <Column Name="ctipoconfiguracion" Type="System.Byte" DbType="TinyInt" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ccantidadcaracteresatomarconcepto" Type="System.Byte" DbType="TinyInt" CanBeNull="false" />
+      <Column Name="ccantidadcolumnasvaciaspermitidas" Type="System.Byte" DbType="TinyInt" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TCONFCAPBANCDD" Member="TCONFCAPBANCDD">
+    <Type Name="TCONFCAPBANCDD">
+      <Column Name="ccompany" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cbanco" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="coperbanc" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="coperbanctrans" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuseradd" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="cdelete" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cdatedel" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserdel" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDISPBANC" Member="TDISPBANC">
+    <Type Name="TDISPBANC">
+      <Column Name="ccompany" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cdispbanc" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cnumcuenta" Type="System.String" DbType="VarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cbanco" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cfechacaptura" Type="System.DateTime" DbType="DateTime NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cnombrearchivo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="carchivo" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="cconciliado" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="csaldobanco" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuseradd" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cdelete" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cdatedel" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserdel" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TDISPBAND" Member="TDISPBAND">
+    <Type Name="TDISPBAND">
+      <Column Name="ccompany" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cdispbanc" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cdispband" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cbanco" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cnumcuenta" Type="System.String" DbType="VarChar(30) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cdatemovi" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cnumdocu" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ctipoperacio" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cconcepto" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="cmontomov" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="csaldomov" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="coficinabanc" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cconciliado" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cadateconcil" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cyearacco" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cmontacco" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TCARGOSNOM" Member="TCARGOSNOM">
+    <Type Name="TCARGOSNOM">
+      <Column Name="cidcargonom" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidsistnomina" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cdescripcion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="cgercomer" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cgerarea" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cvendedor" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cgventas" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuseradd" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cdelete" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cdatedel" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserdel" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TGRUPOVTAM" Member="TGRUPOVTAM">
+    <Type Name="TGRUPOVTAM">
+      <Column Name="cgrupovta" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cname" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="cuseradd" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cdelete" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="cdatedel" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserdel" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TINCDISTRIBUD" Member="TINCDISTRIBUD">
+    <Type Name="TINCDISTRIBUD">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidincdistribu" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidincdistribud" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cproveedor" Type="System.String" DbType="VarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cgrupo" Type="System.String" DbType="VarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cano" Type="System.Decimal" DbType="Decimal(4,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cmes" Type="System.Decimal" DbType="Decimal(2,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ccomision" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuseradd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TPRODUCTO" Member="TPRODUCTO">
+    <Type Name="TPRODUCTO">
+      <Column Name="cproveedor" Type="System.String" DbType="NVarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cgrupo" Type="System.String" DbType="NVarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="csku" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cproducto" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cpaleta" Type="System.String" DbType="NVarChar(4)" CanBeNull="true" />
+      <Column Name="csector" Type="System.String" DbType="NVarChar(4)" CanBeNull="true" />
+      <Column Name="carea" Type="System.String" DbType="NVarChar(4)" CanBeNull="true" />
+      <Column Name="calmacen" Type="System.String" DbType="NVarChar(4)" CanBeNull="true" />
+      <Column Name="csubgrupo" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cprodregular" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="ccodfabrica" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="ccodcorrugado" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="ccodproveedor" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cactivate" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="clinea" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cfechaini" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cnamef" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="cnamei" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="cinformacion" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="cpresentacion" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="cimagen" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="cunidadma1" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="ccontenidoma1" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="cunidadma2" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="ccontenidoma2" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="cunidad2" Type="System.Char" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="cunidadme" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="ccontenidome" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="caltura" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="cancho" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="cprofundidad" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="calturac" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="canchoc" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="cprofundidadc" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="cpesounid1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="cpesounid2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="cu1xpaleta" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cu1xcamada" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cimpuesto1" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="ctax1" Type="System.String" DbType="NVarChar(3)" CanBeNull="true" />
+      <Column Name="ctax2" Type="System.String" DbType="NVarChar(3)" CanBeNull="true" />
+      <Column Name="ctax3" Type="System.String" DbType="NVarChar(3)" CanBeNull="true" />
+      <Column Name="ctax4" Type="System.String" DbType="NVarChar(3)" CanBeNull="true" />
+      <Column Name="ctax5" Type="System.String" DbType="NVarChar(3)" CanBeNull="true" />
+      <Column Name="ccomision" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="ccodebar" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="ccostobruto_u1" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ccostoneto_u1" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ccostobruto_u2" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ccostoneto_u2" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ccostpromu1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ccostpromu2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="clistprecio1" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="clistprecio2" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="clistprecio3" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="clistprecio4" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="clistprecio5" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cpreciosuge" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="cuseradd" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cdelete" Type="System.Char" DbType="NVarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="cdatedel" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserdel" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cexisrealu1" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cexisrealu2" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cexiscomu1" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cexiscomu2" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cexisllegar1" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cexisllegar2" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="cexisdesp1" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cexisdesp2" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cstockmi" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cstockmax" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cstockped" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cstockpro" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cpreciomin" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ctcomision" Type="System.String" DbType="NVarChar(4)" CanBeNull="true" />
+      <Column Name="ccodbarsku" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cultcosto" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="c_edit_1" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="c_edit_2" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="czona" Type="System.String" DbType="Char(4)" CanBeNull="true" />
+      <Column Name="cmarca" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="ccodebaru" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="ccodunidad" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="c_nuevo_win" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="ccodeold" Type="System.String" DbType="Char(20)" CanBeNull="true" />
+      <Column Name="valido_" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="cdescnetonac" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cdesclinnac1" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cdesclinnac2" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cdesclinnac3" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cdesclinnac4" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cfecexisreal" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cfecexiscomp" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cfecexistllegar" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cfecultcomp_u1" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cexisultcomp_u1" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cfecpromvta3m" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cpromvta3m_u1" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cfecpromcomp3m" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cpromcomp3m" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="ccompdelmes" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cfecvtapmes" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cfeccompmes" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cvtadelmes" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cfecdiarotultcomp" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cdiarotultcomp" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cfecinvmin" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cinvmin" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cfecdifcontrinv" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cdifcontrinv" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cinvmax" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cfecinvmax" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cnecinvactual" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cfecinvactual" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cnecvactual" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cfecnecvactual" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cfecinvsuge" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cinvsugerido" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cpedidoprome" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cpuntoreorden" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cbackorder" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cestratificacion" Type="System.Char" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="ccombogene" Type="System.Byte" DbType="TinyInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ccombocomp" Type="System.Byte" DbType="TinyInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cpreciolista" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cdescondp1" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cdescondp2" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cdescondp3" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cdescondp4" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cdescondp5" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cexismmeu1" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cexismmeu2" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cventaund2" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cnamefc" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="ccodbarvalidccs" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="ccodcorrugadovalid" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="ccodunidadvalid" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cmovultcomp" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="clistprecio6" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cdescpp" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TGRUPOIV" Member="TGRUPOIV">
+    <Type Name="TGRUPOIV">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidgrupincentivar" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="cidcargonom" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cgrupovta" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cdescripcion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuseradd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TINCCOB" Member="TINCCOB">
+    <Type Name="TINCCOB">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidinccob" Type="System.Decimal" DbType="Decimal(10,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidgrupincentivar" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="civfijo" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cfechadesde" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cfechahasta" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cporcactivaclient_a" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ccondicion1_asesor" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccondicion2_asesor" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccondicion3_asesor" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccondicion4_asesor" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccondicion5_asesor" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="cporccomision1_asesor" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cporccomision2_asesor" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cporccomision3_asesor" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cporccomision4_asesor" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cporccomision5_asesor" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cporccomisiondomfer1_asesor" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cporccomisiondomfer2_asesor" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cporccomisiondomfer3_asesor" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cporccomisiondomfer4_asesor" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cporccomisiondomfer5_asesor" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ccobertura1_asesor" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccobertura2_asesor" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccobertura3_asesor" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccomisioncob1_asesor" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ccomisioncob2_asesor" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ccomisioncob3_asesor" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ccondicion1_garea" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccondicion2_garea" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccomision1_garea" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ccomision2_garea" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ccondicion1_gvtas" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccondicion2_gvtas" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccomision1_gvtas" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ccomision2_gvtas" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ccondicion1_gcomer" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccondicion2_gcomer" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccomision1_gcomer" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ccomision2_gcomer" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuseradd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TINCVTAS" Member="TINCVTAS">
+    <Type Name="TINCVTAS">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidincvtas" Type="System.Decimal" DbType="Decimal(10,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidgrupincentivar" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="civfijo" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cfechadesde" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cfechahasta" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ccondicion1" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccondicion2" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccondicion3" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccomision1" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ccomision2" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ccomision3" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuseradd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TINCVARIOS" Member="TINCVARIOS">
+    <Type Name="TINCVARIOS">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidincvarios" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidgrupincentivar" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ccondiciondev" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccomisionpagdev" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ccondicionefect" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccomisionpagefect" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ccondicionactivac" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccomisionpagactivac" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cmontominvisefec" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuseradd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TGRUPPROVEE" Member="TGRUPPROVEE">
+    <Type Name="TGRUPPROVEE">
+      <Column Name="ccompany" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cgrupovta" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cproveedor" Type="System.String" DbType="VarChar(5) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="cuseradd" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cdelete" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="cdatedel" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserdel" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TINCMARCAFOCODD" Member="TINCMARCAFOCODD">
+    <Type Name="TINCMARCAFOCODD">
+      <Column Name="cconjunto" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cproducto" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TINCMARCAFOCOD" Member="TINCMARCAFOCOD">
+    <Type Name="TINCMARCAFOCOD">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidincmarcafoco" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidincmarcafocod" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cano" Type="System.Decimal" DbType="Decimal(4,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cmes" Type="System.Decimal" DbType="Decimal(2,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ccanal" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cestable" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cproveedor" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="cgrupo" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="csubgrupo" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cproducto" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cmarca" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="ctodos" Type="System.Char" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="cporcactivamin" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuseradd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cconjunto" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cconjuntodesc" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TINCMARCAFOCO" Member="TINCMARCAFOCO">
+    <Type Name="TINCMARCAFOCO">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidincmarcafoco" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidgrupincentivar" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="casesorgerente" Type="System.Char" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="ccomisiontotal" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ccondicionobjvtas1" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccondicionobjvtas2" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccondicionobjvtas3" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccomision1pag" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ccomision2pag" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ccomision3pag" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuseradd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cporcvolventas" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TINCDISTRIBU" Member="TINCDISTRIBU">
+    <Type Name="TINCDISTRIBU">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidincdistribu" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidgrupincentivar" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cporcpromedio" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cporcindividual" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuseradd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cporcvolventas" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TREPOSICIONESM" Member="TREPOSICIONESM">
+    <Type Name="TREPOSICIONESM">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cidreposiciones" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ctipreposicion" Type="System.Char" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="cfechaemision" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cyearacco" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cmontacco" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cdescripcionrepo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="cmontocancelar" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cmontototal" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cmontosi" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cmontoimp" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cmontoexento" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cordenpaghecha" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cidordpago" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cchequegenerado" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cestatusreposicion" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cestatusfirma" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cbeneficiario" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="cbanco" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cnumcuenta" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="cfpago" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuseradd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cdatedel" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserdel" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="cdelete" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="ctipoentidad" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="centidad" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="crif" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="cidcomprob" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TINCSIM" Member="TINCSIM">
+    <Type Name="TINCSIM">
+      <Column Name="cidincsim" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cidgrupincentivar" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="ccomisionmensual" Type="System.Decimal" DbType="Decimal(18,2) NOT NULL" CanBeNull="false" />
+      <Column Name="ctipovendedor" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="cvvporcmin" Type="System.Decimal" DbType="Decimal(18,2) NOT NULL" CanBeNull="false" />
+      <Column Name="csiporcmin" Type="System.Decimal" DbType="Decimal(18,2) NOT NULL" CanBeNull="false" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="cuseradd" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cdelete" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="cdatedel" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserdel" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TINCSID" Member="TINCSID">
+    <Type Name="TINCSID">
+      <Column Name="cidincsid" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="cidincsim" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="cano" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="ccuarto" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="ctestable" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cproducto" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="ccanal" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="cuseradd" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cdelete" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="cdatedel" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserdel" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TCONFIGINCVTASCUARTOS" Member="TCONFIGINCVTASCUARTOS">
+    <Type Name="TCONFIGINCVTASCUARTOS">
+      <Column Name="cidconfigincvtascuartos" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ccuarto" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="cmescuarto" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="cmescalendario" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="cdateadd" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="cuseradd" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="cdateupd" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserupd" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cdelete" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="cdatedel" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cuserdel" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

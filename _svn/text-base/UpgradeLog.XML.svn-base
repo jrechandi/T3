@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="T3">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\josio\Mis documentos\T3 Compras\T3.sln">
+</Property><Property Name="Date" Value="Martes, 10 de Octubre de 2006">
+</Property><Property Name="Time" Value="16:34 p.m.">
+</Property></Properties><Event ErrorLevel="0" Project="T3" Source="T3.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="T3" Source="T3.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="T3.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="T3.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="T3" Source="T3.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

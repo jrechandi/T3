@@ -1,0 +1,9 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\LibNumLetras.Resources.resources
+obj\Debug\LibNumLetras.vbproj.GenerateResource.Cache
+bin\Debug\LibNumLetras.dll
+bin\Debug\LibNumLetras.pdb
+bin\Debug\LibNumLetras.xml
+obj\Debug\LibNumLetras.dll
+obj\Debug\LibNumLetras.xml
+obj\Debug\LibNumLetras.pdb

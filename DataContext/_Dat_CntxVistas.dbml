@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="T3" Class="_Dat_CntxVistasDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=SDC1\SQL_2008;Initial Catalog=T3;Persist Security Info=True;User ID=sa" SettingsObjectName="T3.Properties.Settings" SettingsPropertyName="T3ConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.VST_CHEQUES_EMITIDOS" Member="VST_CHEQUES_EMITIDOS">
+    <Type Name="VST_CHEQUES_EMITIDOS">
+      <Column Name="cconcepto" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="cbeneficiario" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="cfechaemision" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="cname" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="cnumcheqtransac" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cnumcuentad" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="cbanco" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cidordpago" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cidemisioncheq" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cmontototal" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+      <Column Name="cimpimiocheq" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="canulado" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cfpago" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cidcomprob" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cproveedor" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cidordpagodesc" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="antidescontado" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="ctipotrospago" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="cotrospago" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VST_REPOSICIONES_DET" Member="VST_REPOSICIONES_DET">
+    <Type Name="VST_REPOSICIONES_DET">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cidreposiciones" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ciddreposiciones" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="c_nomb_comer" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="c_nomb_abreviado" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="cnumdocu" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="cnumdocuctrl" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cconcepto" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="cmontototal" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ccuentaexep" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="cname" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="cfechaemision" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ctipodocument" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="canticipogasto" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cmontosi" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cmontoexento" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cmontoimp" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cidordpagoanticipo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ctipodocumentodetalle" Type="System.Byte" DbType="TinyInt" CanBeNull="false" />
+      <Column Name="cnumdocumafec" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="cproveedor" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VST_REPOS_ANTI_COUNT" Member="VST_REPOS_ANTI_COUNT">
+    <Type Name="VST_REPOS_ANTI_COUNT">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cidordpago" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ccount" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="ctdocument" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="cnumdocu" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VST_GRUPOIV" Member="VST_GRUPOIV">
+    <Type Name="VST_GRUPOIV">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cidgrupincentivar" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cidcargonom" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="cgrupovta" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cdescargo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="cdesgrupo" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="cdesgrupovta" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VST_INC_COB" Member="VST_INC_COB">
+    <Type Name="VST_INC_COB">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cidgrupincentivar" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cdescripcion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="civfijo" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cidcargonom" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VST_INC_VTAS" Member="VST_INC_VTAS">
+    <Type Name="VST_INC_VTAS">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cidgrupincentivar" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cdescripcion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="civfijo" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cidcargonom" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VST_INC_DISTRIBU" Member="VST_INC_DISTRIBU">
+    <Type Name="VST_INC_DISTRIBU">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cidincdistribu" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cidgrupincentivar" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cidcargonom" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="cdescripcion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VST_INC_VARIOS" Member="VST_INC_VARIOS">
+    <Type Name="VST_INC_VARIOS">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cidincvarios" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cidgrupincentivar" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cidcargonom" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="cdescripcion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VST_INC_MARCF" Member="VST_INC_MARCF">
+    <Type Name="VST_INC_MARCF">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cidincmarcafoco" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cidgrupincentivar" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cidcargonom" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="cdescripcion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VST_INC_MARCF_PRODUCTOS" Member="VST_INC_MARCF_PRODUCTOS">
+    <Type Name="VST_INC_MARCF_PRODUCTOS">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cidincmarcafoco" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cano" Type="System.Decimal" DbType="Decimal(4,0) NOT NULL" CanBeNull="false" />
+      <Column Name="cmes" Type="System.Decimal" DbType="Decimal(2,0) NOT NULL" CanBeNull="false" />
+      <Column Name="ccanal" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cestable" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="ctodos" Type="System.Char" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="cproveedor" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="cgrupo" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="csubgrupo" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cconjunto" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="cproducto" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VST_INC_MARCF_D" Member="VST_INC_MARCF_D">
+    <Type Name="VST_INC_MARCF_D">
+      <Column Name="cidgrupincentivar" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cidincmarcafoco" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cidincmarcafocod" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cano" Type="System.Decimal" DbType="Decimal(4,0) NOT NULL" CanBeNull="false" />
+      <Column Name="cmes" Type="System.Decimal" DbType="Decimal(2,0) NOT NULL" CanBeNull="false" />
+      <Column Name="ccanal" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cestable" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cproveedor" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="cgrupo" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="csubgrupo" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="cproducto" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ctodos" Type="System.Char" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="cporcactivamin" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="cdescripcion" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="cdesccanal" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="cdesctestable" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="cdesctelemento" Type="System.String" DbType="VarChar(9)" CanBeNull="true" />
+      <Column Name="ccodelemento" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VST_INC_DISTRIBU_D" Member="VST_INC_DISTRIBU_D">
+    <Type Name="VST_INC_DISTRIBU_D">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cidgrupincentivar" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cidincdistribu" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cidincdistribud" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cproveedor" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="cgrupo" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="cano" Type="System.Decimal" DbType="Decimal(4,0) NOT NULL" CanBeNull="false" />
+      <Column Name="cmes" Type="System.Decimal" DbType="Decimal(2,0) NOT NULL" CanBeNull="false" />
+      <Column Name="ccomision" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="cname" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="c_nomb_abreviado" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="cvendedor" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cgercomer" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cgventas" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cgerarea" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VST_INC_DISTRIBU_GTE" Member="VST_INC_DISTRIBU_GTE">
+    <Type Name="VST_INC_DISTRIBU_GTE">
+      <Column Name="cgroupcomp" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cidincdistribu" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="cvendedor" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cgerarea" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cgventas" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="cgercomer" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VST_INC_SI" Member="VST_INC_SI">
+    <Type Name="VST_INC_SI">
+      <Column Name="cidcargonom" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="cdescripcion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ccompany" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cidincsim" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="cidgrupincentivar" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VST_INC_SI_D" Member="VST_INC_SI_D">
+    <Type Name="VST_INC_SI_D">
+      <Column Name="cidincsid" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="cidincsim" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="cano" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="ccuarto" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="ctestable" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cproducto" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="ccanal" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cdescripcion" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="cidgrupincentivar" Type="System.Decimal" DbType="Decimal(18,0) NOT NULL" CanBeNull="false" />
+      <Column Name="ccompany" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="cproveedor" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="cdesccanal" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="cdesctestable" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

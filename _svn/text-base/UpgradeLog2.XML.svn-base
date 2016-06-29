@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="T3">
+</Property><Property Name="Archivo de la solución" Value="C:\Users\Andres\Documents\T3\ACOPLAMOS\_PRODUCTIVO\T3.sln">
+</Property><Property Name="Date" Value="jueves, 11 de diciembre de 2008">
+</Property><Property Name="Time" Value="11:03 a.m.">
+</Property><Property Name="Número de registro" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="T3" Source="T3.csproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="T3" Source="T3.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="T3.sln" Description="La solución se convirtió correctamente">
+</Event><Event ErrorLevel="3" Project="" Source="T3.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="T3" Source="T3.csproj" Description="Examen completo: no es necesario actualizar los archivos de proyecto.">
+</Event></UpgradeLog>

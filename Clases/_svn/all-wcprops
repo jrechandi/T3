@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/conssa/!svn/ver/4244/t3win2010/branches/sprint_1/Clases
+END
+_Cls_RutinasImpresion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Clases/_Cls_RutinasImpresion.cs
+END
+_Cls_Print_NC.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Clases/_Cls_Print_NC.cs
+END
+_Cls_Print_ND.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Clases/_Cls_Print_ND.cs
+END
+_Cls_ExtensionWebBrowser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/conssa/!svn/ver/3132/t3win2010/branches/sprint_1/Clases/_Cls_ExtensionWebBrowser.cs
+END
+_Cls_VersionActual.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/conssa/!svn/ver/4216/t3win2010/branches/sprint_1/Clases/_Cls_VersionActual.cs
+END
+_Cls_ProcesosCont.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/conssa/!svn/ver/4117/t3win2010/branches/sprint_1/Clases/_Cls_ProcesosCont.cs
+END
+_Cls_Conexion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/conssa/!svn/ver/4167/t3win2010/branches/sprint_1/Clases/_Cls_Conexion.cs
+END
+cls_ExcelFuncion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Clases/cls_ExcelFuncion.cs
+END
+_Cls_Empleados_SPI.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/conssa/!svn/ver/4244/t3win2010/branches/sprint_1/Clases/_Cls_Empleados_SPI.cs
+END
+_Cls_Email.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Clases/_Cls_Email.cs
+END
+_Cls_Print_NDcxp.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Clases/_Cls_Print_NDcxp.cs
+END
+_Cls_Varios_Metodos.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/conssa/!svn/ver/4215/t3win2010/branches/sprint_1/Clases/_Cls_Varios_Metodos.cs
+END
+_Cls_reorden.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Clases/_Cls_reorden.cs
+END
+cGrupo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Clases/cGrupo.cs
+END
+_Cls_RutinasConciliacion.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/conssa/!svn/ver/3854/t3win2010/branches/sprint_1/Clases/_Cls_RutinasConciliacion.cs
+END
+_Cls_Print_Factura.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Clases/_Cls_Print_Factura.cs
+END
+_Cls_RutinasIC.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Clases/_Cls_RutinasIC.cs
+END
+_Cls_RutinasGuiasRelacionesCobranza.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/conssa/!svn/ver/3772/t3win2010/branches/sprint_1/Clases/_Cls_RutinasGuiasRelacionesCobranza.cs
+END
+cDatosMySQL.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Clases/cDatosMySQL.cs
+END
+_Cls_InputBox.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Clases/_Cls_InputBox.cs
+END
+_Cls_ExcelUtilidades.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/conssa/!svn/ver/3958/t3win2010/branches/sprint_1/Clases/_Cls_ExcelUtilidades.cs
+END
+InputBox.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Clases/InputBox.cs
+END
+_Cls_RutinasInterfazBancaria.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/conssa/!svn/ver/3871/t3win2010/branches/sprint_1/Clases/_Cls_RutinasInterfazBancaria.cs
+END
+osio.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Clases/osio.cs
+END
+_Cls_Clases.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Clases/_Cls_Clases.cs
+END
+_Cls_ArrayList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Clases/_Cls_ArrayList.cs
+END

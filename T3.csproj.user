@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <LastOpenVersion>7.10.3077</LastOpenVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ReferencePath>C:\Program Files (x86)\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\;C:\Program Files\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\;C:\Archivos de programa\Business Objects\Common\2.8\managed\C:\Program Files\Business Objects\Common\2.8\managed\C:\Archivos de programa\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnetC:\Archivos de programa\Archivos comunes\Business Objects\2.7\Managed\D:\RESPALDO ROBERTH\CONSSA\T3\bin\Debug\;d:\numerictextbox_src\shorty.windows.forms\bin\debug\;H:\numerictextbox_src\shorty.windows.forms\bin\debug\;H:\RESPALDO ROBERTH\CONSSA\NUevo con sql\Solucion\T3\bin\Debug\;C:\Documents and Settings\PORTATIL-1\Escritorio\T3\bin\Debug\;C:\Documents and Settings\Luis\Mis documentos\Mis archivos recibidos\T3(3)\T3\bin\Debug\;C:\T3MODULO\T3VENTAS\ClienteV_grafico\T3_ventas\T3\bin\Debug\;D:\lusi\T3\T3\bin\Debug\;D:\T3Fuentes\T3190706\bin\Debug\;C:\Documents and Settings\abriceno\Escritorio\T3030806\T3030806\bin\Debug\;C:\Documents and Settings\abriceno\Escritorio\T3_LOCAL_01\bin\Debug\;C:\Documents and Settings\Juan\Escritorio\T3_LOCAL_01\bin\Debug\;C:\Documents and Settings\abriceno\Escritorio\T3_LOCAL_01\T3_LOCAL_01\bin\Debug\;C:\Documents and Settings\Juan\Escritorio\T3_LOCAL_01\T3_LOCAL_01\bin\Debug\;D:\T3Fuentes\T3 Ventas\bin\Debug\;D:\T3Fuentes\Modulos Completos\T3 Compras\bin\Debug\;C:\Documents and Settings\josio\Escritorio\Modulos Completos\Modulos Completos\T3 Compras\bin\Debug\;C:\Documents and Settings\josio\Mis documentos\Modulos Completos\T3 Compras\bin\Debug\</ReferencePath>
+    <CopyProjectDestinationFolder>
+    </CopyProjectDestinationFolder>
+    <CopyProjectUncPath>
+    </CopyProjectUncPath>
+    <CopyProjectOption>0</CopyProjectOption>
+    <ProjectView>ProjectFiles</ProjectView>
+    <ProjectTrust>0</ProjectTrust>
+    <PublishUrlHistory>publish\|http://localhost/T3/</PublishUrlHistory>
+    <InstallUrlHistory>
+    </InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+    <ErrorReportUrlHistory>
+    </ErrorReportUrlHistory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <EnableASPDebugging>false</EnableASPDebugging>
+    <EnableASPXDebugging>false</EnableASPXDebugging>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <EnableSQLServerDebugging>true</EnableSQLServerDebugging>
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+    <RemoteDebugMachine>
+    </RemoteDebugMachine>
+    <StartAction>Project</StartAction>
+    <StartArguments>
+    </StartArguments>
+    <StartPage>
+    </StartPage>
+    <StartProgram>
+    </StartProgram>
+    <StartURL>
+    </StartURL>
+    <StartWorkingDirectory>
+    </StartWorkingDirectory>
+    <StartWithIE>true</StartWithIE>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <EnableASPDebugging>false</EnableASPDebugging>
+    <EnableASPXDebugging>false</EnableASPXDebugging>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <EnableSQLServerDebugging>false</EnableSQLServerDebugging>
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+    <RemoteDebugMachine>
+    </RemoteDebugMachine>
+    <StartAction>Project</StartAction>
+    <StartArguments>
+    </StartArguments>
+    <StartPage>
+    </StartPage>
+    <StartProgram>
+    </StartProgram>
+    <StartURL>
+    </StartURL>
+    <StartWorkingDirectory>
+    </StartWorkingDirectory>
+    <StartWithIE>true</StartWithIE>
+  </PropertyGroup>
+</Project>

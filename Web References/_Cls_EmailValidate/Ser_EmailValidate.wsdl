@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="_Mtd_ValidarEmailUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_P_Str_Email" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="_P_Str_Compania" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="_P_Str_Nombre" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="_Mtd_ValidarEmailUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="_Mtd_ValidarEmailUserResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="_Mtd_BorrarEmail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_Str_Email" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="_Mtd_BorrarEmailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="_Mtd_BorrarEmailResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="_Mtd_ValidarEmailUserSoapIn">
+    <wsdl:part name="parameters" element="tns:_Mtd_ValidarEmailUser" />
+  </wsdl:message>
+  <wsdl:message name="_Mtd_ValidarEmailUserSoapOut">
+    <wsdl:part name="parameters" element="tns:_Mtd_ValidarEmailUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="_Mtd_BorrarEmailSoapIn">
+    <wsdl:part name="parameters" element="tns:_Mtd_BorrarEmail" />
+  </wsdl:message>
+  <wsdl:message name="_Mtd_BorrarEmailSoapOut">
+    <wsdl:part name="parameters" element="tns:_Mtd_BorrarEmailResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Ser_EmailValidateSoap">
+    <wsdl:operation name="_Mtd_ValidarEmailUser">
+      <wsdl:input message="tns:_Mtd_ValidarEmailUserSoapIn" />
+      <wsdl:output message="tns:_Mtd_ValidarEmailUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="_Mtd_BorrarEmail">
+      <wsdl:input message="tns:_Mtd_BorrarEmailSoapIn" />
+      <wsdl:output message="tns:_Mtd_BorrarEmailSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Ser_EmailValidateSoap" type="tns:Ser_EmailValidateSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="_Mtd_ValidarEmailUser">
+      <soap:operation soapAction="http://tempuri.org/_Mtd_ValidarEmailUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="_Mtd_BorrarEmail">
+      <soap:operation soapAction="http://tempuri.org/_Mtd_BorrarEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Ser_EmailValidate">
+    <documentation xmlns="http://schemas.xmlsoap.org/wsdl/" />
+    <wsdl:port name="Ser_EmailValidateSoap" binding="tns:Ser_EmailValidateSoap">
+      <soap:address location="http://172.16.1.2/t3web/Ser_EmailValidate.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

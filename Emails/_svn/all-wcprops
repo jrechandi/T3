@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Emails
+END
+SmtpMisc.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Emails/SmtpMisc.cs
+END
+SmtpEmailer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Emails/SmtpEmailer.cs
+END
+SmtpConnection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Emails/SmtpConnection.cs
+END

@@ -708,7 +708,6 @@ namespace T3
                     debe += Convert.ToDecimal(_Row["MONTODEBE"].ToString().Replace('.', ',')); haber += Convert.ToDecimal(_Row["MONTOHABER"].ToString().Replace('.', ','));
                     _Txt_Debe.Text = debe.ToString(); _Txt_Haber.Text = haber.ToString(); _Txt_Saldo.Text = (debe - haber).ToString();
                 }
-                ((Frm_Padre)this.MdiParent)._Ctrl_Buscar1._Bt_guardar2.Enabled = true;
             }
             else
             {

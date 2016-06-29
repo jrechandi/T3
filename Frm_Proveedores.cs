@@ -328,6 +328,40 @@ namespace T3
             groupBox10.Enabled = true;
             _Lbl_PlanAhorro.Enabled = true;
             _Cmb_PlanAhorro.Enabled = true;
+            if (CLASES._Cls_Varios_Metodos._Mtd_EstaActivoRetencionesPatente())
+            {
+                if (_Cls_VariosMetodos._Mtd_ObtenerUsuarioFirma(Frm_Padre._Str_Use) == "1")
+                {
+                    if (_Cls_VariosMetodos._Mtd_UsuarioProceso(Frm_Padre._Str_Use, "F_MODIF_PATPROV"))
+                    {
+                        _Txt_Patente.Enabled = true;
+                        _Mtd_HabilitarPatentePorcentaje(true);
+                        _Txt_RUC.Enabled = true;
+                        _Chk_RetencionMunicipal.Enabled = true;
+                    }
+                    else
+                    {
+                        _Txt_Patente.Enabled = false;
+                        _Mtd_HabilitarPatentePorcentaje(false);
+                        _Txt_RUC.Enabled = false;
+                        _Chk_RetencionMunicipal.Enabled = false;
+                    }
+                }
+                else
+                {
+                    _Txt_Patente.Enabled = false;
+                    _Mtd_HabilitarPatentePorcentaje(false);
+                    _Txt_RUC.Enabled = false;
+                    _Chk_RetencionMunicipal.Enabled = false;
+                }
+            }
+            else
+            {
+                _Txt_Patente.Enabled = false;
+                _Mtd_HabilitarPatentePorcentaje(false);
+                _Txt_RUC.Enabled = false;
+                _Chk_RetencionMunicipal.Enabled = false;
+            }
         }
         public void _Mtd_Nuevo()
         {
@@ -342,7 +376,10 @@ namespace T3
             _Num_Compra.Enabled = false;
             _Num_Invendible.Enabled = false;
             _Num_Mal.Enabled = false;
-            _Mtd_HabilitarPatentePorcentaje(false);   
+            _Mtd_HabilitarPatentePorcentaje(false);
+            _Txt_RUC.Enabled = false;
+            _Txt_Patente.Enabled = false;
+            _Txt_CodActEconomica.Enabled = false;
         }
         private void _Mtd_Inicializar_Controles(Control _P_Ctrl_Control)
         {
@@ -1093,31 +1130,7 @@ namespace T3
                 _Er_Error.Dispose();
                 _Mtd_Inicializar_Controles(_Tb_Tab);
                 _Mtd_Deshabilitar_Todo();
-                _Mtd_CargarPlanAhorro();
-                if (_Cls_VariosMetodos._Mtd_ObtenerUsuarioFirma(Frm_Padre._Str_Use) == "1")
-                {
-                    if (_Cls_VariosMetodos._Mtd_UsuarioProceso(Frm_Padre._Str_Use, "F_MODIF_PATPROV"))
-                    {
-                        _Txt_Patente.Enabled = true;
-                        _Mtd_HabilitarPatentePorcentaje(true);                        
-                        _Txt_RUC.Enabled = true;
-                        _Chk_RetencionMunicipal.Enabled = true;
-                    }
-                    else
-                    {
-                        _Txt_Patente.Enabled = false;
-                        _Mtd_HabilitarPatentePorcentaje(false);
-                        _Txt_RUC.Enabled = false;
-                        _Chk_RetencionMunicipal.Enabled = false;
-                    }
-                }
-                else
-                {
-                    _Txt_Patente.Enabled = false;
-                    _Mtd_HabilitarPatentePorcentaje(false);   
-                    _Txt_RUC.Enabled = false;
-                    _Chk_RetencionMunicipal.Enabled = false;
-                }
+                _Mtd_CargarPlanAhorro();                
                 _Rbt_0.Checked = false;
                 _Rbt_75.Checked = false;
                 _Rbt_100.Checked = false;

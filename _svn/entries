@@ -1,15 +1,15 @@
 10
 
 dir
-4244
+4248
 https://192.168.1.9:443/svn/conssa/t3win2010/branches/sprint_1
 https://192.168.1.9:443/svn/conssa
 
 
 
-2016-06-23T19:06:29.797951Z
-4244
-rferreira
+2016-06-29T16:16:16.834124Z
+4248
+ecambios
 has-props
 
 
@@ -196,40 +196,6 @@ dgavidia
 
 14981
 
-Frm_NotaDebito.cs
-file
-
-
-
-
-2016-03-09T14:44:25.821747Z
-a81bfcc1bc88603660884fca1c3ed344
-2014-10-09T16:51:43.603267Z
-3752
-iperez
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-102237
-
 Frm_Anticipos.designer.cs
 file
 
@@ -263,6 +229,40 @@ dgavidia
 
 
 36272
+
+Frm_NotaDebito.cs
+file
+
+
+
+
+2016-03-09T14:44:25.821747Z
+a81bfcc1bc88603660884fca1c3ed344
+2014-10-09T16:51:43.603267Z
+3752
+iperez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+102237
 
 Frm_FacturasCargadas.designer.cs
 file
@@ -366,40 +366,6 @@ iperez
 
 50301
 
-Frm_Inf_VentProdTipClien.resx
-file
-
-
-
-
-2016-03-09T14:44:25.821747Z
-803368e311ecd21aa392b16fb41b48bb
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10082
-
 Frm_Inf_IncCobranza.resx
 file
 
@@ -433,6 +399,40 @@ dgavidia
 
 
 9372
+
+Frm_Inf_VentProdTipClien.resx
+file
+
+
+
+
+2016-03-09T14:44:25.821747Z
+803368e311ecd21aa392b16fb41b48bb
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10082
 
 Emails
 dir
@@ -504,6 +504,9 @@ dgavidia
 
 
 11752
+
+packages
+dir
 
 Frm_ConfigImpresion.resx
 file
@@ -1015,9 +1018,6 @@ dgavidia
 
 6791
 
-Report
-dir
-
 Frm_CapturaDispBanco2.Designer.cs
 file
 
@@ -1051,6 +1051,9 @@ iperez
 
 
 79403
+
+Report
+dir
 
 Frm_ControlImpresion.Designer.cs
 file
@@ -1256,40 +1259,6 @@ dgavidia
 
 8109
 
-Frm_ReporteRelacionCobro.Designer.cs
-file
-
-
-
-
-2016-03-09T14:44:25.851744Z
-24966fb737ed9030106c2a5b8eb66858
-2014-08-11T13:21:16.187901Z
-3515
-rferreira
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2540
-
 Frm_Inf_ValorizaInventario.Designer.cs
 file
 
@@ -1323,6 +1292,40 @@ josio
 
 
 26625
+
+Frm_ReporteRelacionCobro.Designer.cs
+file
+
+
+
+
+2016-03-09T14:44:25.851744Z
+24966fb737ed9030106c2a5b8eb66858
+2014-08-11T13:21:16.187901Z
+3515
+rferreira
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2540
 
 Frm_Inf_NCA_CxP.resx
 file
@@ -1769,40 +1772,6 @@ dgavidia
 
 17772
 
-Frm_LimiteCreditoAutoriza.cs
-file
-
-
-
-
-2016-03-09T14:44:25.883741Z
-1f6ca1c1ca5da384a50fced231731f4d
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6283
-
 Frm_TabuladoresDespacho.cs
 file
 
@@ -1836,6 +1805,40 @@ dgavidia
 
 
 24440
+
+Frm_LimiteCreditoAutoriza.cs
+file
+
+
+
+
+2016-03-09T14:44:25.883741Z
+1f6ca1c1ca5da384a50fced231731f4d
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6283
 
 Frm_ComprobIAEManual.designer.cs
 file
@@ -1939,40 +1942,6 @@ dgavidia
 
 5447
 
-Frm_ControlDespacho.Designer.cs
-file
-
-
-
-
-2016-03-09T14:44:25.887741Z
-565afbfb21552d6076e408053f37b856
-2013-08-09T15:48:10.185461Z
-2475
-josio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-179826
-
 Frm_TrasladoDocumentos.resx
 file
 
@@ -2006,6 +1975,40 @@ dgavidia
 
 
 11760
+
+Frm_ControlDespacho.Designer.cs
+file
+
+
+
+
+2016-03-09T14:44:25.887741Z
+565afbfb21552d6076e408053f37b856
+2013-08-09T15:48:10.185461Z
+2475
+josio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+179826
 
 Frm_ReposicionCxP_Anticipos.designer.cs
 file
@@ -4319,48 +4322,14 @@ josio
 
 4976
 
-Frm_VstCuentas.cs
+Frm_IncConjSelect.resx
 file
 
 
 
 
-2016-03-09T14:44:26.034726Z
-d98191d6b954e38ae7c9c3642fb939a5
-2014-09-16T21:18:36.204612Z
-3700
-rferreira
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5051
-
-Frm_VerificaConteo.Designer.cs
-file
-
-
-
-
-2016-03-09T14:44:26.035726Z
-52d70abc555ec41abc69148cdca1ff4d
+2016-03-09T14:44:26.039726Z
+32a9f8db6987c2d0d6bb55fc487be5e8
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -4385,7 +4354,7 @@ dgavidia
 
 
 
-45133
+5814
 
 Frm_SubClasificacionColgate.Designer.cs
 file
@@ -4421,14 +4390,14 @@ rferreira
 
 8539
 
-Frm_IncConjSelect.resx
+Frm_VerificaConteo.Designer.cs
 file
 
 
 
 
-2016-03-09T14:44:26.039726Z
-32a9f8db6987c2d0d6bb55fc487be5e8
+2016-03-09T14:44:26.035726Z
+52d70abc555ec41abc69148cdca1ff4d
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -4453,19 +4422,19 @@ dgavidia
 
 
 
-5814
+45133
 
-Frm_VistaArchivo.designer.cs
+Frm_VstCuentas.cs
 file
 
 
 
 
-2016-03-09T14:44:26.040726Z
-6662b49bcd83c37cb17f1c07a829b98e
-2012-11-28T13:54:02.409333Z
-1867
-iperez
+2016-03-09T14:44:26.034726Z
+d98191d6b954e38ae7c9c3642fb939a5
+2014-09-16T21:18:36.204612Z
+3700
+rferreira
 
 
 
@@ -4487,41 +4456,7 @@ iperez
 
 
 
-20668
-
-Frm_AjusInventario.cs
-file
-
-
-
-
-2016-03-09T14:44:26.041725Z
-8e47805f1de591d301ca889458e703ef
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8337
+5051
 
 Frm_Inf_PrefSegPrec.cs
 file
@@ -4557,14 +4492,14 @@ josio
 
 3874
 
-Frm_ProcesosVista.designer.cs
+Frm_AjusInventario.cs
 file
 
 
 
 
-2016-03-09T14:44:26.044725Z
-fa491a3978aea62a156c67f1f8deeefb
+2016-03-09T14:44:26.041725Z
+8e47805f1de591d301ca889458e703ef
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -4589,7 +4524,75 @@ dgavidia
 
 
 
-11479
+8337
+
+Frm_VistaArchivo.designer.cs
+file
+
+
+
+
+2016-03-09T14:44:26.040726Z
+6662b49bcd83c37cb17f1c07a829b98e
+2012-11-28T13:54:02.409333Z
+1867
+iperez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20668
+
+DataSet2.cs
+file
+
+
+
+
+2016-03-09T14:44:26.047725Z
+ed29c0528bc87161306c0ef3ac4bc27b
+2015-11-09T14:56:57.996279Z
+4156
+iperez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+987
 
 Frm_DifPmvComp.Designer.cs
 file
@@ -4625,17 +4628,17 @@ dgavidia
 
 18965
 
-DataSet2.cs
+Frm_ProcesosVista.designer.cs
 file
 
 
 
 
-2016-03-09T14:44:26.047725Z
-ed29c0528bc87161306c0ef3ac4bc27b
-2015-11-09T14:56:57.996279Z
-4156
-iperez
+2016-03-09T14:44:26.044725Z
+fa491a3978aea62a156c67f1f8deeefb
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
 
 
 
@@ -4657,7 +4660,7 @@ iperez
 
 
 
-987
+11479
 
 Frm_ImpresionLote.resx
 file
@@ -4795,40 +4798,6 @@ dgavidia
 
 6839
 
-Frm_TabuladoresDespacho.Designer.cs
-file
-
-
-
-
-2016-03-09T14:44:26.054724Z
-e8defbb52df889bef69fca9d0ecc12d5
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-79374
-
 Frm_LimiteCreditoAutoriza.Designer.cs
 file
 
@@ -4862,6 +4831,40 @@ dgavidia
 
 
 7381
+
+Frm_TabuladoresDespacho.Designer.cs
+file
+
+
+
+
+2016-03-09T14:44:26.054724Z
+e8defbb52df889bef69fca9d0ecc12d5
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+79374
 
 Frm_BusquedaProductoLote.cs
 file
@@ -4965,40 +4968,6 @@ dgavidia
 
 13914
 
-Frm_IncConjSelect.designer.cs
-file
-
-
-
-
-2016-03-09T14:44:26.061723Z
-cb9f82fba5aa48d0baa12a4c7e55fe76
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4444
-
 Frm_Inf_CostoUtilProductoRS.resx
 file
 
@@ -5033,14 +5002,14 @@ dgavidia
 
 7214
 
-Frm_ConfigPrinterFact.resx
+Frm_IncConjSelect.designer.cs
 file
 
 
 
 
-2016-03-09T14:44:26.063723Z
-e851ee8c7e109852bf1faa9c452b2805
+2016-03-09T14:44:26.061723Z
+cb9f82fba5aa48d0baa12a4c7e55fe76
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -5065,41 +5034,7 @@ dgavidia
 
 
 
-6791
-
-Frm_Inf_FacturasAnul.Designer.cs
-file
-
-
-
-
-2016-03-09T14:44:26.064723Z
-7eeb070d31f438146984fd303d063b3b
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-13928
+4444
 
 Frm_Inf_HistCliente.resx
 file
@@ -5135,14 +5070,14 @@ dgavidia
 
 9383
 
-Frm_ExportarIncSPI.resx
+Frm_Inf_FacturasAnul.Designer.cs
 file
 
 
 
 
-2016-03-09T14:44:26.067723Z
-3611408f05565201d3d17f9234bdbd98
+2016-03-09T14:44:26.064723Z
+7eeb070d31f438146984fd303d063b3b
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -5167,7 +5102,41 @@ dgavidia
 
 
 
-14336
+13928
+
+Frm_ConfigPrinterFact.resx
+file
+
+
+
+
+2016-03-09T14:44:26.063723Z
+e851ee8c7e109852bf1faa9c452b2805
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6791
 
 Frm_NotaDebitoCxC.cs
 file
@@ -5202,6 +5171,40 @@ jechandi
 
 
 96882
+
+Frm_ExportarIncSPI.resx
+file
+
+
+
+
+2016-03-09T14:44:26.067723Z
+3611408f05565201d3d17f9234bdbd98
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14336
 
 Frm_Busqueda2.designer.cs
 file
@@ -5271,40 +5274,6 @@ dgavidia
 
 14104
 
-Frm_Inf_AcumVtasCliente.resx
-file
-
-
-
-
-2016-03-09T14:44:26.072722Z
-1b0898ec409778b72bd98093d328bd6e
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10085
-
 Frm_Inf_Varios.cs
 file
 
@@ -5339,17 +5308,17 @@ ecambios
 
 19039
 
-Frm_UsuarioAdmin.cs
+Frm_Inf_AcumVtasCliente.resx
 file
 
 
 
 
-2016-03-09T14:44:26.074722Z
-f3a63d75705e4cf102df3747d69db6ff
-2015-08-28T13:12:01.020257Z
-4104
-iperez
+2016-03-09T14:44:26.072722Z
+1b0898ec409778b72bd98093d328bd6e
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
 
 
 
@@ -5371,7 +5340,41 @@ iperez
 
 
 
-64301
+10085
+
+Frm_Inf_IncSI.designer.cs
+file
+
+
+
+
+2016-03-09T14:44:26.077722Z
+72e380216f3f6e4dd6f210b75f8eee4b
+2012-10-19T21:01:33.189116Z
+1717
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9859
 
 Frm_ConsultaPedidos.cs
 file
@@ -5407,17 +5410,17 @@ rferreira
 
 21321
 
-Frm_Inf_IncSI.designer.cs
+Frm_UsuarioAdmin.cs
 file
 
 
 
 
-2016-03-09T14:44:26.077722Z
-72e380216f3f6e4dd6f210b75f8eee4b
-2012-10-19T21:01:33.189116Z
-1717
-dgavidia
+2016-03-09T14:44:26.074722Z
+f3a63d75705e4cf102df3747d69db6ff
+2015-08-28T13:12:01.020257Z
+4104
+iperez
 
 
 
@@ -5439,7 +5442,7 @@ dgavidia
 
 
 
-9859
+64301
 
 Frm_ConciliacionDetalle.resx
 file
@@ -5509,40 +5512,6 @@ josio
 
 4887
 
-Frm_ControlDespacho.resx
-file
-
-
-
-
-2016-03-09T14:44:26.080722Z
-455fc8dabef6f154c8850d3682f8e2e8
-2013-08-09T15:48:10.185461Z
-2475
-josio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-46542
-
 Frm_Inf_ValorizaInventarioRS.resx
 file
 
@@ -5576,6 +5545,40 @@ dgavidia
 
 
 7408
+
+Frm_ControlDespacho.resx
+file
+
+
+
+
+2016-03-09T14:44:26.080722Z
+455fc8dabef6f154c8850d3682f8e2e8
+2013-08-09T15:48:10.185461Z
+2475
+josio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+46542
 
 Frm_OperBanc.resx
 file
@@ -5883,40 +5886,6 @@ apetit
 
 7406
 
-Frm_TipoTransporte.Designer.cs
-file
-
-
-
-
-2016-03-09T14:44:26.168913Z
-ff317051e8166e8a9432b142e83b9acb
-2013-03-01T18:07:06.367953Z
-2145
-iperez
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12475
-
 Frm_MessageBox.designer.cs
 file
 
@@ -5950,6 +5919,40 @@ dgavidia
 
 
 5404
+
+Frm_TipoTransporte.Designer.cs
+file
+
+
+
+
+2016-03-09T14:44:26.168913Z
+ff317051e8166e8a9432b142e83b9acb
+2013-03-01T18:07:06.367953Z
+2145
+iperez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12475
 
 Frm_Inf_NotaRecepLote.cs
 file
@@ -6121,40 +6124,6 @@ dgavidia
 
 11958
 
-Frm_ExportarIncSPI.designer.cs
-file
-
-
-
-
-2016-03-09T14:44:26.184511Z
-a542dc1f1157c99d17e6f4822d2525ce
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8679
-
 Frm_IncVarios.resx
 file
 
@@ -6188,6 +6157,40 @@ dgavidia
 
 
 9940
+
+Frm_ExportarIncSPI.designer.cs
+file
+
+
+
+
+2016-03-09T14:44:26.184511Z
+a542dc1f1157c99d17e6f4822d2525ce
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8679
 
 Frm_Solicitud.resx
 file
@@ -6393,40 +6396,6 @@ iperez
 
 14900
 
-Frm_Inf_NC_Anul.resx
-file
-
-
-
-
-2016-03-09T14:44:26.184511Z
-d58b1279538b021ed69b0b128c00daf8
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8851
-
 Frm_Inf_ReportCalCob.resx
 file
 
@@ -6460,6 +6429,40 @@ dgavidia
 
 
 5814
+
+Frm_Inf_NC_Anul.resx
+file
+
+
+
+
+2016-03-09T14:44:26.184511Z
+d58b1279538b021ed69b0b128c00daf8
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8851
 
 Frm_AvisoPago.cs
 file
@@ -6563,40 +6566,6 @@ rferreira
 
 23169
 
-Frm_ConsultaPedidosDetalle.cs
-file
-
-
-
-
-2016-03-09T14:44:26.200110Z
-9d0feec4d416d731b87263fcb9eea2e4
-2013-08-15T17:59:33.000746Z
-2498
-rferreira
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-24022
-
 Frm_Inf_RelacionCxP2014_ND.cs
 file
 
@@ -6631,17 +6600,17 @@ apetit
 
 21975
 
-Frm_ProducExcedMargenGub.cs
+Frm_ConsultaPedidosDetalle.cs
 file
 
 
 
 
 2016-03-09T14:44:26.200110Z
-b977bf34eeab83e4a427f9b9e6e7af30
-2015-02-26T15:30:22.253290Z
-3937
-iperez
+9d0feec4d416d731b87263fcb9eea2e4
+2013-08-15T17:59:33.000746Z
+2498
+rferreira
 
 
 
@@ -6663,7 +6632,7 @@ iperez
 
 
 
-8395
+24022
 
 Frm_FactObs.resx
 file
@@ -6699,17 +6668,17 @@ dgavidia
 
 5814
 
-Frm_ReporteRelacionCobro.resx
+Frm_ProducExcedMargenGub.cs
 file
 
 
 
 
 2016-03-09T14:44:26.200110Z
-4eb5913a0e5aa842250f7419538fa230
-2014-08-11T13:21:16.187901Z
-3515
-rferreira
+b977bf34eeab83e4a427f9b9e6e7af30
+2015-02-26T15:30:22.253290Z
+3937
+iperez
 
 
 
@@ -6731,7 +6700,7 @@ rferreira
 
 
 
-5817
+8395
 
 Frm_Inf_ValorizaInventario.resx
 file
@@ -6767,17 +6736,17 @@ josio
 
 7380
 
-Frm_VerificacionTarjetas.cs
+Frm_ReporteRelacionCobro.resx
 file
 
 
 
 
 2016-03-09T14:44:26.200110Z
-49f21b3731d6d38d53e823b3b7189edf
-2015-10-02T16:08:20.714069Z
-4131
-josio
+4eb5913a0e5aa842250f7419538fa230
+2014-08-11T13:21:16.187901Z
+3515
+rferreira
 
 
 
@@ -6799,7 +6768,7 @@ josio
 
 
 
-20741
+5817
 
 Frm_VendedoresSinZona.designer.cs
 file
@@ -6834,6 +6803,40 @@ dgavidia
 
 
 15094
+
+Frm_VerificacionTarjetas.cs
+file
+
+
+
+
+2016-03-09T14:44:26.200110Z
+49f21b3731d6d38d53e823b3b7189edf
+2015-10-02T16:08:20.714069Z
+4131
+josio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20741
 
 Frm_ASCII_FAC.resx
 file
@@ -6937,40 +6940,6 @@ dgavidia
 
 48
 
-Frm_FactObs.cs
-file
-
-
-
-
-2016-03-09T14:44:26.215708Z
-e5a8b6495bc502887af89358494ac60c
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-551
-
 Frm_ModifCostNetLote.Designer.cs
 file
 
@@ -7004,6 +6973,40 @@ josio
 
 
 14677
+
+Frm_FactObs.cs
+file
+
+
+
+
+2016-03-09T14:44:26.215708Z
+e5a8b6495bc502887af89358494ac60c
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+551
 
 Frm_Inf_NDA_CxP .resx
 file
@@ -7107,40 +7110,6 @@ dgavidia
 
 5814
 
-Frm_ExportarIncSelect.Designer.cs
-file
-
-
-
-
-2016-03-09T14:44:26.215708Z
-9d94bf45a63e915fe4c3fd1246e71a3d
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5639
-
 Frm_MessageBox.cs
 file
 
@@ -7174,6 +7143,40 @@ josio
 
 
 4361
+
+Frm_ExportarIncSelect.Designer.cs
+file
+
+
+
+
+2016-03-09T14:44:26.215708Z
+9d94bf45a63e915fe4c3fd1246e71a3d
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5639
 
 Frm_Clientes_VC.cs
 file
@@ -7277,17 +7280,17 @@ dgavidia
 
 455
 
-Frm_RC_PagoCheque.Designer.cs
+Frm_Inf_GuiaDespacho.resx
 file
 
 
 
 
 2016-03-09T14:44:26.231307Z
-c0e7f5b17f97e2c0a959edfe065391ba
-2014-04-16T21:16:02.277772Z
-3072
-apetit
+edf9b5ef2a8492e74d31d4db222cde24
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
 
 
 
@@ -7309,7 +7312,7 @@ apetit
 
 
 
-30170
+9749
 
 Frm_DifPmvComp.cs
 file
@@ -7345,17 +7348,17 @@ dgavidia
 
 7749
 
-Frm_Inf_GuiaDespacho.resx
+Frm_RC_PagoCheque.Designer.cs
 file
 
 
 
 
 2016-03-09T14:44:26.231307Z
-edf9b5ef2a8492e74d31d4db222cde24
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
+c0e7f5b17f97e2c0a959edfe065391ba
+2014-04-16T21:16:02.277772Z
+3072
+apetit
 
 
 
@@ -7377,7 +7380,7 @@ dgavidia
 
 
 
-9749
+30170
 
 Frm_Inf_NC_CxP.Designer.cs
 file
@@ -7413,40 +7416,6 @@ apetit
 
 16981
 
-Frm_ConsolidaObligaciones.resx
-file
-
-
-
-
-2016-03-09T14:44:26.231307Z
-a310a23a49336b421e55378ea73bacb5
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-14281
-
 Frm_Inf_DetalleLotesFactura2014.resx
 file
 
@@ -7481,14 +7450,14 @@ apetit
 
 29046
 
-Frm_BusquedaCheq.cs
+Frm_ConsolidaObligaciones.resx
 file
 
 
 
 
 2016-03-09T14:44:26.231307Z
-7d26ac361ca552c000a636842e02d71e
+a310a23a49336b421e55378ea73bacb5
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -7513,7 +7482,7 @@ dgavidia
 
 
 
-6637
+14281
 
 Frm_Inf_CobranDetalladaCaja.designer.cs
 file
@@ -7548,6 +7517,40 @@ dgavidia
 
 
 12265
+
+Frm_BusquedaCheq.cs
+file
+
+
+
+
+2016-03-09T14:44:26.231307Z
+7d26ac361ca552c000a636842e02d71e
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6637
 
 Frm_Inf_CostoUtilProducto.resx
 file
@@ -7617,48 +7620,14 @@ dgavidia
 
 5814
 
-Frm_VerComprobante.cs
+Frm_Inf_DocEnPoderVen.designer.cs
 file
 
 
 
 
-2016-05-09T16:43:23.278148Z
-af421be45ee7159d4efec76b0920ef4f
-2016-04-27T21:56:30.744118Z
-4215
-iperez
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3636
-
-Frm_UsuarioAdminReseteo.designer.cs
-file
-
-
-
-
-2016-03-09T14:44:26.231307Z
-708bbe638dbe1b6441c75af2f8bcbff0
+2016-03-09T14:44:26.246905Z
+cbdb4a9c93c538a321848aad874a556d
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -7683,7 +7652,7 @@ dgavidia
 
 
 
-7581
+8065
 
 Frm_RecepcionC.resx
 file
@@ -7719,14 +7688,14 @@ josio
 
 10609
 
-Frm_Inf_DocEnPoderVen.designer.cs
+Frm_UsuarioAdminReseteo.designer.cs
 file
 
 
 
 
-2016-03-09T14:44:26.246905Z
-cbdb4a9c93c538a321848aad874a556d
+2016-03-09T14:44:26.231307Z
+708bbe638dbe1b6441c75af2f8bcbff0
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -7751,7 +7720,41 @@ dgavidia
 
 
 
-8065
+7581
+
+Frm_VerComprobante.cs
+file
+
+
+
+
+2016-05-09T16:43:23.278148Z
+af421be45ee7159d4efec76b0920ef4f
+2016-04-27T21:56:30.744118Z
+4215
+iperez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3636
 
 Frm_Inf_EfectEntrega.designer.cs
 file
@@ -7821,40 +7824,6 @@ dgavidia
 
 26163
 
-Frm_ConsultaProductos.designer.cs
-file
-
-
-
-
-2016-03-09T14:44:26.246905Z
-30d043b7f8c6ff55400a543c7be0387b
-2015-06-25T15:30:00.063964Z
-4051
-josio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-212039
-
 Frm_Inf_InvCompromPreFact.cs
 file
 
@@ -7889,17 +7858,17 @@ josio
 
 6043
 
-Frm_Proveedores.designer.cs
+Frm_ConsultaProductos.designer.cs
 file
 
 
 
 
-2016-05-09T16:43:23.281148Z
-0cc3388223115d7ff011b14bd3550455
-2016-04-26T13:36:13.898182Z
-4214
-rferreira
+2016-03-09T14:44:26.246905Z
+30d043b7f8c6ff55400a543c7be0387b
+2015-06-25T15:30:00.063964Z
+4051
+josio
 
 
 
@@ -7921,7 +7890,7 @@ rferreira
 
 
 
-127672
+212039
 
 Frm_ConfigCxP.resx
 file
@@ -7956,6 +7925,40 @@ dgavidia
 
 
 7915
+
+Frm_Proveedores.designer.cs
+file
+
+
+
+
+2016-05-09T16:43:23.281148Z
+0cc3388223115d7ff011b14bd3550455
+2016-04-26T13:36:13.898182Z
+4214
+rferreira
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+127672
 
 Frm_ComplementoLibroCompras.Designer.cs
 file
@@ -8025,17 +8028,17 @@ dgavidia
 
 28947
 
-Frm_IC_GeneracionOP.resx
+Frm_Inf_AnalisisCompras.resx
 file
 
 
 
 
 2016-03-09T14:44:26.262504Z
-e7f20ff9b19a6a9803edbf165c6571a7
-2013-08-22T17:44:24.705711Z
-2513
-josio
+22d35206ab28a3f1a3d8efeb2b4becd4
+2014-01-23T13:16:16.285432Z
+2784
+apetit
 
 
 
@@ -8057,7 +8060,7 @@ josio
 
 
 
-9651
+30420
 
 Frm_ASCII_FAC.Designer.cs
 file
@@ -8093,17 +8096,17 @@ dgavidia
 
 28842
 
-Frm_Inf_AnalisisCompras.resx
+Frm_IC_GeneracionOP.resx
 file
 
 
 
 
 2016-03-09T14:44:26.262504Z
-22d35206ab28a3f1a3d8efeb2b4becd4
-2014-01-23T13:16:16.285432Z
-2784
-apetit
+e7f20ff9b19a6a9803edbf165c6571a7
+2013-08-22T17:44:24.705711Z
+2513
+josio
 
 
 
@@ -8125,41 +8128,7 @@ apetit
 
 
 
-30420
-
-Frm_ReImpresionFacturas.resx
-file
-
-
-
-
-2016-03-09T14:44:26.262504Z
-538ea54f00852c1915a0a8555528485f
-2013-12-13T13:46:54.901267Z
-2744
-iperez
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-49957
+9651
 
 Frm_PreindicacionCheques.resx
 file
@@ -8195,17 +8164,17 @@ apetit
 
 6217
 
-Frm_IncCopiar.designer.cs
+Frm_ReImpresionFacturas.resx
 file
 
 
 
 
 2016-03-09T14:44:26.262504Z
-91a35d670e455b1aa5e6fa29fd051558
-2012-10-22T19:46:38.664372Z
-1733
-dgavidia
+538ea54f00852c1915a0a8555528485f
+2013-12-13T13:46:54.901267Z
+2744
+iperez
 
 
 
@@ -8227,7 +8196,7 @@ dgavidia
 
 
 
-24083
+49957
 
 Frm_Inf_TiemposDespacho2014.resx
 file
@@ -8263,17 +8232,17 @@ apetit
 
 29769
 
-Frm_OperBancD.resx
+Frm_IncCopiar.designer.cs
 file
 
 
 
 
-2016-03-09T14:44:26.278102Z
-d0f6ebe7b48583a50c37dd449434b817
-2015-02-09T19:35:55.549049Z
-3894
-iperez
+2016-03-09T14:44:26.262504Z
+91a35d670e455b1aa5e6fa29fd051558
+2012-10-22T19:46:38.664372Z
+1733
+dgavidia
 
 
 
@@ -8295,7 +8264,7 @@ iperez
 
 
 
-7647
+24083
 
 Frm_RC_CobrosContraCamion.cs
 file
@@ -8331,16 +8300,16 @@ iperez
 
 14997
 
-Frm_NotaCredito.Designer.cs
+Frm_OperBancD.resx
 file
 
 
 
 
 2016-03-09T14:44:26.278102Z
-f1a74ce25f90927af62bf48c524cff5d
-2014-10-09T16:51:43.603267Z
-3752
+d0f6ebe7b48583a50c37dd449434b817
+2015-02-09T19:35:55.549049Z
+3894
 iperez
 
 
@@ -8363,7 +8332,7 @@ iperez
 
 
 
-52995
+7647
 
 Frm_FactorCuotaCob.resx
 file
@@ -8398,6 +8367,40 @@ dgavidia
 
 
 6594
+
+Frm_NotaCredito.Designer.cs
+file
+
+
+
+
+2016-03-09T14:44:26.278102Z
+f1a74ce25f90927af62bf48c524cff5d
+2014-10-09T16:51:43.603267Z
+3752
+iperez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+52995
 
 Frm_Inf_ConsultaClientes.cs
 file
@@ -8439,10 +8442,10 @@ file
 
 
 
-2016-06-16T11:56:22.954948Z
-0ab78cecf967e2bd2d49968ce7be159e
-2016-06-15T15:46:57.373004Z
-4238
+2016-06-29T17:17:54.582625Z
+262284472eabe4606c934e77d1e48d57
+2016-06-29T15:56:04.544070Z
+4246
 iperez
 
 
@@ -8465,7 +8468,7 @@ iperez
 
 
 
-122648
+122650
 
 Frm_Inf_RelacPorCaja.designer.cs
 file
@@ -8874,6 +8877,40 @@ josio
 
 
 37522
+
+packages.config
+file
+
+
+
+
+2016-06-29T17:17:54.582625Z
+734a84da4f0bf5ec8a37f7a5e0839f3d
+2016-06-29T16:10:39.084376Z
+4247
+rferreira
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+159
 
 Frm_Inf_LisRetenIva_Caja.resx
 file
@@ -14636,33 +14673,11 @@ file
 
 
 
-2016-03-09T14:44:26.699262Z
-7fcc8abf4e094609d334817b05c1a19e
-2012-10-09T18:31:41.028663Z
-1681
-josio
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1665
+4e179ec3f01dae1172cdd40202f60e36
+2016-06-29T15:54:04.085171Z
+4245
+rferreira
 
 Frm_Inf_Productos.cs
 file
@@ -17146,6 +17161,40 @@ dgavidia
 
 8007
 
+Frm_GrupoUsurario.resx
+file
+
+
+
+
+2016-03-09T14:44:26.824050Z
+d749a7237f02cc7123b469898d7ced13
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6791
+
 Frm_ConfigVentas.resx
 file
 
@@ -17214,40 +17263,6 @@ dgavidia
 
 4776
 
-Frm_GrupoUsurario.resx
-file
-
-
-
-
-2016-03-09T14:44:26.824050Z
-d749a7237f02cc7123b469898d7ced13
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6791
-
 Frm_Inf_Gestion.designer.cs
 file
 
@@ -17282,40 +17297,6 @@ dgavidia
 
 11886
 
-Frm_Facturas.Designer.cs
-file
-
-
-
-
-2016-03-09T14:44:26.824050Z
-e31db92f6adcff35b0b087720cefaa9f
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2448
-
 Frm_Padre.resx
 file
 
@@ -17349,6 +17330,40 @@ iperez
 
 
 107727
+
+Frm_Facturas.Designer.cs
+file
+
+
+
+
+2016-03-09T14:44:26.824050Z
+e31db92f6adcff35b0b087720cefaa9f
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2448
 
 Frm_Facturas.cs
 file
@@ -17486,40 +17501,6 @@ dgavidia
 
 9753
 
-Frm_ReAbrirMesCont.cs
-file
-
-
-
-
-2016-03-09T14:44:26.839648Z
-395e1c897c6a8066d359a0b6900443f6
-2014-08-15T14:25:09.173802Z
-3563
-ecambios
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-13563
-
 Frm_Inf_EgreCheqTransito.resx
 file
 
@@ -17553,6 +17534,40 @@ dgavidia
 
 
 8851
+
+Frm_ReAbrirMesCont.cs
+file
+
+
+
+
+2016-03-09T14:44:26.839648Z
+395e1c897c6a8066d359a0b6900443f6
+2014-08-15T14:25:09.173802Z
+3563
+ecambios
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13563
 
 Frm_Inf_OrdenCompra.resx
 file
@@ -17826,40 +17841,6 @@ dgavidia
 
 6594
 
-Frm_ReimpresionCobros.cs
-file
-
-
-
-
-2016-03-09T14:44:26.855247Z
-a17690a3edb1f4799808c0867dc9d5e3
-2014-08-13T18:35:33.919422Z
-3544
-rferreira
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4639
-
 Frm_ProcesosContables.resx
 file
 
@@ -17893,6 +17874,40 @@ dgavidia
 
 
 15248
+
+Frm_ReimpresionCobros.cs
+file
+
+
+
+
+2016-03-09T14:44:26.855247Z
+a17690a3edb1f4799808c0867dc9d5e3
+2014-08-13T18:35:33.919422Z
+3544
+rferreira
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4639
 
 Frm_IncConjunto.resx
 file
@@ -17928,17 +17943,17 @@ dgavidia
 
 28709
 
-Frm_AjusteSalida.designer.cs
+Frm_NotaCreditoCxC.designer.cs
 file
 
 
 
 
 2016-03-09T14:44:26.870845Z
-1587801a30f8619a473a9773d4ff8b72
-2014-08-06T13:11:00.774638Z
-3483
-ecambios
+b7c9ec52ca6f593af610a7ea41481cbd
+2013-07-12T14:31:27.137087Z
+2414
+josio
 
 
 
@@ -17960,7 +17975,7 @@ ecambios
 
 
 
-44078
+47208
 
 Frm_ConsolidadoInterResumido.cs
 file
@@ -17996,17 +18011,17 @@ apetit
 
 5451
 
-Frm_NotaCreditoCxC.designer.cs
+Frm_AjusteSalida.designer.cs
 file
 
 
 
 
 2016-03-09T14:44:26.870845Z
-b7c9ec52ca6f593af610a7ea41481cbd
-2013-07-12T14:31:27.137087Z
-2414
-josio
+1587801a30f8619a473a9773d4ff8b72
+2014-08-06T13:11:00.774638Z
+3483
+ecambios
 
 
 
@@ -18028,7 +18043,7 @@ josio
 
 
 
-47208
+44078
 
 Frm_RC_Retencion.Designer.cs
 file
@@ -18132,40 +18147,6 @@ dgavidia
 
 10162
 
-Frm_Transportista.cs
-file
-
-
-
-
-2016-03-09T14:44:26.870845Z
-889737218ea0dc2f3270f435d0ccdf40
-2014-09-05T19:42:40.954344Z
-3673
-josio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-42465
-
 Frm_DetalleNcNd.cs
 file
 
@@ -18200,17 +18181,17 @@ dgavidia
 
 4548
 
-Frm_ZonaporVendedor.Designer.cs
+Frm_Transportista.cs
 file
 
 
 
 
-2016-03-09T14:44:26.886444Z
-d5fe4c88a8cad1dc1e630d9f1d369eb3
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
+2016-03-09T14:44:26.870845Z
+889737218ea0dc2f3270f435d0ccdf40
+2014-09-05T19:42:40.954344Z
+3673
+josio
 
 
 
@@ -18232,7 +18213,7 @@ dgavidia
 
 
 
-21558
+42465
 
 Frm_Inf_CuadreCaja.cs
 file
@@ -18267,6 +18248,40 @@ rferreira
 
 
 16785
+
+Frm_ZonaporVendedor.Designer.cs
+file
+
+
+
+
+2016-03-09T14:44:26.886444Z
+d5fe4c88a8cad1dc1e630d9f1d369eb3
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21558
 
 Frm_Inf_ComprasDetallada2014.resx
 file
@@ -18336,40 +18351,6 @@ iperez
 
 24639
 
-Frm_GuiaManual.cs
-file
-
-
-
-
-2016-03-09T14:44:26.886444Z
-70e88f1fcbf66113a01884712f397cc5
-2014-11-18T16:52:44.644117Z
-3820
-josio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-90115
-
 Frm_BloqueoPorCierreC.designer.cs
 file
 
@@ -18403,6 +18384,40 @@ dgavidia
 
 
 5583
+
+Frm_GuiaManual.cs
+file
+
+
+
+
+2016-03-09T14:44:26.886444Z
+70e88f1fcbf66113a01884712f397cc5
+2014-11-18T16:52:44.644117Z
+3820
+josio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+90115
 
 Frm_AjusteIntegradoP.resx
 file
@@ -18438,40 +18453,6 @@ josio
 
 10673
 
-Frm_ConsultaAuxiliarCont.resx
-file
-
-
-
-
-2016-03-09T14:44:27.198414Z
-d1d4d977a5211d427aac6701c55a26fa
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-30534
-
 DataSetRpt1.Designer.cs
 file
 
@@ -18505,6 +18486,40 @@ josio
 
 
 274054
+
+Frm_ConsultaAuxiliarCont.resx
+file
+
+
+
+
+2016-03-09T14:44:27.198414Z
+d1d4d977a5211d427aac6701c55a26fa
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+30534
 
 Frm_Inf_DetalleLotesFactura2014.Designer.cs
 file
@@ -18642,40 +18657,6 @@ rferreira
 
 9015
 
-Frm_Inf_AnalisisClientes.resx
-file
-
-
-
-
-2016-03-09T14:44:27.728763Z
-f0c798935deeab5105dbaefc8d3ce473
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-11050
-
 Frm_Inf_DescMalOtorgados.resx
 file
 
@@ -18709,6 +18690,40 @@ dgavidia
 
 
 10110
+
+Frm_Inf_AnalisisClientes.resx
+file
+
+
+
+
+2016-03-09T14:44:27.728763Z
+f0c798935deeab5105dbaefc8d3ce473
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11050
 
 Frm_AjusteIntegrado.resx
 file
@@ -18744,40 +18759,6 @@ josio
 
 17193
 
-Frm_ConsultaPreFactura.cs
-file
-
-
-
-
-2016-03-09T14:44:27.728763Z
-61baaffa452902377b37f87d80d7dddc
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18533
-
 Frm_MantenimientoMAAC.resx
 file
 
@@ -18812,48 +18793,14 @@ apetit
 
 7827
 
-Frm_DevolVenta.Designer.cs
+Frm_ConsultaPreFactura.cs
 file
 
 
 
 
-2016-05-30T19:24:04.854145Z
-0c89f90802739c8416888b4110eddce0
-2016-05-31T15:28:33.614273Z
-4221
-jechandi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-70051
-
-Frm_ConsultaCaja.Designer.cs
-file
-
-
-
-
-2016-03-09T14:44:27.744361Z
-20671eaf12ecef914f6a3ec147e61adb
+2016-03-09T14:44:27.728763Z
+61baaffa452902377b37f87d80d7dddc
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -18878,41 +18825,7 @@ dgavidia
 
 
 
-1750
-
-Frm_AjusteEntrada.resx
-file
-
-
-
-
-2016-03-09T14:44:27.744361Z
-cd36a2eb1591bd8e311d7aae8bbf9fd8
-2014-08-06T13:11:00.774638Z
-3483
-ecambios
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-21441
+18533
 
 Frm_Inf_ND_CxP.designer.cs
 file
@@ -18948,14 +18861,48 @@ apetit
 
 16851
 
-Frm_ConfigPrinterFact.cs
+Frm_AjusteEntrada.resx
 file
 
 
 
 
 2016-03-09T14:44:27.744361Z
-d9d79bf12e379adadae773abf1bc87c8
+cd36a2eb1591bd8e311d7aae8bbf9fd8
+2014-08-06T13:11:00.774638Z
+3483
+ecambios
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21441
+
+Frm_ConsultaCaja.Designer.cs
+file
+
+
+
+
+2016-03-09T14:44:27.744361Z
+20671eaf12ecef914f6a3ec147e61adb
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -18980,7 +18927,41 @@ dgavidia
 
 
 
-14945
+1750
+
+Frm_DevolVenta.Designer.cs
+file
+
+
+
+
+2016-05-30T19:24:04.854145Z
+0c89f90802739c8416888b4110eddce0
+2016-05-31T15:28:33.614273Z
+4221
+jechandi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+70051
 
 Frm_Inf_HistCliente.cs
 file
@@ -19016,16 +18997,16 @@ dgavidia
 
 3719
 
-Frm_Inf_ListadPrecio.cs
+Frm_ConfigPrinterFact.cs
 file
 
 
 
 
 2016-03-09T14:44:27.744361Z
-b25f49b5974be679c0186f3cfcd7b57d
-2012-09-13T12:54:50.163312Z
-1584
+d9d79bf12e379adadae773abf1bc87c8
+2012-08-01T12:37:29.569608Z
+1381
 dgavidia
 
 
@@ -19048,7 +19029,7 @@ dgavidia
 
 
 
-17784
+14945
 
 Frm_Inf_UsuariosEntSalLog.Designer.cs
 file
@@ -19083,6 +19064,40 @@ dgavidia
 
 
 11417
+
+Frm_Inf_ListadPrecio.cs
+file
+
+
+
+
+2016-03-09T14:44:27.744361Z
+b25f49b5974be679c0186f3cfcd7b57d
+2012-09-13T12:54:50.163312Z
+1584
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17784
 
 Frm_ZonaporVendedor.cs
 file
@@ -19254,40 +19269,6 @@ rferreira
 
 5817
 
-Frm_ConteoInventario.cs
-file
-
-
-
-
-2016-03-09T14:44:27.759960Z
-18770d4e0bb889ddb561d10cc282397a
-2015-10-02T16:08:20.714069Z
-4131
-josio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-86316
-
 Frm_BusquedaCheq.resx
 file
 
@@ -19322,17 +19303,17 @@ dgavidia
 
 9825
 
-Frm_Inf_LibroCompras.designer.cs
+Frm_ConteoInventario.cs
 file
 
 
 
 
 2016-03-09T14:44:27.759960Z
-895d22ed72b0deb3166b8712371d17e2
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
+18770d4e0bb889ddb561d10cc282397a
+2015-10-02T16:08:20.714069Z
+4131
+josio
 
 
 
@@ -19354,7 +19335,7 @@ dgavidia
 
 
 
-5997
+86316
 
 Frm_Inf_Precarga2014.cs
 file
@@ -19390,14 +19371,14 @@ apetit
 
 12484
 
-Frm_Inf_IndicDespacho.designer.cs
+Frm_Inf_LibroCompras.designer.cs
 file
 
 
 
 
 2016-03-09T14:44:27.759960Z
-026c18f728edb6f6ad8deed89dd2a156
+895d22ed72b0deb3166b8712371d17e2
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -19422,7 +19403,7 @@ dgavidia
 
 
 
-15630
+5997
 
 Frm_NotaRecepcion.Designer.cs
 file
@@ -19458,14 +19439,14 @@ dgavidia
 
 37240
 
-Frm_Tabs.cs
+Frm_Inf_IndicDespacho.designer.cs
 file
 
 
 
 
-2016-03-09T14:44:27.775558Z
-0c97217528d32ce11e9ab3eebf175dbd
+2016-03-09T14:44:27.759960Z
+026c18f728edb6f6ad8deed89dd2a156
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -19490,7 +19471,7 @@ dgavidia
 
 
 
-11229
+15630
 
 Frm_ConsolidaObligaciones.designer.cs
 file
@@ -19525,6 +19506,40 @@ dgavidia
 
 
 19569
+
+Frm_Tabs.cs
+file
+
+
+
+
+2016-03-09T14:44:27.775558Z
+0c97217528d32ce11e9ab3eebf175dbd
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11229
 
 Frm_Inf_NC_Aplic_Caja.resx
 file
@@ -19662,40 +19677,6 @@ apetit
 
 11113
 
-Frm_ConsultaPedidosDetalle.resx
-file
-
-
-
-
-2016-03-09T14:44:27.775558Z
-4083cf6a6fb8fc129d94e33c3ad70682
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-22955
-
 Frm_Inf_RelacionCxP2014_ND.resx
 file
 
@@ -19729,6 +19710,40 @@ apetit
 
 
 29942
+
+Frm_ConsultaPedidosDetalle.resx
+file
+
+
+
+
+2016-03-09T14:44:27.775558Z
+4083cf6a6fb8fc129d94e33c3ad70682
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+22955
 
 Frm_ConfigBanco.cs
 file
@@ -19764,40 +19779,6 @@ dgavidia
 
 10978
 
-Frm_IncVisibilidad.designer.cs
-file
-
-
-
-
-2016-03-09T14:44:27.775558Z
-2f5825362d15538bb159b8df7f51fb01
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10772
-
 Frm_Inf_OrdenCompra2014.cs
 file
 
@@ -19832,17 +19813,17 @@ apetit
 
 16691
 
-Frm_RelaFacturaCobro.Designer.cs
+Frm_IncVisibilidad.designer.cs
 file
 
 
 
 
 2016-03-09T14:44:27.775558Z
-f7fc671d4c3ebead9a4717baa1545185
-2013-11-26T16:00:46.143556Z
-2715
-josio
+2f5825362d15538bb159b8df7f51fb01
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
 
 
 
@@ -19864,7 +19845,7 @@ josio
 
 
 
-53668
+10772
 
 Frm_CalculoIncentivo.resx
 file
@@ -19900,17 +19881,17 @@ dgavidia
 
 7654
 
-Frm_BusquedaAvanzada.designer.cs
+Frm_RelaFacturaCobro.Designer.cs
 file
 
 
 
 
-2016-03-09T14:44:27.806755Z
-a223a84dbab52f82dbc6dc98affdb306
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
+2016-03-09T14:44:27.775558Z
+f7fc671d4c3ebead9a4717baa1545185
+2013-11-26T16:00:46.143556Z
+2715
+josio
 
 
 
@@ -19932,7 +19913,7 @@ dgavidia
 
 
 
-26790
+53668
 
 Frm_ConfigRiesgo.cs
 file
@@ -19968,17 +19949,17 @@ dgavidia
 
 3501
 
-Frm_ControlImpresion.resx
+Frm_BusquedaAvanzada.designer.cs
 file
 
 
 
 
 2016-03-09T14:44:27.806755Z
-b335b34b046c8e59387a4ed58ee1965b
-2014-07-09T18:23:45.948124Z
-3357
-iperez
+a223a84dbab52f82dbc6dc98affdb306
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
 
 
 
@@ -20000,7 +19981,7 @@ iperez
 
 
 
-177529
+26790
 
 Frm_NRNCND.cs
 file
@@ -20035,6 +20016,40 @@ dgavidia
 
 
 7604
+
+Frm_ControlImpresion.resx
+file
+
+
+
+
+2016-03-09T14:44:27.806755Z
+b335b34b046c8e59387a4ed58ee1965b
+2014-07-09T18:23:45.948124Z
+3357
+iperez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+177529
 
 Frm_ConfigCompra.resx
 file
@@ -20104,40 +20119,6 @@ dgavidia
 
 8226
 
-Frm_ConfigInvent.designer.cs
-file
-
-
-
-
-2016-03-09T14:44:27.822354Z
-4cfa0c5713dfb12504a72ee362d4320a
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-24337
-
 Frm_Inf_GuiaDespacho.cs
 file
 
@@ -20171,6 +20152,40 @@ josio
 
 
 5603
+
+Frm_ConfigInvent.designer.cs
+file
+
+
+
+
+2016-03-09T14:44:27.822354Z
+4cfa0c5713dfb12504a72ee362d4320a
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24337
 
 Frm_Clientes_VC_1.resx
 file
@@ -20206,17 +20221,17 @@ jechandi
 
 56172
 
-Frm_VerificaRelaCobro.resx
+Frm_Inf_OrdenPago2014.resx
 file
 
 
 
 
-2016-03-09T14:44:27.822354Z
-25f98a80fbed7f730a11b822d17ca3b2
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
+2016-03-09T14:44:27.837952Z
+5540f9eef2b27b3e5320f90b8be82a8e
+2014-03-18T15:29:01.229963Z
+2986
+apetit
 
 
 
@@ -20238,7 +20253,7 @@ dgavidia
 
 
 
-11895
+30129
 
 Frm_EmisionCheque.designer.cs
 file
@@ -20274,17 +20289,17 @@ iperez
 
 80789
 
-Frm_Inf_OrdenPago2014.resx
+Frm_VerificaRelaCobro.resx
 file
 
 
 
 
-2016-03-09T14:44:27.837952Z
-5540f9eef2b27b3e5320f90b8be82a8e
-2014-03-18T15:29:01.229963Z
-2986
-apetit
+2016-03-09T14:44:27.822354Z
+25f98a80fbed7f730a11b822d17ca3b2
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
 
 
 
@@ -20306,7 +20321,7 @@ apetit
 
 
 
-30129
+11895
 
 Frm_Solicitud.designer.cs
 file
@@ -20342,40 +20357,6 @@ dgavidia
 
 39584
 
-Frm_ClientesSinSubClasificacionITT.resx
-file
-
-
-
-
-2016-03-09T14:44:27.837952Z
-4eb5913a0e5aa842250f7419538fa230
-2012-08-21T18:20:07.279553Z
-1484
-rferreira
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5817
-
 Frm_ConfOperBanca.Designer.cs
 file
 
@@ -20409,6 +20390,40 @@ dgavidia
 
 
 16007
+
+Frm_ClientesSinSubClasificacionITT.resx
+file
+
+
+
+
+2016-03-09T14:44:27.837952Z
+4eb5913a0e5aa842250f7419538fa230
+2012-08-21T18:20:07.279553Z
+1484
+rferreira
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5817
 
 Frm_Inf_RecepImprimir.cs
 file
@@ -20478,40 +20493,6 @@ dgavidia
 
 5566
 
-Frm_AnulaChequeEmitido.Designer.cs
-file
-
-
-
-
-2016-03-09T14:44:27.837952Z
-43944ba955dbf5b17b9df99eaae18313
-2015-11-30T19:07:56.073432Z
-4165
-iperez
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-35115
-
 Frm_Inf_Proveedores.resx
 file
 
@@ -20545,6 +20526,40 @@ iperez
 
 
 9535
+
+Frm_AnulaChequeEmitido.Designer.cs
+file
+
+
+
+
+2016-03-09T14:44:27.837952Z
+43944ba955dbf5b17b9df99eaae18313
+2015-11-30T19:07:56.073432Z
+4165
+iperez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+35115
 
 Frm_Inf_NDA_CxP .designer.cs
 file
@@ -20614,40 +20629,6 @@ apetit
 
 29769
 
-Frm_ConsultaPreFacturaDetalle.resx
-file
-
-
-
-
-2016-03-09T14:44:27.884748Z
-991fc4dfb4c48a2124aaa8c43a19e189
-2014-01-22T18:16:09.784788Z
-2782
-josio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-27741
-
 Frm_Inf_ND_Anul.cs
 file
 
@@ -20681,6 +20662,40 @@ dgavidia
 
 
 7997
+
+Frm_ConsultaPreFacturaDetalle.resx
+file
+
+
+
+
+2016-03-09T14:44:27.884748Z
+991fc4dfb4c48a2124aaa8c43a19e189
+2014-01-22T18:16:09.784788Z
+2782
+josio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+27741
 
 Frm_Permisos.resx
 file
@@ -20750,17 +20765,17 @@ dgavidia
 
 13562
 
-Frm_VerificaRelaCobro.cs
+Frm_Inf_OrdenPago2014.cs
 file
 
 
 
 
 2016-03-09T14:44:27.884748Z
-e447d3995525330bf557ec51eac31fcb
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
+4475ed7ba364a794e22cccdf85b88cf0
+2014-03-18T15:29:01.229963Z
+2986
+apetit
 
 
 
@@ -20782,7 +20797,7 @@ dgavidia
 
 
 
-51147
+16550
 
 Frm_Inf_AcumCob.resx
 file
@@ -20818,17 +20833,17 @@ iperez
 
 9150
 
-Frm_Inf_OrdenPago2014.cs
+Frm_VerificaRelaCobro.cs
 file
 
 
 
 
 2016-03-09T14:44:27.884748Z
-4475ed7ba364a794e22cccdf85b88cf0
-2014-03-18T15:29:01.229963Z
-2986
-apetit
+e447d3995525330bf557ec51eac31fcb
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
 
 
 
@@ -20850,7 +20865,7 @@ apetit
 
 
 
-16550
+51147
 
 Frm_ConciliacionBancariaSaldoInicial.Designer.cs
 file
@@ -20988,40 +21003,6 @@ dgavidia
 
 10114
 
-Frm_EALCCConfig.Designer.cs
-file
-
-
-
-
-2016-03-09T14:44:27.900346Z
-ea9f20cf8b811b55c812236e22ee816e
-2012-11-06T14:08:47.807642Z
-1800
-apetit
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6541
-
 Frm_ComprobanteContableDocVar.resx
 file
 
@@ -21055,6 +21036,40 @@ dgavidia
 
 
 10590
+
+Frm_EALCCConfig.Designer.cs
+file
+
+
+
+
+2016-03-09T14:44:27.900346Z
+ea9f20cf8b811b55c812236e22ee816e
+2012-11-06T14:08:47.807642Z
+1800
+apetit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6541
 
 Frm_Vendedores.cs
 file
@@ -21226,40 +21241,6 @@ dgavidia
 
 54704
 
-Frm_RutaDespacho.cs
-file
-
-
-
-
-2016-03-09T14:44:27.900346Z
-d8cb06fc6ab7041926c06bfc9066299a
-2015-02-04T19:22:55.510218Z
-3887
-rferreira
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-29522
-
 Frm_GuiaManual.designer.cs
 file
 
@@ -21293,6 +21274,40 @@ josio
 
 
 35218
+
+Frm_RutaDespacho.cs
+file
+
+
+
+
+2016-03-09T14:44:27.900346Z
+d8cb06fc6ab7041926c06bfc9066299a
+2015-02-04T19:22:55.510218Z
+3887
+rferreira
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+29522
 
 Frm_Inf_IncDistribucion.cs
 file
@@ -21498,14 +21513,14 @@ josio
 
 28801
 
-Frm_Inf_DevolCompSica.resx
+Frm_Permisos.Designer.cs
 file
 
 
 
 
 2016-03-09T14:44:27.915945Z
-493ea648d06f396f7826ad8bfdeb202a
+911691f8364edbd66da7bb034e2e7e51
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -21530,7 +21545,7 @@ dgavidia
 
 
 
-9738
+7263
 
 Frm_Inf_IncConsolidado.resx
 file
@@ -21566,14 +21581,14 @@ iperez
 
 9525
 
-Frm_Permisos.Designer.cs
+Frm_Inf_DevolCompSica.resx
 file
 
 
 
 
 2016-03-09T14:44:27.915945Z
-911691f8364edbd66da7bb034e2e7e51
+493ea648d06f396f7826ad8bfdeb202a
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -21598,7 +21613,7 @@ dgavidia
 
 
 
-7263
+9738
 
 Frm_Inf_CxP.resx
 file
@@ -21668,40 +21683,6 @@ iperez
 
 3470
 
-Frm_ConsultaCompra.resx
-file
-
-
-
-
-2016-03-09T14:44:27.915945Z
-02358462c1c6c264b6a417702d6d66d0
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-23153
-
 Frm_Clave.resx
 file
 
@@ -21735,6 +21716,40 @@ josio
 
 
 8044
+
+Frm_ConsultaCompra.resx
+file
+
+
+
+
+2016-03-09T14:44:27.915945Z
+02358462c1c6c264b6a417702d6d66d0
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+23153
 
 Frm_Inf_AnalisisCompras2014.resx
 file
@@ -21838,40 +21853,6 @@ has-props
 
 39036
 
-Frm_Inf_FichaCliente.cs
-file
-
-
-
-
-2016-03-09T14:44:27.931543Z
-6aa344d1d8759d6eaab608b84f4ebddc
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4603
-
 Frm_Inf_OrdenPago.cs
 file
 
@@ -21906,14 +21887,14 @@ iperez
 
 8765
 
-Frm_Prospectos_VC_DireccionD.designer.cs
+Frm_Inf_FichaCliente.cs
 file
 
 
 
 
 2016-03-09T14:44:27.931543Z
-afd6bd889d9cd3a02c7a3ae7c4330d44
+6aa344d1d8759d6eaab608b84f4ebddc
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -21938,7 +21919,7 @@ dgavidia
 
 
 
-12597
+4603
 
 Frm_ComprobanteContableAux.resx
 file
@@ -21974,14 +21955,14 @@ dgavidia
 
 7920
 
-Frm_ImprimeCodBar.designer.cs
+Frm_Prospectos_VC_DireccionD.designer.cs
 file
 
 
 
 
 2016-03-09T14:44:27.931543Z
-d34a7b02a00cb2f37f16bb191fc3f40a
+afd6bd889d9cd3a02c7a3ae7c4330d44
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -22006,7 +21987,7 @@ dgavidia
 
 
 
-53592
+12597
 
 Frm_NumControl.resx
 file
@@ -22041,6 +22022,40 @@ dgavidia
 
 
 27601
+
+Frm_ImprimeCodBar.designer.cs
+file
+
+
+
+
+2016-03-09T14:44:27.931543Z
+d34a7b02a00cb2f37f16bb191fc3f40a
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+53592
 
 Frm_ReimpresionCobros.resx
 file
@@ -22110,17 +22125,17 @@ dgavidia
 
 11220
 
-Frm_RC_Verificacion.cs
+Frm_NotaCreditoCxC.resx
 file
 
 
 
 
 2016-03-09T14:44:27.931543Z
-3641b740a10d2514f5fdba72600b73e9
-2014-09-01T20:46:59.285513Z
-3653
-iperez
+2a5fefd048a8587b58e58046a3cb7bdd
+2013-07-12T14:31:27.137087Z
+2414
+josio
 
 
 
@@ -22142,7 +22157,7 @@ iperez
 
 
 
-14709
+10527
 
 Frm_AjusteSalida.resx
 file
@@ -22178,17 +22193,17 @@ ecambios
 
 25415
 
-Frm_NotaCreditoCxC.resx
+Frm_RC_Verificacion.cs
 file
 
 
 
 
 2016-03-09T14:44:27.931543Z
-2a5fefd048a8587b58e58046a3cb7bdd
-2013-07-12T14:31:27.137087Z
-2414
-josio
+3641b740a10d2514f5fdba72600b73e9
+2014-09-01T20:46:59.285513Z
+3653
+iperez
 
 
 
@@ -22210,7 +22225,7 @@ josio
 
 
 
-10527
+14709
 
 Frm_ConsultaFacturaDetalle.Designer.cs
 file
@@ -22246,40 +22261,6 @@ dgavidia
 
 36059
 
-T3.csproj.user
-file
-
-
-
-
-2016-03-09T14:44:27.947142Z
-cf35dd52dc1ea49f8eb2c015991d90ed
-2013-08-08T20:29:55.219795Z
-2469
-josio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4313
-
 Frm_RelaFacturaCobro.resx
 file
 
@@ -22313,6 +22294,40 @@ josio
 
 
 93474
+
+T3.csproj.user
+file
+
+
+
+
+2016-03-09T14:44:27.947142Z
+cf35dd52dc1ea49f8eb2c015991d90ed
+2013-08-08T20:29:55.219795Z
+2469
+josio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4313
 
 Frm_GuiaDespacho.cs
 file
@@ -22382,40 +22397,6 @@ dgavidia
 
 3230
 
-Frm_ConsultaPreFacturaDetalle.cs
-file
-
-
-
-
-2016-03-09T14:44:27.947142Z
-c7d4a9e53aa2a94ff7d31819d58fab99
-2014-07-22T16:36:44.085109Z
-3414
-rferreira
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-34993
-
 Frm_Inf_FacturasAnul.resx
 file
 
@@ -22449,6 +22430,40 @@ dgavidia
 
 
 9748
+
+Frm_ConsultaPreFacturaDetalle.cs
+file
+
+
+
+
+2016-03-09T14:44:27.947142Z
+c7d4a9e53aa2a94ff7d31819d58fab99
+2014-07-22T16:36:44.085109Z
+3414
+rferreira
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+34993
 
 Frm_Prospectos.cs
 file
@@ -22586,40 +22601,6 @@ apetit
 
 37881
 
-Frm_RC_DocumentosClientes.resx
-file
-
-
-
-
-2016-03-09T14:44:27.962740Z
-e9bcb41f37ce2f266fa82c22b061f331
-2014-09-01T20:46:59.285513Z
-3653
-iperez
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8087
-
 Frm_ClientesSinZona.designer.cs
 file
 
@@ -22653,6 +22634,40 @@ dgavidia
 
 
 26875
+
+Frm_RC_DocumentosClientes.resx
+file
+
+
+
+
+2016-03-09T14:44:27.962740Z
+e9bcb41f37ce2f266fa82c22b061f331
+2014-09-01T20:46:59.285513Z
+3653
+iperez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8087
 
 Frm_AnulNotaDebito.cs
 file
@@ -22960,40 +22975,6 @@ rferreira
 
 132292
 
-Frm_Formulas.cs
-file
-
-
-
-
-2016-03-09T14:44:27.993937Z
-94377fe8b65cf61df5042eef8e510da7
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-22865
-
 Frm_Inf_DetalleLoteFact.cs
 file
 
@@ -23027,6 +23008,40 @@ josio
 
 
 15232
+
+Frm_Formulas.cs
+file
+
+
+
+
+2016-03-09T14:44:27.993937Z
+94377fe8b65cf61df5042eef8e510da7
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+22865
 
 Frm_RutaVisitas.resx
 file
@@ -23130,40 +23145,6 @@ josio
 
 11011
 
-Frm_ConsultaCajaAbierta.cs
-file
-
-
-
-
-2016-03-09T14:44:27.993937Z
-c30b312fa0e9a4c3ab81a200aea4d806
-2015-06-01T14:45:19.208519Z
-4029
-josio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-128832
-
 Frm_Inf_NotaRecepLote.designer.cs
 file
 
@@ -23197,6 +23178,40 @@ rferreira
 
 
 10022
+
+Frm_ConsultaCajaAbierta.cs
+file
+
+
+
+
+2016-03-09T14:44:27.993937Z
+c30b312fa0e9a4c3ab81a200aea4d806
+2015-06-01T14:45:19.208519Z
+4029
+josio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+128832
 
 Frm_LimiteCreditoAutorizaN.resx
 file
@@ -23334,14 +23349,14 @@ dgavidia
 
 6681
 
-Frm_VstCuentas.resx
+Frm_ConciliacionBancaria.cs
 file
 
 
 
 
 2016-03-09T14:44:28.009536Z
-f378a82530bfd021a9c70921eb9dc0ed
+8106c3d289bbcf779280f271bbec8ce8
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -23366,7 +23381,7 @@ dgavidia
 
 
 
-7500
+94267
 
 Frm_TrasladoCartera.cs
 file
@@ -23402,14 +23417,14 @@ dgavidia
 
 19711
 
-Frm_ConciliacionBancaria.cs
+Frm_VstCuentas.resx
 file
 
 
 
 
 2016-03-09T14:44:28.009536Z
-8106c3d289bbcf779280f271bbec8ce8
+f378a82530bfd021a9c70921eb9dc0ed
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -23434,41 +23449,7 @@ dgavidia
 
 
 
-94267
-
-Frm_Inf_Gestion.resx
-file
-
-
-
-
-2016-03-09T14:44:28.056331Z
-ed21ab40347f44c1e83ebd86d975c766
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-11083
+7500
 
 Frm_PrintVarios.cs
 file
@@ -23503,6 +23484,40 @@ josio
 
 
 25262
+
+Frm_Inf_Gestion.resx
+file
+
+
+
+
+2016-03-09T14:44:28.056331Z
+ed21ab40347f44c1e83ebd86d975c766
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11083
 
 Frm_Inf_SICA2014.Designer.cs
 file
@@ -23640,40 +23655,6 @@ dgavidia
 
 16406
 
-Frm_Inf_DiasConciliados.resx
-file
-
-
-
-
-2016-03-09T14:44:28.196718Z
-4abfc17b3b3cedaa72734130c32a6fcc
-2015-07-13T19:43:34.298503Z
-4069
-iperez
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7254
-
 Frm_NumControl.cs
 file
 
@@ -23707,6 +23688,40 @@ dgavidia
 
 
 17968
+
+Frm_Inf_DiasConciliados.resx
+file
+
+
+
+
+2016-03-09T14:44:28.196718Z
+4abfc17b3b3cedaa72734130c32a6fcc
+2015-07-13T19:43:34.298503Z
+4069
+iperez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7254
 
 Frm_PruebaFacturasReimp.designer.cs
 file
@@ -23844,40 +23859,6 @@ dgavidia
 
 22589
 
-Frm_RelPagProv.designer.cs
-file
-
-
-
-
-2016-03-09T14:44:28.227915Z
-23008c5031c3809a99ae2fd5de705d29
-2015-05-21T14:46:44.833413Z
-4023
-josio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-129136
-
 Frm_Inf_RutaVisitaVend.resx
 file
 
@@ -23911,6 +23892,40 @@ dgavidia
 
 
 9384
+
+Frm_RelPagProv.designer.cs
+file
+
+
+
+
+2016-03-09T14:44:28.227915Z
+23008c5031c3809a99ae2fd5de705d29
+2015-05-21T14:46:44.833413Z
+4023
+josio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+129136
 
 Frm_InvPorLotes.designer.cs
 file
@@ -23980,14 +23995,14 @@ apetit
 
 7344
 
-PANTALLA.Designer.cs
+Frm_Inf_DocEnPoderVen.cs
 file
 
 
 
 
-2016-03-09T14:44:28.259112Z
-83b713e951bf6fbade484eed05fb1a8a
+2016-03-09T14:44:28.274710Z
+38430a27addf3d738cc1ea16964ca17d
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -24012,7 +24027,7 @@ dgavidia
 
 
 
-33376
+3486
 
 Frm_UsuarioAdminReseteo.cs
 file
@@ -24048,14 +24063,14 @@ dgavidia
 
 9792
 
-Frm_Inf_DocEnPoderVen.cs
+PANTALLA.Designer.cs
 file
 
 
 
 
-2016-03-09T14:44:28.274710Z
-38430a27addf3d738cc1ea16964ca17d
+2016-03-09T14:44:28.259112Z
+83b713e951bf6fbade484eed05fb1a8a
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -24080,41 +24095,7 @@ dgavidia
 
 
 
-3486
-
-Frm_ConfigInvent.cs
-file
-
-
-
-
-2016-03-09T14:44:28.274710Z
-bbc0c7d4ff7b62464a79eebd8a5e89e7
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-19143
+33376
 
 Frm_NotaRecepcion.cs
 file
@@ -24149,6 +24130,40 @@ jechandi
 
 
 59267
+
+Frm_ConfigInvent.cs
+file
+
+
+
+
+2016-03-09T14:44:28.274710Z
+bbc0c7d4ff7b62464a79eebd8a5e89e7
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19143
 
 Frm_ZonaporCliente.Designer.cs
 file
@@ -24252,40 +24267,6 @@ dgavidia
 
 12085
 
-Frm_Estratificacion.Designer.cs
-file
-
-
-
-
-2016-03-09T14:44:28.321506Z
-007863a1978ddba8f302d012b56a8bf5
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8257
-
 Frm_NotaDebitoCxCAnul.cs
 file
 
@@ -24319,6 +24300,40 @@ apetit
 
 
 36520
+
+Frm_Estratificacion.Designer.cs
+file
+
+
+
+
+2016-03-09T14:44:28.321506Z
+007863a1978ddba8f302d012b56a8bf5
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8257
 
 Frm_Inf_ND_CxP.cs
 file
@@ -24592,17 +24607,17 @@ dgavidia
 
 5081
 
-Frm_RC_Pago.Designer.cs
+Frm_NotaRecepVer.resx
 file
 
 
 
 
 2016-03-09T14:44:28.383900Z
-6822c56879305c0e3bce44c6783c6204
-2014-09-01T20:46:59.285513Z
-3653
-iperez
+7bd5106211d42cfd255a33be14831d68
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
 
 
 
@@ -24624,7 +24639,7 @@ iperez
 
 
 
-56749
+7164
 
 Frm_IC_RelaProvCli.resx
 file
@@ -24660,17 +24675,17 @@ dgavidia
 
 22636
 
-Frm_NotaRecepVer.resx
+Frm_RC_Pago.Designer.cs
 file
 
 
 
 
 2016-03-09T14:44:28.383900Z
-7bd5106211d42cfd255a33be14831d68
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
+6822c56879305c0e3bce44c6783c6204
+2014-09-01T20:46:59.285513Z
+3653
+iperez
 
 
 
@@ -24692,7 +24707,7 @@ dgavidia
 
 
 
-7164
+56749
 
 Frm_Inf_DocVencPla.cs
 file
@@ -24796,40 +24811,6 @@ dgavidia
 
 9533
 
-Frm_ControlChequeras.Designer.cs
-file
-
-
-
-
-2016-03-09T14:44:28.415097Z
-0d44c1833e6f0e8ddd8806927f648a07
-2014-11-25T18:52:48.990813Z
-3836
-josio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-33170
-
 Frm_Inf_PreCarga.cs
 file
 
@@ -24863,6 +24844,40 @@ josio
 
 
 14747
+
+Frm_ControlChequeras.Designer.cs
+file
+
+
+
+
+2016-03-09T14:44:28.415097Z
+0d44c1833e6f0e8ddd8806927f648a07
+2014-11-25T18:52:48.990813Z
+3836
+josio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+33170
 
 Frm_NotaRecepcionDevol.designer.cs
 file
@@ -24966,40 +24981,6 @@ apetit
 
 6606
 
-Frm_Inf_RelacionCxP2014_NCA.Designer.cs
-file
-
-
-
-
-2016-03-09T14:44:28.415097Z
-cc09909f780b0eff0baaa9b76b2602ed
-2014-03-18T15:29:01.229963Z
-2986
-apetit
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7406
-
 Frm_ComprobIAEManual.resx
 file
 
@@ -25034,17 +25015,17 @@ iperez
 
 24468
 
-Frm_AnulacionFactura.resx
+Frm_Inf_RelacionCxP2014_NCA.Designer.cs
 file
 
 
 
 
-2016-03-09T14:44:28.430695Z
-3a8fd205f15edf05472cda784c2dfc3f
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
+2016-03-09T14:44:28.415097Z
+cc09909f780b0eff0baaa9b76b2602ed
+2014-03-18T15:29:01.229963Z
+2986
+apetit
 
 
 
@@ -25066,7 +25047,7 @@ dgavidia
 
 
 
-11309
+7406
 
 Frm_Inf_AcumVenta.resx
 file
@@ -25101,6 +25082,40 @@ dgavidia
 
 
 9175
+
+Frm_AnulacionFactura.resx
+file
+
+
+
+
+2016-03-09T14:44:28.430695Z
+3a8fd205f15edf05472cda784c2dfc3f
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11309
 
 Frm_ConfOperBanca.cs
 file
@@ -25204,40 +25219,6 @@ apetit
 
 12432
 
-Frm_IncVentas.resx
-file
-
-
-
-
-2016-03-09T14:44:28.430695Z
-10349868765e539179cecb5abbe5c3ca
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-13949
-
 Frm_NotaEntrega.designer.cs
 file
 
@@ -25271,6 +25252,40 @@ dgavidia
 
 
 28352
+
+Frm_IncVentas.resx
+file
+
+
+
+
+2016-03-09T14:44:28.430695Z
+10349868765e539179cecb5abbe5c3ca
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13949
 
 Frm_IncGrupos.cs
 file
@@ -25374,40 +25389,6 @@ dgavidia
 
 19778
 
-Frm_AjusInventario.resx
-file
-
-
-
-
-2016-03-09T14:44:28.446294Z
-bbbdb125aab2ff76ae2d342eb5127ea6
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6541
-
 Frm_Inf_PrefSegPrec.resx
 file
 
@@ -25441,6 +25422,40 @@ josio
 
 
 9730
+
+Frm_AjusInventario.resx
+file
+
+
+
+
+2016-03-09T14:44:28.446294Z
+bbbdb125aab2ff76ae2d342eb5127ea6
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6541
 
 Frm_Inf_NotaRecepcionDetallado2014.resx
 file
@@ -25510,17 +25525,17 @@ dgavidia
 
 6734
 
-Frm_Ttransporte.designer.cs
+Frm_Inf_AnalisisCompras.cs
 file
 
 
 
 
 2016-03-09T14:44:28.446294Z
-65cc77f46fa4e725a9a92455d84530ea
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
+1551f94768ab5d75a3893de03b18ec4c
+2014-01-23T13:47:07.733733Z
+2790
+apetit
 
 
 
@@ -25542,7 +25557,7 @@ dgavidia
 
 
 
-29146
+16689
 
 Frm_IC_GeneracionOP.cs
 file
@@ -25578,17 +25593,17 @@ josio
 
 70539
 
-Frm_Inf_AnalisisCompras.cs
+Frm_Ttransporte.designer.cs
 file
 
 
 
 
 2016-03-09T14:44:28.446294Z
-1551f94768ab5d75a3893de03b18ec4c
-2014-01-23T13:47:07.733733Z
-2790
-apetit
+65cc77f46fa4e725a9a92455d84530ea
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
 
 
 
@@ -25610,7 +25625,7 @@ apetit
 
 
 
-16689
+29146
 
 Frm_NotaDebitoCxC.designer.cs
 file
@@ -26088,40 +26103,6 @@ dgavidia
 
 14170
 
-Frm_Inf_DevolCompSica.designer.cs
-file
-
-
-
-
-2016-03-09T14:44:28.649074Z
-0d89f616120f54ffa23933758c7113ef
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8068
-
 Frm_Inf_IncConsolidado.designer.cs
 file
 
@@ -26155,6 +26136,40 @@ iperez
 
 
 13358
+
+Frm_Inf_DevolCompSica.designer.cs
+file
+
+
+
+
+2016-03-09T14:44:28.649074Z
+0d89f616120f54ffa23933758c7113ef
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8068
 
 Frm_Facturas.resx
 file
@@ -26462,40 +26477,6 @@ iperez
 
 16491
 
-Frm_Inf_MayorAnalitico.Designer.cs
-file
-
-
-
-
-2016-03-09T14:44:28.650074Z
-b1ba5e43a694adbbc8cd6d42e340d857
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12760
-
 Frm_Inf_RelacionDespacho2014.cs
 file
 
@@ -26529,6 +26510,40 @@ apetit
 
 
 16791
+
+Frm_Inf_MayorAnalitico.Designer.cs
+file
+
+
+
+
+2016-03-09T14:44:28.650074Z
+b1ba5e43a694adbbc8cd6d42e340d857
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12760
 
 Frm_Inf_ConsultaClientes.designer.cs
 file
@@ -26564,40 +26579,6 @@ apetit
 
 10693
 
-Frm_ConsultaAuxiliarCont.cs
-file
-
-
-
-
-2016-03-09T14:44:28.660073Z
-6042b15a4ccfd81f4fc04e7b045c39a7
-2015-04-20T18:11:42.981257Z
-3990
-josio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-40806
-
 Frm_PedidosPAprobarWeb.Designer.cs
 file
 
@@ -26632,17 +26613,17 @@ rferreira
 
 5019
 
-Frm_Transportista.Designer.cs
+Frm_ConsultaAuxiliarCont.cs
 file
 
 
 
 
-2016-03-09T14:44:28.662073Z
-f508a3929109fd453ff55dae7a102c99
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
+2016-03-09T14:44:28.660073Z
+6042b15a4ccfd81f4fc04e7b045c39a7
+2015-04-20T18:11:42.981257Z
+3990
+josio
 
 
 
@@ -26664,7 +26645,7 @@ dgavidia
 
 
 
-44993
+40806
 
 Frm_DetalleNcNd.Designer.cs
 file
@@ -26700,6 +26681,40 @@ dgavidia
 
 4206
 
+Frm_Transportista.Designer.cs
+file
+
+
+
+
+2016-03-09T14:44:28.662073Z
+f508a3929109fd453ff55dae7a102c99
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+44993
+
 Frm_Beneficiario.Designer.cs
 file
 
@@ -26733,74 +26748,6 @@ rferreira
 
 
 18146
-
-Frm_ReporteRelacionCobro.cs
-file
-
-
-
-
-2016-03-09T14:44:28.665073Z
-83c45fcf061702b3e43e00a686de851c
-2014-08-11T13:21:16.187901Z
-3515
-rferreira
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8946
-
-Frm_Inf_AcumVtasCliente.designer.cs
-file
-
-
-
-
-2016-03-09T14:44:28.666073Z
-72bcc6053d8b1991ed913d5d7bbed986
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-25887
 
 Frm_Inf_ValorizaInventario.cs
 file
@@ -26836,6 +26783,74 @@ josio
 
 42205
 
+Frm_Inf_AcumVtasCliente.designer.cs
+file
+
+
+
+
+2016-03-09T14:44:28.666073Z
+72bcc6053d8b1991ed913d5d7bbed986
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25887
+
+Frm_ReporteRelacionCobro.cs
+file
+
+
+
+
+2016-03-09T14:44:28.665073Z
+83c45fcf061702b3e43e00a686de851c
+2014-08-11T13:21:16.187901Z
+3515
+rferreira
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8946
+
 Frm_Inf_AcumCobDia.cs
 file
 
@@ -26870,17 +26885,17 @@ dgavidia
 
 2432
 
-Frm_ImpresionLoteDetalle.cs
+Frm_ConsolidadoInterResumido.resx
 file
 
 
 
 
-2016-03-09T14:44:28.673072Z
-4fb98d2fb0d35a5084043e7381c30110
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
+2016-03-09T14:44:28.677072Z
+f7c43bdf436956bd8b6fe722aeedcfe7
+2013-10-16T15:48:16.457817Z
+2609
+apetit
 
 
 
@@ -26902,7 +26917,7 @@ dgavidia
 
 
 
-365
+11539
 
 Frm_Factura.Designer.cs
 file
@@ -26938,17 +26953,17 @@ dgavidia
 
 4239
 
-Frm_ConsolidadoInterResumido.resx
+Frm_ImpresionLoteDetalle.cs
 file
 
 
 
 
-2016-03-09T14:44:28.677072Z
-f7c43bdf436956bd8b6fe722aeedcfe7
-2013-10-16T15:48:16.457817Z
-2609
-apetit
+2016-03-09T14:44:28.673072Z
+4fb98d2fb0d35a5084043e7381c30110
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
 
 
 
@@ -26970,7 +26985,7 @@ apetit
 
 
 
-11539
+365
 
 Frm_GeneracionOP.resx
 file
@@ -27074,20 +27089,17 @@ dgavidia
 
 361
 
-Controles
-dir
-
-Frm_AjusInventario.designer.cs
+Frm_Inf_PrefSegPrec.designer.cs
 file
 
 
 
 
-2016-03-09T14:44:28.682071Z
-7a5d0846351717c5e25e14abf10f992f
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
+2016-03-09T14:44:28.684071Z
+b874c37933d7fe9b49312995db2ec81e
+2013-08-09T15:48:10.185461Z
+2475
+josio
 
 
 
@@ -27109,7 +27121,7 @@ dgavidia
 
 
 
-11502
+6857
 
 DataSetRpt.xsd
 file
@@ -27145,17 +27157,17 @@ rferreira
 
 37900
 
-Frm_Inf_PrefSegPrec.designer.cs
+Frm_AjusInventario.designer.cs
 file
 
 
 
 
-2016-03-09T14:44:28.684071Z
-b874c37933d7fe9b49312995db2ec81e
-2013-08-09T15:48:10.185461Z
-2475
-josio
+2016-03-09T14:44:28.682071Z
+7a5d0846351717c5e25e14abf10f992f
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
 
 
 
@@ -27177,7 +27189,10 @@ josio
 
 
 
-6857
+11502
+
+Controles
+dir
 
 Frm_ReposicionCxP.resx
 file
@@ -27315,40 +27330,6 @@ iperez
 
 28532
 
-Frm_AnulacionFactura.Designer.cs
-file
-
-
-
-
-2016-03-09T14:44:29.073233Z
-d0b02052ee0d96b9018df213d425d916
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-48635
-
 Frm_Inf_AcumVenta.Designer.cs
 file
 
@@ -27383,17 +27364,17 @@ dgavidia
 
 5422
 
-DataSetRpt.xss
+Frm_AnulacionFactura.Designer.cs
 file
 
 
 
 
-2016-03-09T14:44:29.120028Z
-a2e515777fa9b35c88107be9f264aa1c
-2015-08-17T19:31:52.187209Z
-4091
-josio
+2016-03-09T14:44:29.073233Z
+d0b02052ee0d96b9018df213d425d916
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
 
 
 
@@ -27415,19 +27396,19 @@ josio
 
 
 
-1521
+48635
 
-Frm_CompRetencionManual.resx
+Frm_Inf_ClienteZonaRuta.resx
 file
 
 
 
 
 2016-03-09T14:44:29.120028Z
-bcfc8df06d4d4b6d0af7ecadbf325024
-2014-08-28T13:43:24.216201Z
-3644
-iperez
+b0ccf0d90998cfbb73e21895fbf7479a
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
 
 
 
@@ -27449,7 +27430,7 @@ iperez
 
 
 
-13184
+8471
 
 Frm_ComprobanteContableDocVar.Designer.cs
 file
@@ -27485,17 +27466,17 @@ dgavidia
 
 23177
 
-Frm_Inf_ClienteZonaRuta.resx
+Frm_CompRetencionManual.resx
 file
 
 
 
 
 2016-03-09T14:44:29.120028Z
-b0ccf0d90998cfbb73e21895fbf7479a
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
+bcfc8df06d4d4b6d0af7ecadbf325024
+2014-08-28T13:43:24.216201Z
+3644
+iperez
 
 
 
@@ -27517,7 +27498,41 @@ dgavidia
 
 
 
-8471
+13184
+
+DataSetRpt.xss
+file
+
+
+
+
+2016-03-09T14:44:29.120028Z
+a2e515777fa9b35c88107be9f264aa1c
+2015-08-17T19:31:52.187209Z
+4091
+josio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1521
 
 Frm_Inf_IncParams.resx
 file
@@ -27621,14 +27636,14 @@ apetit
 
 29769
 
-Frm_WaitForm.resx
+Frm_Inf_EgreCheqTrans_Caja.designer.cs
 file
 
 
 
 
-2016-03-09T14:44:29.120028Z
-813bdc0d20e60c4e98b72dece767fc64
+2016-03-09T14:44:29.135627Z
+3d8665a623fc7e5e42d75da8a62a5788
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -27653,7 +27668,7 @@ dgavidia
 
 
 
-6012
+7666
 
 Frm_ProcesosVista.cs
 file
@@ -27689,14 +27704,14 @@ dgavidia
 
 3978
 
-Frm_Inf_EgreCheqTrans_Caja.designer.cs
+Frm_WaitForm.resx
 file
 
 
 
 
-2016-03-09T14:44:29.135627Z
-3d8665a623fc7e5e42d75da8a62a5788
+2016-03-09T14:44:29.120028Z
+813bdc0d20e60c4e98b72dece767fc64
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -27721,7 +27736,7 @@ dgavidia
 
 
 
-7666
+6012
 
 Frm_Inf_IncVarios.resx
 file
@@ -27825,40 +27840,6 @@ dgavidia
 
 1280
 
-Frm_AnulacionFactura.cs
-file
-
-
-
-
-2016-03-09T14:44:29.135627Z
-533b37100be8857452632e6e553193d4
-2015-10-02T16:08:20.714069Z
-4131
-josio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-41524
-
 Frm_Inf_AcumVenta.cs
 file
 
@@ -27892,6 +27873,40 @@ jechandi
 
 
 2814
+
+Frm_AnulacionFactura.cs
+file
+
+
+
+
+2016-03-09T14:44:29.135627Z
+533b37100be8857452632e6e553193d4
+2015-10-02T16:08:20.714069Z
+4131
+josio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+41524
 
 Frm_ReemplazoCuentas.Designer.cs
 file
@@ -28202,17 +28217,17 @@ apetit
 
 7550
 
-Frm_Recepcion.designer.cs
+Frm_ComprobanteReten.designer.cs
 file
 
 
 
 
 2016-03-09T14:44:29.307210Z
-b9d473b9854887e9c707cb8f02d81019
-2013-10-22T19:07:46.677857Z
-2615
-rferreira
+a66681a057cf8cf1efdb4ea6eafd9072
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
 
 
 
@@ -28234,7 +28249,7 @@ rferreira
 
 
 
-104712
+12067
 
 Frm_FacturasPorFirmar.resx
 file
@@ -28270,17 +28285,17 @@ dgavidia
 
 7552
 
-Frm_ComprobanteReten.designer.cs
+Frm_Recepcion.designer.cs
 file
 
 
 
 
 2016-03-09T14:44:29.307210Z
-a66681a057cf8cf1efdb4ea6eafd9072
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
+b9d473b9854887e9c707cb8f02d81019
+2013-10-22T19:07:46.677857Z
+2615
+rferreira
 
 
 
@@ -28302,7 +28317,7 @@ dgavidia
 
 
 
-12067
+104712
 
 Frm_ConciliaVer.resx
 file
@@ -28474,40 +28489,6 @@ dgavidia
 
 10282
 
-Frm_Inf_RelaDespacho.cs
-file
-
-
-
-
-2016-03-09T14:44:29.322809Z
-ef21b59a0d533c43c6d91d16b651891d
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8085
-
 Frm_OC_FAC.resx
 file
 
@@ -28541,6 +28522,40 @@ dgavidia
 
 
 65445
+
+Frm_Inf_RelaDespacho.cs
+file
+
+
+
+
+2016-03-09T14:44:29.322809Z
+ef21b59a0d533c43c6d91d16b651891d
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8085
 
 Frm_Compania.cs
 file
@@ -28610,40 +28625,6 @@ josio
 
 2052
 
-Frm_VistaPrevia.Designer.cs
-file
-
-
-
-
-2016-03-09T14:44:29.322809Z
-695d4469bdd6ba21e11b7f8f11c2d162
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18239
-
 Frm_IC_RelaProvCli.designer.cs
 file
 
@@ -28677,6 +28658,40 @@ dgavidia
 
 
 15008
+
+Frm_VistaPrevia.Designer.cs
+file
+
+
+
+
+2016-03-09T14:44:29.322809Z
+695d4469bdd6ba21e11b7f8f11c2d162
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18239
 
 Frm_TipoTransporte.cs
 file
@@ -28882,40 +28897,6 @@ dgavidia
 
 69981
 
-Frm_VerificaConteo.resx
-file
-
-
-
-
-2016-03-09T14:44:29.494392Z
-aa953d257992b62710dd63cd3434dc8a
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-26870
-
 Frm_SubClasificacionColgate.resx
 file
 
@@ -28949,6 +28930,40 @@ rferreira
 
 
 6011
+
+Frm_VerificaConteo.resx
+file
+
+
+
+
+2016-03-09T14:44:29.494392Z
+aa953d257992b62710dd63cd3434dc8a
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+26870
 
 Frm_GuiaSada.Designer.cs
 file
@@ -29120,40 +29135,6 @@ dgavidia
 
 361
 
-DataSet1.xsd
-file
-
-
-
-
-2016-03-09T14:44:29.556786Z
-565236a356a73c892511a6d40f272a82
-2015-08-17T19:31:52.187209Z
-4091
-josio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-105391
-
 Frm_Inf_PreIndCheques.cs
 file
 
@@ -29187,6 +29168,40 @@ ecambios
 
 
 8026
+
+DataSet1.xsd
+file
+
+
+
+
+2016-03-09T14:44:29.556786Z
+565236a356a73c892511a6d40f272a82
+2015-08-17T19:31:52.187209Z
+4091
+josio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+105391
 
 Frm_Inf_CostoUtilProducto.Designer.cs
 file
@@ -29290,17 +29305,17 @@ rferreira
 
 5854
 
-Frm_ConsultaFactura.resx
+Frm_Inicio.cs
 file
 
 
 
 
 2016-03-09T14:44:29.556786Z
-7f7dd5163c32f2269d1ea23ddaa7ecbb
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
+48bdd90c5477d46f691bba71c410a829
+2015-05-08T15:29:30.174181Z
+4007
+josio
 
 
 
@@ -29322,7 +29337,7 @@ dgavidia
 
 
 
-38836
+54405
 
 DataSet1.xss
 file
@@ -29358,17 +29373,17 @@ josio
 
 3070
 
-Frm_Inicio.cs
+Frm_ConsultaFactura.resx
 file
 
 
 
 
 2016-03-09T14:44:29.556786Z
-48bdd90c5477d46f691bba71c410a829
-2015-05-08T15:29:30.174181Z
-4007
-josio
+7f7dd5163c32f2269d1ea23ddaa7ecbb
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
 
 
 
@@ -29390,7 +29405,7 @@ josio
 
 
 
-54405
+38836
 
 Frm_NotaDebitoCxCAnul.resx
 file
@@ -29562,40 +29577,6 @@ iperez
 
 26226
 
-Frm_FacturasDevueltaDetalle.Designer.cs
-file
-
-
-
-
-2016-03-09T14:44:29.572385Z
-54a8c7154a9a89fd10c63f61eefbc3f7
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-15799
-
 Frm_FIND.resx
 file
 
@@ -29630,16 +29611,50 @@ dgavidia
 
 6011
 
+Frm_FacturasDevueltaDetalle.Designer.cs
+file
+
+
+
+
+2016-03-09T14:44:29.572385Z
+54a8c7154a9a89fd10c63f61eefbc3f7
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15799
+
 Frm_Proveedores.cs
 file
 
 
 
 
-2016-05-09T16:43:23.377148Z
-472b97526fa7e71d03b4184bf6f213b6
-2016-04-26T13:36:13.898182Z
-4214
+2016-06-29T17:17:54.582625Z
+18cb788e6db934acd6584a6efdcb72ef
+2016-06-29T15:54:04.085171Z
+4245
 rferreira
 
 
@@ -29662,7 +29677,7 @@ rferreira
 
 
 
-105353
+105836
 
 Frm_Solicitud.cs
 file
@@ -29698,40 +29713,6 @@ dgavidia
 
 11936
 
-Frm_ConsultaSolicitudes.cs
-file
-
-
-
-
-2016-03-09T14:44:29.572385Z
-9c20ab79f66b880bbc738d801f716fbe
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16735
-
 Frm_Inf_EstadoGananyPerd.resx
 file
 
@@ -29765,6 +29746,40 @@ dgavidia
 
 
 9373
+
+Frm_ConsultaSolicitudes.cs
+file
+
+
+
+
+2016-03-09T14:44:29.572385Z
+9c20ab79f66b880bbc738d801f716fbe
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16735
 
 DataSet1.Designer.cs
 file
@@ -29868,9 +29883,6 @@ iperez
 
 10035
 
-DataContext
-dir
-
 Frm_ConteoCompleto.resx
 file
 
@@ -29905,39 +29917,8 @@ rferreira
 
 13003
 
-Frm_CuotaCobranza.resx
-file
-
-
-
-
-2016-03-09T14:44:29.587983Z
-69edc9fafee5ff6876a740ba1b3e47cb
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8537
+DataContext
+dir
 
 Frm_NotaEntrega.cs
 file
@@ -29973,14 +29954,14 @@ dgavidia
 
 31959
 
-Frm_COMPROBANTE.Designer.cs
+Frm_CuotaCobranza.resx
 file
 
 
 
 
 2016-03-09T14:44:29.587983Z
-8a9f948c07e133f1f2d28a34772b11fa
+69edc9fafee5ff6876a740ba1b3e47cb
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -30005,7 +29986,7 @@ dgavidia
 
 
 
-10316
+8537
 
 Frm_Inf_PlanCuentas.designer.cs
 file
@@ -30040,6 +30021,40 @@ dgavidia
 
 
 7795
+
+Frm_COMPROBANTE.Designer.cs
+file
+
+
+
+
+2016-03-09T14:44:29.587983Z
+8a9f948c07e133f1f2d28a34772b11fa
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10316
 
 Frm_ComprobRetenCxC.resx
 file
@@ -30211,40 +30226,6 @@ dgavidia
 
 10476
 
-Frm_IC_CobranzaPago.Designer.cs
-file
-
-
-
-
-2016-03-09T14:44:29.587983Z
-48bc4433e1633eb9fb7ecb66163b8155
-2013-03-12T15:06:37.070063Z
-2162
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17295
-
 Frm_ConfigCxP.cs
 file
 
@@ -30278,6 +30259,40 @@ dgavidia
 
 
 27200
+
+Frm_IC_CobranzaPago.Designer.cs
+file
+
+
+
+
+2016-03-09T14:44:29.587983Z
+48bc4433e1633eb9fb7ecb66163b8155
+2013-03-12T15:06:37.070063Z
+2162
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17295
 
 Frm_ConsultaComprobante.designer.cs
 file
@@ -30313,40 +30328,6 @@ rferreira
 
 23064
 
-Frm_BloqueoPorCierreC.cs
-file
-
-
-
-
-2016-03-09T14:44:29.603582Z
-51655533688d5f7fc2c25eb95d8ae5fe
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-364
-
 Frm_AnulNotaDebito.resx
 file
 
@@ -30380,6 +30361,40 @@ iperez
 
 
 52060
+
+Frm_BloqueoPorCierreC.cs
+file
+
+
+
+
+2016-03-09T14:44:29.603582Z
+51655533688d5f7fc2c25eb95d8ae5fe
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+364
 
 Frm_GrupoUsurario.Designer.cs
 file
@@ -30483,40 +30498,6 @@ iperez
 
 67978
 
-Frm_RutasSegunPref.resx
-file
-
-
-
-
-2016-03-09T14:44:29.603582Z
-2f9f86f6ca7387379cce188d335ce161
-2013-02-26T15:37:56.055442Z
-2114
-iperez
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9800
-
 Frm_Mantenimientos.Designer.cs
 file
 
@@ -30551,17 +30532,17 @@ dgavidia
 
 5422
 
-Frm_ConsultaCompra.cs
+Frm_RutasSegunPref.resx
 file
 
 
 
 
 2016-03-09T14:44:29.603582Z
-0c56f7b335c8f1af1ad12f8f3d58fff9
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
+2f9f86f6ca7387379cce188d335ce161
+2013-02-26T15:37:56.055442Z
+2114
+iperez
 
 
 
@@ -30583,7 +30564,7 @@ dgavidia
 
 
 
-13319
+9800
 
 Frm_Clave.cs
 file
@@ -30618,6 +30599,40 @@ josio
 
 
 1286
+
+Frm_ConsultaCompra.cs
+file
+
+
+
+
+2016-03-09T14:44:29.603582Z
+0c56f7b335c8f1af1ad12f8f3d58fff9
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13319
 
 Frm_VistaPrevia.cs
 file
@@ -30687,40 +30702,6 @@ dgavidia
 
 10576
 
-Frm_VerificaConteo.cs
-file
-
-
-
-
-2016-03-09T14:44:29.603582Z
-1b806f27435b30848c31cb31f71b3338
-2013-10-22T19:07:46.677857Z
-2615
-rferreira
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-76828
-
 Frm_SubClasificacionColgate.cs
 file
 
@@ -30755,17 +30736,17 @@ rferreira
 
 5810
 
-Frm_UsuarioAdminReseteo.resx
+Frm_VerificaConteo.cs
 file
 
 
 
 
-2016-03-09T14:44:29.619180Z
-ebfe53a9bb32dc32bb6afea7b0e783bd
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
+2016-03-09T14:44:29.603582Z
+1b806f27435b30848c31cb31f71b3338
+2013-10-22T19:07:46.677857Z
+2615
+rferreira
 
 
 
@@ -30787,7 +30768,7 @@ dgavidia
 
 
 
-6594
+76828
 
 Frm_Inf_DocEnPoderVen.resx
 file
@@ -30823,6 +30804,40 @@ dgavidia
 
 8851
 
+Frm_UsuarioAdminReseteo.resx
+file
+
+
+
+
+2016-03-09T14:44:29.619180Z
+ebfe53a9bb32dc32bb6afea7b0e783bd
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6594
+
 Frm_ReImprime.resx
 file
 
@@ -30857,40 +30872,6 @@ rferreira
 
 28976
 
-Frm_AnulacionFacturaCxP.resx
-file
-
-
-
-
-2016-03-09T14:44:29.619180Z
-e94bb00f9d91905d87cc3398b0f7c4b3
-2015-09-23T20:14:21.312500Z
-4122
-josio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-19652
-
 Frm_Inf_NCA_CxP.designer.cs
 file
 
@@ -30924,6 +30905,40 @@ iperez
 
 
 14004
+
+Frm_AnulacionFacturaCxP.resx
+file
+
+
+
+
+2016-03-09T14:44:29.619180Z
+e94bb00f9d91905d87cc3398b0f7c4b3
+2015-09-23T20:14:21.312500Z
+4122
+josio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19652
 
 Frm_ComprobISLR.resx
 file
@@ -31027,40 +31042,6 @@ dgavidia
 
 11914
 
-Frm_EstatusClientesDetalleCobrosDet.designer.cs
-file
-
-
-
-
-2016-03-09T14:44:29.619180Z
-c8f34225d4ee5cc7a7542ebbf534f764
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5704
-
 Frm_Inf_HistInventario.resx
 file
 
@@ -31095,14 +31076,14 @@ dgavidia
 
 9545
 
-Frm_VerificaRelaCobro.Designer.cs
+Frm_EstatusClientesDetalleCobrosDet.designer.cs
 file
 
 
 
 
 2016-03-09T14:44:29.619180Z
-49ab10e7d008d8446804fc5b929f6615
+c8f34225d4ee5cc7a7542ebbf534f764
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -31127,41 +31108,7 @@ dgavidia
 
 
 
-70867
-
-Frm_ProcesosVista.resx
-file
-
-
-
-
-2016-03-09T14:44:29.619180Z
-a87b3e454ca96d15e5a41a5ed35059d1
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7162
+5704
 
 Frm_Inf_OrdenPago2014.Designer.cs
 file
@@ -31197,6 +31144,74 @@ apetit
 
 7354
 
+Frm_ProcesosVista.resx
+file
+
+
+
+
+2016-03-09T14:44:29.619180Z
+a87b3e454ca96d15e5a41a5ed35059d1
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7162
+
+Frm_VerificaRelaCobro.Designer.cs
+file
+
+
+
+
+2016-03-09T14:44:29.619180Z
+49ab10e7d008d8446804fc5b929f6615
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+70867
+
 Frm_Inf_AcumVtaGerArea.cs
 file
 
@@ -31231,40 +31246,6 @@ dgavidia
 
 4985
 
-Frm_ConfigVentas.designer.cs
-file
-
-
-
-
-2016-03-09T14:44:29.634779Z
-dd66dce37f96f7be1c0497628bed27d3
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-15622
-
 Frm_Inf_ComprasDetalladas2014.Designer.cs
 file
 
@@ -31298,6 +31279,40 @@ apetit
 
 
 7399
+
+Frm_ConfigVentas.designer.cs
+file
+
+
+
+
+2016-03-09T14:44:29.634779Z
+dd66dce37f96f7be1c0497628bed27d3
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15622
 
 Frm_Presentacion.designer.cs
 file
@@ -31367,40 +31382,6 @@ josio
 
 9501
 
-Frm_ReImpresionFacturasPruebas.Designer.cs
-file
-
-
-
-
-2016-03-09T14:44:29.650377Z
-e46c38384ae274933d303a52bb78a725
-2014-07-09T18:23:45.948124Z
-3357
-iperez
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-39138
-
 Frm_AnulaChequeEmitido.cs
 file
 
@@ -31434,6 +31415,40 @@ iperez
 
 
 55188
+
+Frm_ReImpresionFacturasPruebas.Designer.cs
+file
+
+
+
+
+2016-03-09T14:44:29.650377Z
+e46c38384ae274933d303a52bb78a725
+2014-07-09T18:23:45.948124Z
+3357
+iperez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+39138
 
 Frm_IncGrupos.designer.cs
 file
@@ -31537,17 +31552,17 @@ dgavidia
 
 24945
 
-Frm_RutaVisitasTransferencia.Designer.cs
+Frm_ModifCostNetLote.cs
 file
 
 
 
 
 2016-03-09T14:44:29.650377Z
-7cf98a8711eff5d060e6455f331dab2a
-2013-01-18T18:53:53.498675Z
-1991
-iperez
+d3400ecd2a94ac8034039dd5cfd4b925
+2015-06-25T15:31:19.247916Z
+4052
+josio
 
 
 
@@ -31569,7 +31584,7 @@ iperez
 
 
 
-56420
+7379
 
 Frm_Inf_AcumCobro.resx
 file
@@ -31605,17 +31620,17 @@ dgavidia
 
 6594
 
-Frm_ModifCostNetLote.cs
+Frm_RutaVisitasTransferencia.Designer.cs
 file
 
 
 
 
 2016-03-09T14:44:29.650377Z
-d3400ecd2a94ac8034039dd5cfd4b925
-2015-06-25T15:31:19.247916Z
-4052
-josio
+7cf98a8711eff5d060e6455f331dab2a
+2013-01-18T18:53:53.498675Z
+1991
+iperez
 
 
 
@@ -31637,75 +31652,7 @@ josio
 
 
 
-7379
-
-Frm_TransferMME.cs
-file
-
-
-
-
-2016-03-09T14:44:29.650377Z
-c578b9ef783707d58fc2b53e1d75b674
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-77280
-
-Frm_DevolVenta.resx
-file
-
-
-
-
-2016-05-30T20:28:46.918807Z
-cda39a15b359741bf500a7163472bdd7
-2016-05-31T15:28:33.614273Z
-4221
-jechandi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-28020
+56420
 
 Frm_ConsultaCaja.resx
 file
@@ -31741,6 +31688,74 @@ dgavidia
 
 20614
 
+Frm_DevolVenta.resx
+file
+
+
+
+
+2016-05-30T20:28:46.918807Z
+cda39a15b359741bf500a7163472bdd7
+2016-05-31T15:28:33.614273Z
+4221
+jechandi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+28020
+
+Frm_TransferMME.cs
+file
+
+
+
+
+2016-03-09T14:44:29.650377Z
+c578b9ef783707d58fc2b53e1d75b674
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+77280
+
 Frm_Ttransporte.cs
 file
 
@@ -31774,40 +31789,6 @@ dgavidia
 
 
 26159
-
-Frm_GrupoUsurario.cs
-file
-
-
-
-
-2016-03-09T14:44:29.665976Z
-89b454c50c5a66d52d99386f152b2a92
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9396
 
 Frm_ConfigVentas.cs
 file
@@ -31843,14 +31824,14 @@ dgavidia
 
 12573
 
-Frm_Prospectos_VC_DireccionD.resx
+Frm_GrupoUsurario.cs
 file
 
 
 
 
 2016-03-09T14:44:29.665976Z
-8fc836b709761ea27c61c5b5d6f931b1
+89b454c50c5a66d52d99386f152b2a92
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -31875,7 +31856,7 @@ dgavidia
 
 
 
-9805
+9396
 
 Frm_ImpresionLote.Designer.cs
 file
@@ -31911,6 +31892,40 @@ josio
 
 41668
 
+Frm_Prospectos_VC_DireccionD.resx
+file
+
+
+
+
+2016-03-09T14:44:29.665976Z
+8fc836b709761ea27c61c5b5d6f931b1
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9805
+
 Frm_Cuotaventas1.resx
 file
 
@@ -31944,40 +31959,6 @@ dgavidia
 
 
 9057
-
-Frm_LimiteCreditoAutorizaN.cs
-file
-
-
-
-
-2016-03-09T14:44:29.665976Z
-018ef26dad2fe1dd7db094647f25814d
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12755
 
 Frm_ParLimPago.designer.cs
 file
@@ -32013,14 +31994,14 @@ dgavidia
 
 21578
 
-DataSet2.xsc
+Frm_LimiteCreditoAutorizaN.cs
 file
 
 
 
 
-2016-03-09T14:44:29.681574Z
-cd707963dea6f42d900fcac5a9bbe09e
+2016-03-09T14:44:29.665976Z
+018ef26dad2fe1dd7db094647f25814d
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -32045,7 +32026,7 @@ dgavidia
 
 
 
-361
+12755
 
 Frm_ConfigCredito.resx
 file
@@ -32081,6 +32062,40 @@ dgavidia
 
 6011
 
+DataSet2.xsc
+file
+
+
+
+
+2016-03-09T14:44:29.681574Z
+cd707963dea6f42d900fcac5a9bbe09e
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+361
+
 DataSet2.xsd
 file
 
@@ -32114,40 +32129,6 @@ iperez
 
 
 911244
-
-Frm_RelPagProv.resx
-file
-
-
-
-
-2016-03-09T14:44:29.681574Z
-fdb2668052a6cd5f60212ffb760ac440
-2015-05-21T14:46:44.833413Z
-4023
-josio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-24990
 
 Frm_FacturasDevueltaDetalle.cs
 file
@@ -32183,6 +32164,40 @@ dgavidia
 
 2434
 
+Frm_RelPagProv.resx
+file
+
+
+
+
+2016-03-09T14:44:29.681574Z
+fdb2668052a6cd5f60212ffb760ac440
+2015-05-21T14:46:44.833413Z
+4023
+josio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24990
+
 Frm_Inf_RelaCheqRecu.designer.cs
 file
 
@@ -32217,17 +32232,17 @@ dgavidia
 
 9721
 
-Frm_RutaVisitasTransferencia.resx
+Frm_InicializacionConciliacion.Designer.cs
 file
 
 
 
 
 2016-03-09T14:44:29.681574Z
-2b82d7007cd495a61732494de52b3768
-2013-01-18T18:53:53.498675Z
-1991
-iperez
+03146d744b3be28929933ee10e2b06ef
+2014-04-01T20:30:39.243398Z
+3033
+apetit
 
 
 
@@ -32249,41 +32264,7 @@ iperez
 
 
 
-8980
-
-Frm_EstatusBackOrderDetalle.Designer.cs
-file
-
-
-
-
-2016-03-09T14:44:29.681574Z
-1422f67f651df0f4ddcca6b6e0914a0f
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-13308
+5111
 
 Frm_Inf_InvCapas.designer.cs
 file
@@ -32319,17 +32300,17 @@ dgavidia
 
 15797
 
-Frm_InicializacionConciliacion.Designer.cs
+Frm_EstatusBackOrderDetalle.Designer.cs
 file
 
 
 
 
 2016-03-09T14:44:29.681574Z
-03146d744b3be28929933ee10e2b06ef
-2014-04-01T20:30:39.243398Z
-3033
-apetit
+1422f67f651df0f4ddcca6b6e0914a0f
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
 
 
 
@@ -32351,7 +32332,41 @@ apetit
 
 
 
-5111
+13308
+
+Frm_RutaVisitasTransferencia.resx
+file
+
+
+
+
+2016-03-09T14:44:29.681574Z
+2b82d7007cd495a61732494de52b3768
+2013-01-18T18:53:53.498675Z
+1991
+iperez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8980
 
 Frm_VendedoresSinZona.cs
 file
@@ -32455,40 +32470,6 @@ dgavidia
 
 15686
 
-Frm_AjusteSalida.cs
-file
-
-
-
-
-2016-03-09T14:44:29.697173Z
-853b10dac858155b342ca56c97ec26a0
-2016-01-26T19:18:40.120910Z
-4169
-iperez
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-99480
-
 Frm_NotaCreditoCxC.cs
 file
 
@@ -32522,6 +32503,40 @@ iperez
 
 
 96791
+
+Frm_AjusteSalida.cs
+file
+
+
+
+
+2016-03-09T14:44:29.697173Z
+853b10dac858155b342ca56c97ec26a0
+2016-01-26T19:18:40.120910Z
+4169
+iperez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+99480
 
 DataSet2.xss
 file
@@ -32563,33 +32578,11 @@ file
 
 
 
-2016-05-09T16:43:23.379148Z
-21fa45040e83e4af7e6e01f9b9637071
-2016-04-27T21:56:30.744118Z
-4215
-iperez
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-285562
+a0af2d4c5fbe48e9648c7e2667a531fe
+2016-06-29T16:10:39.084376Z
+4247
+rferreira
 
 Frm_RelPagProv.cs
 file
@@ -32625,40 +32618,6 @@ rferreira
 
 284984
 
-REPORTESS.cs
-file
-
-
-
-
-2016-03-09T14:44:29.697173Z
-a5f4703b85b0963eb67c4e508a52254b
-2014-04-28T18:56:57.511295Z
-3079
-josio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-64311
-
 Frm_Inf_RelacionDespacho2014.resx
 file
 
@@ -32692,6 +32651,40 @@ apetit
 
 
 29769
+
+REPORTESS.cs
+file
+
+
+
+
+2016-03-09T14:44:29.697173Z
+a5f4703b85b0963eb67c4e508a52254b
+2014-04-28T18:56:57.511295Z
+3079
+josio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+64311
 
 Frm_ConsMovInventario.cs
 file
@@ -32727,40 +32720,6 @@ jechandi
 
 35298
 
-Frm_Inf_AnalisisClientes.designer.cs
-file
-
-
-
-
-2016-03-09T14:44:29.697173Z
-87f8e60f85a6c691900a301965155f7e
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-15218
-
 Frm_Inf_DescMalOtorgados.designer.cs
 file
 
@@ -32795,14 +32754,14 @@ dgavidia
 
 9762
 
-Frm_Inf_FichaCliente.resx
+Frm_Inf_AnalisisClientes.designer.cs
 file
 
 
 
 
 2016-03-09T14:44:29.697173Z
-9b57a5003a145eae85c0289e69af12f6
+87f8e60f85a6c691900a301965155f7e
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -32827,7 +32786,7 @@ dgavidia
 
 
 
-9383
+15218
 
 Frm_Inf_OrdenPago.resx
 file
@@ -32862,6 +32821,40 @@ dgavidia
 
 
 13952
+
+Frm_Inf_FichaCliente.resx
+file
+
+
+
+
+2016-03-09T14:44:29.697173Z
+9b57a5003a145eae85c0289e69af12f6
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9383
 
 AssemblyInfo.cs
 file
@@ -33305,14 +33298,14 @@ dgavidia
 
 11608
 
-Frm_TrasladoDocumentos.cs
+Frm_Inf_ReportCalCob.designer.cs
 file
 
 
 
 
 2016-03-09T14:44:29.743968Z
-c4423a858d0c62f7bc8843747fb91971
+9c25473e1bd8525126c539c15ae70e1e
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -33337,7 +33330,7 @@ dgavidia
 
 
 
-26451
+2473
 
 Frm_Inf_NC_Anul.designer.cs
 file
@@ -33373,14 +33366,14 @@ dgavidia
 
 17564
 
-Frm_Inf_ReportCalCob.designer.cs
+Frm_TrasladoDocumentos.cs
 file
 
 
 
 
 2016-03-09T14:44:29.743968Z
-9c25473e1bd8525126c539c15ae70e1e
+c4423a858d0c62f7bc8843747fb91971
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -33405,7 +33398,7 @@ dgavidia
 
 
 
-2473
+26451
 
 Frm_Inf_CheqDev.cs
 file
@@ -33441,17 +33434,17 @@ dgavidia
 
 5348
 
-Frm_ImprimeCodBar.cs
+Frm_Inf_CuadreCaja.designer.cs
 file
 
 
 
 
 2016-03-09T14:44:29.759567Z
-165a2a42d175deb5a7c6b182d42d6199
-2015-09-10T15:26:07.608334Z
-4118
-iperez
+9c3f87cb882053410358d31681b3610e
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
 
 
 
@@ -33473,7 +33466,7 @@ iperez
 
 
 
-33770
+7466
 
 Frm_CxPVista.resx
 file
@@ -33509,17 +33502,17 @@ dgavidia
 
 9367
 
-Frm_Inf_CuadreCaja.designer.cs
+Frm_ImprimeCodBar.cs
 file
 
 
 
 
 2016-03-09T14:44:29.759567Z
-9c3f87cb882053410358d31681b3610e
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
+165a2a42d175deb5a7c6b182d42d6199
+2015-09-10T15:26:07.608334Z
+4118
+iperez
 
 
 
@@ -33541,7 +33534,7 @@ dgavidia
 
 
 
-7466
+33770
 
 Frm_ComprobPendientes.cs
 file
@@ -33611,14 +33604,14 @@ dgavidia
 
 5814
 
-Frm_FisicoVsTeorico.resx
+Frm_Inf_DescMalOtorgados.cs
 file
 
 
 
 
 2016-03-09T14:44:29.759567Z
-9070fc27766f6bf53e97b76e51d3be0d
+76eb5dca4c88f8203ab61057be860eec
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -33643,7 +33636,7 @@ dgavidia
 
 
 
-14011
+2844
 
 Frm_Inf_AnalisisClientes.cs
 file
@@ -33679,14 +33672,14 @@ dgavidia
 
 5309
 
-Frm_Inf_DescMalOtorgados.cs
+Frm_FisicoVsTeorico.resx
 file
 
 
 
 
 2016-03-09T14:44:29.759567Z
-76eb5dca4c88f8203ab61057be860eec
+9070fc27766f6bf53e97b76e51d3be0d
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -33711,7 +33704,7 @@ dgavidia
 
 
 
-2844
+14011
 
 Frm_DevolCompra.resx
 file
@@ -33747,40 +33740,6 @@ dgavidia
 
 9001
 
-Frm_IncCobranza.designer.cs
-file
-
-
-
-
-2016-03-09T14:44:29.759567Z
-951b4015b55104f217fde74deca00439
-2013-08-13T18:03:06.572995Z
-2492
-iperez
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-89047
-
 Frm_Inf_OrdenCompra2014.resx
 file
 
@@ -33814,6 +33773,40 @@ apetit
 
 
 30922
+
+Frm_IncCobranza.designer.cs
+file
+
+
+
+
+2016-03-09T14:44:29.759567Z
+951b4015b55104f217fde74deca00439
+2013-08-13T18:03:06.572995Z
+2492
+iperez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+89047
 
 Frm_Padre.designer.cs
 file
@@ -33849,17 +33842,17 @@ iperez
 
 345124
 
-Frm_ConsolidadoIntercomp.resx
+Frm_InicioParam.cs
 file
 
 
 
 
 2016-03-09T14:44:29.775165Z
-a02e0556710643bf75e0e42b6b7985a5
-2013-05-27T18:42:02.997608Z
-2301
-iperez
+11bc4b18212cc313e6bc6959795c4d61
+2014-09-22T18:57:17.985935Z
+3712
+josio
 
 
 
@@ -33881,7 +33874,7 @@ iperez
 
 
 
-7395
+11753
 
 Frm_Inf_RelacionCxP2014_NDA.Designer.cs
 file
@@ -33917,17 +33910,17 @@ apetit
 
 7405
 
-Frm_InicioParam.cs
+Frm_ConsolidadoIntercomp.resx
 file
 
 
 
 
 2016-03-09T14:44:29.775165Z
-11bc4b18212cc313e6bc6959795c4d61
-2014-09-22T18:57:17.985935Z
-3712
-josio
+a02e0556710643bf75e0e42b6b7985a5
+2013-05-27T18:42:02.997608Z
+2301
+iperez
 
 
 
@@ -33949,7 +33942,7 @@ josio
 
 
 
-11753
+7395
 
 Frm_Inf_RelacPorCaja.resx
 file
@@ -34087,14 +34080,14 @@ dgavidia
 
 8424
 
-Frm_ConfigInvent.resx
+Frm_NotaRecepcion.resx
 file
 
 
 
 
 2016-03-09T14:44:29.790764Z
-66793f4b27ec8b690ea1b42e2b627930
+6cb345547b877d964ea2eeccf5c710cd
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -34119,7 +34112,7 @@ dgavidia
 
 
 
-6011
+29609
 
 Frm_Inf_OrdenCompra.cs
 file
@@ -34155,14 +34148,14 @@ dgavidia
 
 10944
 
-Frm_NotaRecepcion.resx
+Frm_ConfigInvent.resx
 file
 
 
 
 
 2016-03-09T14:44:29.790764Z
-6cb345547b877d964ea2eeccf5c710cd
+66793f4b27ec8b690ea1b42e2b627930
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -34187,7 +34180,7 @@ dgavidia
 
 
 
-29609
+6011
 
 Frm_Inf_FichaCliente.designer.cs
 file
@@ -34325,40 +34318,6 @@ josio
 
 27825
 
-Frm_ConsultaComprobante.cs
-file
-
-
-
-
-2016-04-11T13:36:10.623340Z
-8ae9cc350d8185c09b58e6d1c955d648
-2016-03-18T14:23:43.312170Z
-4193
-rferreira
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-32587
-
 Frm_Inf_AcumVtaGerArea.designer.cs
 file
 
@@ -34392,6 +34351,40 @@ dgavidia
 
 
 9566
+
+Frm_ConsultaComprobante.cs
+file
+
+
+
+
+2016-04-11T13:36:10.623340Z
+8ae9cc350d8185c09b58e6d1c955d648
+2016-03-18T14:23:43.312170Z
+4193
+rferreira
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+32587
 
 Frm_Inf_LibrosLegales.cs
 file
@@ -34461,40 +34454,6 @@ josio
 
 1975
 
-Frm_Inf_MovInvAjuste.Designer.cs
-file
-
-
-
-
-2016-03-09T14:44:29.806362Z
-70e532ce4ef696f75f9fafec26c75330
-2013-12-19T19:15:58.198061Z
-2753
-apetit
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16723
-
 Frm_Inf_IncVisibilidad.resx
 file
 
@@ -34528,6 +34487,40 @@ dgavidia
 
 
 9372
+
+Frm_Inf_MovInvAjuste.Designer.cs
+file
+
+
+
+
+2016-03-09T14:44:29.806362Z
+70e532ce4ef696f75f9fafec26c75330
+2013-12-19T19:15:58.198061Z
+2753
+apetit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16723
 
 Frm_Inf_ND_Anul.resx
 file

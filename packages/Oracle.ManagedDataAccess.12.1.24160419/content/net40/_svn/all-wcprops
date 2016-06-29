@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/conssa/!svn/ver/4247/t3win2010/branches/sprint_1/packages/Oracle.ManagedDataAccess.12.1.24160419/content/net40
+END
+Web.config.install.xdt
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/conssa/!svn/ver/4247/t3win2010/branches/sprint_1/packages/Oracle.ManagedDataAccess.12.1.24160419/content/net40/Web.config.install.xdt
+END
+App.config.install.xdt
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/conssa/!svn/ver/4247/t3win2010/branches/sprint_1/packages/Oracle.ManagedDataAccess.12.1.24160419/content/net40/App.config.install.xdt
+END
+Web.config.uninstall.xdt
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/conssa/!svn/ver/4247/t3win2010/branches/sprint_1/packages/Oracle.ManagedDataAccess.12.1.24160419/content/net40/Web.config.uninstall.xdt
+END
+App.config.uninstall.xdt
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/conssa/!svn/ver/4247/t3win2010/branches/sprint_1/packages/Oracle.ManagedDataAccess.12.1.24160419/content/net40/App.config.uninstall.xdt
+END
+Web.config.transform
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/conssa/!svn/ver/4247/t3win2010/branches/sprint_1/packages/Oracle.ManagedDataAccess.12.1.24160419/content/net40/Web.config.transform
+END
+App.config.transform
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/conssa/!svn/ver/4247/t3win2010/branches/sprint_1/packages/Oracle.ManagedDataAccess.12.1.24160419/content/net40/App.config.transform
+END

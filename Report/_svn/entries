@@ -1,14 +1,14 @@
 10
 
 dir
-4244
+4248
 https://192.168.1.9:443/svn/conssa/t3win2010/branches/sprint_1/Report
 https://192.168.1.9:443/svn/conssa
 
 
 
-2016-05-26T20:46:47.213341Z
-4220
+2016-06-29T16:10:39.084376Z
+4247
 rferreira
 
 
@@ -264,52 +264,17 @@ dgavidia
 
 5939
 
-rTarjetas.cs
-file
-
-
-
-
-2016-03-09T14:44:02.521388Z
-324971c0de3fe82fcfca84ffe7a56525
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5987
-
-rComprobRetiene.rpt
+rInfNDcxp_demo.cs
 file
 
 
 
 
 2016-03-09T14:44:02.536987Z
-232c0d8c0fa1d9144708a6598de4f13f
+62b531a2fcc50604152c05f0713c938d
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
-has-props
 
 
 
@@ -330,7 +295,8 @@ has-props
 
 
 
-16384
+
+5295
 
 CrystalReport2.rpt
 file
@@ -366,48 +332,14 @@ has-props
 
 16384
 
-rInfNDcxp_demo.cs
+rComprobRetiene.rpt
 file
 
 
 
 
 2016-03-09T14:44:02.536987Z
-62b531a2fcc50604152c05f0713c938d
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5295
-
-rVentporProvee.rpt
-file
-
-
-
-
-2016-03-09T14:44:02.536987Z
-6340ef656844b63c95b617a434c586f9
+232c0d8c0fa1d9144708a6598de4f13f
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -434,14 +366,48 @@ has-props
 
 16384
 
-rUser.rpt
+rTarjetas.cs
+file
+
+
+
+
+2016-03-09T14:44:02.521388Z
+324971c0de3fe82fcfca84ffe7a56525
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5987
+
+rInfAcumVta1.rpt
 file
 
 
 
 
 2016-03-09T14:44:02.536987Z
-443156f7d83f8efd9a60abdb23ab616a
+b2aaafb2f4ec1fa4b2bd16cffdb19e2e
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -466,7 +432,7 @@ has-props
 
 
 
-163840
+32768
 
 rTcurrency.cs
 file
@@ -502,14 +468,14 @@ dgavidia
 
 5935
 
-rInfAcumVta1.rpt
+rUser.rpt
 file
 
 
 
 
 2016-03-09T14:44:02.536987Z
-b2aaafb2f4ec1fa4b2bd16cffdb19e2e
+443156f7d83f8efd9a60abdb23ab616a
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -534,7 +500,41 @@ has-props
 
 
 
-32768
+163840
+
+rVentporProvee.rpt
+file
+
+
+
+
+2016-03-09T14:44:02.536987Z
+6340ef656844b63c95b617a434c586f9
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16384
 
 rChequeGuayana.rpt
 file
@@ -984,10 +984,10 @@ file
 
 
 
-2016-05-31T15:27:43.511163Z
-c5142df67b232f902c3d460922f701bf
-2016-05-26T20:46:47.213341Z
-4220
+2016-06-29T17:17:54.270625Z
+9f8735a160a1e6971c2f4b203e6f539c
+2016-06-29T16:10:39.084376Z
+4247
 rferreira
 
 
@@ -1046,6 +1046,40 @@ has-props
 
 16384
 
+rFactComparada1.rpt
+file
+
+
+
+
+2016-03-09T14:44:02.552585Z
+7e818676bc6e8a61b26b8d713eadbe35
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16384
+
 rCobranzaDetalladaConDetalleDePago.cs
 file
 
@@ -1080,14 +1114,14 @@ iperez
 
 6137
 
-rFactComparada1.rpt
+rInfNCcxp.rpt
 file
 
 
 
 
 2016-03-09T14:44:02.552585Z
-7e818676bc6e8a61b26b8d713eadbe35
+ae99407a0dac89a3050e5fc4164a317c
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -1125,40 +1159,6 @@ f95709c85b953f13cef373e27a479728
 2013-10-22T19:07:46.677857Z
 2615
 rferreira
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16384
-
-rInfNCcxp.rpt
-file
-
-
-
-
-2016-03-09T14:44:02.552585Z
-ae99407a0dac89a3050e5fc4164a317c
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
 has-props
 
 
@@ -1250,40 +1250,6 @@ has-props
 
 11776
 
-rTarjInv.cs
-file
-
-
-
-
-2016-03-09T14:44:02.568184Z
-285c0c6735f9dfad06611d09b2622ea6
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5247
-
 rInventValorResProveedorImp.cs
 file
 
@@ -1317,6 +1283,40 @@ josio
 
 
 6083
+
+rTarjInv.cs
+file
+
+
+
+
+2016-03-09T14:44:02.568184Z
+285c0c6735f9dfad06611d09b2622ea6
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5247
 
 rGuiaFacturaAlCobro2.cs
 file
@@ -1420,40 +1420,6 @@ apetit
 
 5369
 
-rverpedblo01.rpt
-file
-
-
-
-
-2016-03-09T14:44:02.568184Z
-ca0b696a3b4612070d2badd8fc8a55c2
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-32768
-
 rInfRetencionIva.rpt
 file
 
@@ -1488,6 +1454,40 @@ has-props
 
 16384
 
+rverpedblo01.rpt
+file
+
+
+
+
+2016-03-09T14:44:02.568184Z
+ca0b696a3b4612070d2badd8fc8a55c2
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+32768
+
 rPrecarga.rpt
 file
 
@@ -1496,6 +1496,40 @@ file
 
 2016-03-09T14:44:02.568184Z
 542959892640cdf52f012e7d3da22f2d
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16384
+
+rInfAcumVtaZona.rpt
+file
+
+
+
+
+2016-03-09T14:44:02.568184Z
+bf18f4c88188921e45e33c64dfe1ba86
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -1556,18 +1590,17 @@ has-props
 
 11264
 
-rInfAcumVtaZona.rpt
+rInfAcumVtaVd.cs
 file
 
 
 
 
 2016-03-09T14:44:02.568184Z
-bf18f4c88188921e45e33c64dfe1ba86
+be606e78172e8f4a320027205c04b153
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
-has-props
 
 
 
@@ -1588,7 +1621,8 @@ has-props
 
 
 
-16384
+
+6651
 
 rCajaCxCTotalIngreso.cs
 file
@@ -1623,40 +1657,6 @@ dgavidia
 
 
 5343
-
-rInfAcumVtaVd.cs
-file
-
-
-
-
-2016-03-09T14:44:02.568184Z
-be606e78172e8f4a320027205c04b153
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6651
 
 rChequeMERCANTIL1.cs
 file
@@ -1726,40 +1726,6 @@ has-props
 
 163840
 
-rTraspasoDocumentos.rpt
-file
-
-
-
-
-2016-03-09T14:44:02.568184Z
-7d7ad437c52f18a250589f7c593bc279
-2013-09-09T12:51:30.904250Z
-2564
-apetit
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10752
-
 rListCprProvDetCimp.cs
 file
 
@@ -1793,6 +1759,40 @@ dgavidia
 
 
 6017
+
+rTraspasoDocumentos.rpt
+file
+
+
+
+
+2016-03-09T14:44:02.568184Z
+7d7ad437c52f18a250589f7c593bc279
+2013-09-09T12:51:30.904250Z
+2564
+apetit
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10752
 
 {E7F2D922-55EC-46A4-8376-B35378C19EA9}.rpt
 file
@@ -1964,40 +1964,6 @@ has-props
 
 163840
 
-rInfANDcxp.cs
-file
-
-
-
-
-2016-03-09T14:44:02.583782Z
-2b5bb1845b4c74f7b64d72189d38de38
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5263
-
 rInfANDcxp.rpt
 file
 
@@ -2031,6 +1997,40 @@ has-props
 
 
 16384
+
+rInfANDcxp.cs
+file
+
+
+
+
+2016-03-09T14:44:02.583782Z
+2b5bb1845b4c74f7b64d72189d38de38
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5263
 
 rTrasladoCartera.cs
 file
@@ -2066,40 +2066,6 @@ dgavidia
 
 5993
 
-rRelacionCobranza.cs
-file
-
-
-
-
-2016-03-09T14:44:02.583782Z
-dec2cb0416dd22ea173b588aa71d43fb
-2014-06-20T16:03:22.267553Z
-3320
-iperez
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6003
-
 rInfCheqDev.cs
 file
 
@@ -2133,6 +2099,40 @@ dgavidia
 
 
 5953
+
+rRelacionCobranza.cs
+file
+
+
+
+
+2016-03-09T14:44:02.583782Z
+dec2cb0416dd22ea173b588aa71d43fb
+2014-06-20T16:03:22.267553Z
+3320
+iperez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6003
 
 rAjtEntrada.cs
 file
@@ -4548,40 +4548,6 @@ has-props
 
 16384
 
-rverpedblo02.rpt
-file
-
-
-
-
-2016-03-09T14:44:02.708570Z
-aa2b8a38d554a8efb246a40cd388e345
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-32768
-
 listadoPorProveedor.cs
 file
 
@@ -4615,6 +4581,40 @@ dgavidia
 
 
 5335
+
+rverpedblo02.rpt
+file
+
+
+
+
+2016-03-09T14:44:02.708570Z
+aa2b8a38d554a8efb246a40cd388e345
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+32768
 
 rInfNotaDebEmit.cs
 file
@@ -4650,40 +4650,6 @@ dgavidia
 
 5303
 
-rOrdPago.rpt
-file
-
-
-
-
-2016-03-09T14:44:02.708570Z
-8161f83a9b744a6d3e7f693b1c4b1275
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16384
-
 rCajaCxCPrueba.cs
 file
 
@@ -4718,17 +4684,17 @@ josio
 
 7988
 
-rSaldoAnalisisDetClieCI.rpt
+rOrdPago.rpt
 file
 
 
 
 
 2016-03-09T14:44:02.708570Z
-bc758bedd9e13b5647bfe56878353d1d
-2015-03-25T15:41:38.712146Z
-3963
-iperez
+8161f83a9b744a6d3e7f693b1c4b1275
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
 has-props
 
 
@@ -4750,7 +4716,7 @@ has-props
 
 
 
-15872
+16384
 
 rListCprProductosCimp.rpt
 file
@@ -4786,17 +4752,18 @@ has-props
 
 16384
 
-rReorden.cs
+rSaldoAnalisisDetClieCI.rpt
 file
 
 
 
 
 2016-03-09T14:44:02.708570Z
-6cf5f870b18c38e7242644ecf65de4d8
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
+bc758bedd9e13b5647bfe56878353d1d
+2015-03-25T15:41:38.712146Z
+3963
+iperez
+has-props
 
 
 
@@ -4817,8 +4784,7 @@ dgavidia
 
 
 
-
-5285
+15872
 
 rListadoVer2.cs
 file
@@ -4853,6 +4819,40 @@ dgavidia
 
 
 5279
+
+rReorden.cs
+file
+
+
+
+
+2016-03-09T14:44:02.708570Z
+6cf5f870b18c38e7242644ecf65de4d8
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5285
 
 rCxPdemo.rpt
 file
@@ -4956,40 +4956,6 @@ dgavidia
 
 5983
 
-rNotaEntrega.cs
-file
-
-
-
-
-2016-03-09T14:44:02.724169Z
-ae81dfdffa441e4e446dff0641de633a
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5961
-
 rInventValorResProveedor.rpt
 file
 
@@ -5023,6 +4989,40 @@ has-props
 
 
 32768
+
+rNotaEntrega.cs
+file
+
+
+
+
+2016-03-09T14:44:02.724169Z
+ae81dfdffa441e4e446dff0641de633a
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5961
 
 rNotaDebitoSDet.rpt
 file
@@ -5296,40 +5296,6 @@ has-props
 
 163840
 
-rListCprProvDet.cs
-file
-
-
-
-
-2016-03-09T14:44:02.770964Z
-e92efbaf0aef4aae28032512bfcdeaf5
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5985
-
 rMatBanco.cs
 file
 
@@ -5364,14 +5330,14 @@ dgavidia
 
 5589
 
-rRelacionFacturas.cs
+rListCprProvDet.cs
 file
 
 
 
 
 2016-03-09T14:44:02.770964Z
-60dff906b40aafad419c6ca14014d303
+e92efbaf0aef4aae28032512bfcdeaf5
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -5396,7 +5362,7 @@ dgavidia
 
 
 
-6001
+5985
 
 rInfAcumVtaZona.cs
 file
@@ -5431,6 +5397,40 @@ dgavidia
 
 
 5985
+
+rRelacionFacturas.cs
+file
+
+
+
+
+2016-03-09T14:44:02.770964Z
+60dff906b40aafad419c6ca14014d303
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6001
 
 rreladefacemit01.cs
 file
@@ -5534,40 +5534,6 @@ has-props
 
 65536
 
-rSaldoAnalisisDetVendSI.rpt
-file
-
-
-
-
-2016-03-09T14:44:02.786563Z
-ebbfc81e704819b0e9fe10e886e5e346
-2015-03-25T15:41:38.712146Z
-3963
-iperez
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18432
-
 rGuiaDespacho.cs
 file
 
@@ -5602,14 +5568,48 @@ josio
 
 5971
 
-rralafactanul01.cs
+rSaldoAnalisisDetVendSI.rpt
 file
 
 
 
 
 2016-03-09T14:44:02.786563Z
-799532fa613a63e4b193d3be83993993
+ebbfc81e704819b0e9fe10e886e5e346
+2015-03-25T15:41:38.712146Z
+3963
+iperez
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18432
+
+rConsulGrupVent.cs
+file
+
+
+
+
+2016-03-09T14:44:02.786563Z
+f43bfb7b1d475fa7f11414241633c750
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -5636,14 +5636,14 @@ dgavidia
 
 5303
 
-rConsulGrupVent.cs
+rralafactanul01.cs
 file
 
 
 
 
 2016-03-09T14:44:02.786563Z
-f43bfb7b1d475fa7f11414241633c750
+799532fa613a63e4b193d3be83993993
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -5772,14 +5772,14 @@ josio
 
 6645
 
-rcomprobante.rpt
+rCajaCxCver.rpt
 file
 
 
 
 
-2016-03-09T14:44:02.786563Z
-ca06f37a020cd6d6151a2ecf79e45fcb
+2016-03-09T14:44:02.802161Z
+f39aa7b17048c70a02007260ce64e466
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -5804,7 +5804,7 @@ has-props
 
 
 
-10752
+65536
 
 rFactPorPagar.rpt
 file
@@ -5840,14 +5840,14 @@ has-props
 
 16384
 
-rCajaCxCver.rpt
+rcomprobante.rpt
 file
 
 
 
 
-2016-03-09T14:44:02.802161Z
-f39aa7b17048c70a02007260ce64e466
+2016-03-09T14:44:02.786563Z
+ca06f37a020cd6d6151a2ecf79e45fcb
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -5872,7 +5872,7 @@ has-props
 
 
 
-65536
+10752
 
 rValorCostoUtilidad.cs
 file
@@ -6044,40 +6044,6 @@ dgavidia
 
 5975
 
-rMovimiento.rpt
-file
-
-
-
-
-2016-03-09T14:44:02.802161Z
-2b9944314b28468b15eb951fa3def9d3
-2015-09-28T18:50:55.256945Z
-4126
-josio
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16384
-
 rCajaCxCDepositos.cs
 file
 
@@ -6112,17 +6078,17 @@ dgavidia
 
 6001
 
-rPrecargac.rpt
+rMovimiento.rpt
 file
 
 
 
 
 2016-03-09T14:44:02.802161Z
-b7c7e469cf3afebde7ce81eb5794699f
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
+2b9944314b28468b15eb951fa3def9d3
+2015-09-28T18:50:55.256945Z
+4126
+josio
 has-props
 
 
@@ -6179,6 +6145,40 @@ has-props
 
 
 163840
+
+rPrecargac.rpt
+file
+
+
+
+
+2016-03-09T14:44:02.802161Z
+b7c7e469cf3afebde7ce81eb5794699f
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16384
 
 rCajaCxCTotEgreso.rpt
 file
@@ -6282,40 +6282,6 @@ dgavidia
 
 6635
 
-rT2count.rpt
-file
-
-
-
-
-2016-03-09T14:44:02.817760Z
-5226fac6cc427ff51a87e348a8674e08
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16384
-
 rNotaCreditoCSDet.cs
 file
 
@@ -6349,6 +6315,40 @@ dgavidia
 
 
 5319
+
+rT2count.rpt
+file
+
+
+
+
+2016-03-09T14:44:02.817760Z
+5226fac6cc427ff51a87e348a8674e08
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16384
 
 rpedibloq01.cs
 file
@@ -6418,40 +6418,6 @@ has-props
 
 16384
 
-rComprobant.rpt
-file
-
-
-
-
-2016-03-09T14:44:02.817760Z
-f51a1b80f23dc7de341f5566a88d1f65
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-163840
-
 rInfClienteZonaRuta.rpt
 file
 
@@ -6485,6 +6451,40 @@ has-props
 
 
 16384
+
+rComprobant.rpt
+file
+
+
+
+
+2016-03-09T14:44:02.817760Z
+f51a1b80f23dc7de341f5566a88d1f65
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+163840
 
 rAcumCobranza.cs
 file
@@ -6554,14 +6554,14 @@ dgavidia
 
 5263
 
-rTarjInvg3.rpt
+rInfAcumVtaProvNcNd.rpt
 file
 
 
 
 
-2016-03-09T14:44:02.848957Z
-eaddda63d714cbcd805b640736f0da79
+2016-03-09T14:44:02.864555Z
+49927b5b221b82434b5eef9a43874274
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -6586,7 +6586,7 @@ has-props
 
 
 
-16384
+32768
 
 rFactComparada2.cs
 file
@@ -6622,14 +6622,14 @@ dgavidia
 
 5303
 
-rInfAcumVtaProvNcNd.rpt
+rTarjInvg3.rpt
 file
 
 
 
 
-2016-03-09T14:44:02.864555Z
-49927b5b221b82434b5eef9a43874274
+2016-03-09T14:44:02.848957Z
+eaddda63d714cbcd805b640736f0da79
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -6654,41 +6654,7 @@ has-props
 
 
 
-32768
-
-rNotaDebitoSDet.cs
-file
-
-
-
-
-2016-03-09T14:44:02.864555Z
-cf4aec49974dd03c5086f74df4723c24
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5303
+16384
 
 rConsultProvee.rpt
 file
@@ -6724,14 +6690,14 @@ has-props
 
 16384
 
-rcomprobante.cs
+rNotaDebitoSDet.cs
 file
 
 
 
 
 2016-03-09T14:44:02.864555Z
-1dfe791a04fbd8800585c35dc09d118b
+cf4aec49974dd03c5086f74df4723c24
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -6756,19 +6722,20 @@ dgavidia
 
 
 
-5279
+5303
 
-rFactPorPagar.cs
+rInfNDcxp.rpt
 file
 
 
 
 
 2016-03-09T14:44:02.864555Z
-a535799e40b896d2ae6c23687242ffe8
+b8b8f3582f635fe06a22f957eff743b7
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
+has-props
 
 
 
@@ -6789,8 +6756,7 @@ dgavidia
 
 
 
-
-5287
+16384
 
 rCajaCxCver.cs
 file
@@ -6826,18 +6792,17 @@ dgavidia
 
 7288
 
-rInfNDcxp.rpt
+rFactPorPagar.cs
 file
 
 
 
 
 2016-03-09T14:44:02.864555Z
-b8b8f3582f635fe06a22f957eff743b7
+a535799e40b896d2ae6c23687242ffe8
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
-has-props
 
 
 
@@ -6858,7 +6823,42 @@ has-props
 
 
 
-16384
+
+5287
+
+rcomprobante.cs
+file
+
+
+
+
+2016-03-09T14:44:02.864555Z
+1dfe791a04fbd8800585c35dc09d118b
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5279
 
 rValorCostoUtilidad.rpt
 file
@@ -6962,40 +6962,6 @@ has-props
 
 1032192
 
-rContInv.cs
-file
-
-
-
-
-2016-03-09T14:44:02.880154Z
-a5c4d90fde063fcbac1221d4fa672b55
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6253
-
 rInfAcumVta3.rpt
 file
 
@@ -7029,6 +6995,40 @@ has-props
 
 
 32768
+
+rContInv.cs
+file
+
+
+
+
+2016-03-09T14:44:02.880154Z
+a5c4d90fde063fcbac1221d4fa672b55
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6253
 
 rInventValorSinLoteyPMV.rpt
 file
@@ -7098,40 +7098,6 @@ dgavidia
 
 7326
 
-rverpedblo01.cs
-file
-
-
-
-
-2016-03-09T14:44:02.880154Z
-2a1a7bf1fb2c9a89fcf111f89bb8f351
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5939
-
 rInfRetencionIva.cs
 file
 
@@ -7165,6 +7131,40 @@ josio
 
 
 5313
+
+rverpedblo01.cs
+file
+
+
+
+
+2016-03-09T14:44:02.880154Z
+2a1a7bf1fb2c9a89fcf111f89bb8f351
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5939
 
 rComparativo.rpt
 file
@@ -7234,40 +7234,6 @@ dgavidia
 
 6241
 
-rSaldoAnalisisDetZonaCI.rpt
-file
-
-
-
-
-2016-03-09T14:44:02.880154Z
-eef804afd50460320521e0bb8bc1a607
-2015-03-25T15:41:38.712146Z
-3963
-iperez
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16384
-
 rInventValorImpSinLoteyPMV.rpt
 file
 
@@ -7301,6 +7267,40 @@ has-props
 
 
 15872
+
+rSaldoAnalisisDetZonaCI.rpt
+file
+
+
+
+
+2016-03-09T14:44:02.880154Z
+eef804afd50460320521e0bb8bc1a607
+2015-03-25T15:41:38.712146Z
+3963
+iperez
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16384
 
 rNotaDebito.rpt
 file
@@ -7336,40 +7336,6 @@ has-props
 
 13824
 
-rChequeVENEZUELA.rpt
-file
-
-
-
-
-2016-03-09T14:44:02.895752Z
-5332a53d208a5352bf0692b8ef96143f
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16384
-
 rGuiaFacturaAlCobro2Sub.rpt
 file
 
@@ -7404,14 +7370,14 @@ has-props
 
 16384
 
-rTcompany.rpt
+rChequeVENEZUELA.rpt
 file
 
 
 
 
 2016-03-09T14:44:02.895752Z
-d6d4a9631af7ac8971d3c30f91ebdc1f
+5332a53d208a5352bf0692b8ef96143f
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -7436,7 +7402,7 @@ has-props
 
 
 
-163840
+16384
 
 rTcompany.cs
 file
@@ -7472,6 +7438,40 @@ dgavidia
 
 5929
 
+rTcompany.rpt
+file
+
+
+
+
+2016-03-09T14:44:02.895752Z
+d6d4a9631af7ac8971d3c30f91ebdc1f
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+163840
+
 rComparacion.cs
 file
 
@@ -7506,40 +7506,6 @@ dgavidia
 
 5279
 
-rChequeEXTERIOR.cs
-file
-
-
-
-
-2016-03-09T14:44:02.895752Z
-508f6f695d754d0d8dcd81c42e178b79
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5303
-
 rGuiaDespacho.rpt
 file
 
@@ -7573,6 +7539,40 @@ has-props
 
 
 32768
+
+rChequeEXTERIOR.cs
+file
+
+
+
+
+2016-03-09T14:44:02.895752Z
+508f6f695d754d0d8dcd81c42e178b79
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5303
 
 rActivoFijo.cs
 file
@@ -7642,40 +7642,6 @@ has-props
 
 16384
 
-rSaldoAnalisisClienteCI.rpt
-file
-
-
-
-
-2016-03-09T14:44:02.895752Z
-1d9d281a670bdcee7ebb895832e7e290
-2015-03-25T15:41:38.712146Z
-3963
-iperez
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17920
-
 rInfcomprobante.rpt
 file
 
@@ -7710,14 +7676,14 @@ has-props
 
 11264
 
-rSaldoAnalisisDetZonaSI.rpt
+rSaldoAnalisisClienteCI.rpt
 file
 
 
 
 
-2016-03-09T14:44:02.911351Z
-0180a6128401f6f6962ceaef2a0da078
+2016-03-09T14:44:02.895752Z
+1d9d281a670bdcee7ebb895832e7e290
 2015-03-25T15:41:38.712146Z
 3963
 iperez
@@ -7742,41 +7708,7 @@ has-props
 
 
 
-16384
-
-rGuiaFacturaAlCobroSub.rpt
-file
-
-
-
-
-2016-03-09T14:44:02.911351Z
-7cec52293bcd27807dd0f277cc0e28cc
-2014-07-16T19:41:26.962094Z
-3378
-josio
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-11776
+17920
 
 rInventValorResProveedor.cs
 file
@@ -7812,17 +7744,17 @@ josio
 
 6059
 
-rComprobantNV.rpt
+rGuiaFacturaAlCobroSub.rpt
 file
 
 
 
 
 2016-03-09T14:44:02.911351Z
-0a678cd074860f41c5405be4087557bb
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
+7cec52293bcd27807dd0f277cc0e28cc
+2014-07-16T19:41:26.962094Z
+3378
+josio
 has-props
 
 
@@ -7844,7 +7776,41 @@ has-props
 
 
 
-163840
+11776
+
+rSaldoAnalisisDetZonaSI.rpt
+file
+
+
+
+
+2016-03-09T14:44:02.911351Z
+0180a6128401f6f6962ceaef2a0da078
+2015-03-25T15:41:38.712146Z
+3963
+iperez
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16384
 
 rComprobRetencion.rpt
 file
@@ -7879,6 +7845,40 @@ has-props
 
 
 32768
+
+rComprobantNV.rpt
+file
+
+
+
+
+2016-03-09T14:44:02.911351Z
+0a678cd074860f41c5405be4087557bb
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+163840
 
 rInfNDcxp.cs
 file
@@ -8016,40 +8016,6 @@ has-props
 
 49152
 
-rEmisionNC.rpt
-file
-
-
-
-
-2016-03-09T14:44:02.911351Z
-98df4de774826ef52f25881cbb6f9c9a
-2015-11-09T14:56:57.996279Z
-4156
-iperez
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16384
-
 rGuiaResumen.cs
 file
 
@@ -8083,6 +8049,40 @@ dgavidia
 
 
 5279
+
+rEmisionNC.rpt
+file
+
+
+
+
+2016-03-09T14:44:02.911351Z
+98df4de774826ef52f25881cbb6f9c9a
+2015-11-09T14:56:57.996279Z
+4156
+iperez
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16384
 
 rPruebaT3.rpt
 file
@@ -8152,14 +8152,14 @@ has-props
 
 17920
 
-rNRFiliales.rpt
+rFacturasEmitidas.rpt
 file
 
 
 
 
 2016-03-09T14:44:02.926949Z
-91bbe263e1741fb85aa9deb3596a6be5
+51f81ecd2aed5e6f522acf5bc9fe72d9
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -8184,7 +8184,7 @@ has-props
 
 
 
-163840
+11776
 
 rCajaCxCTotEgreso.cs
 file
@@ -8220,14 +8220,14 @@ dgavidia
 
 5319
 
-rFacturasEmitidas.rpt
+rNRFiliales.rpt
 file
 
 
 
 
 2016-03-09T14:44:02.926949Z
-51f81ecd2aed5e6f522acf5bc9fe72d9
+91bbe263e1741fb85aa9deb3596a6be5
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -8252,41 +8252,7 @@ has-props
 
 
 
-11776
-
-rGuiaFacturaAlCobro2Sub.cs
-file
-
-
-
-
-2016-03-09T14:44:02.926949Z
-9bb85e62f49fafafdd703886a307b10f
-2014-07-16T19:41:26.962094Z
-3378
-josio
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6733
+163840
 
 rInfNotaDebAnul.rpt
 file
@@ -8322,18 +8288,17 @@ has-props
 
 11264
 
-rComprobantV.rpt
+rGuiaFacturaAlCobro2Sub.cs
 file
 
 
 
 
 2016-03-09T14:44:02.926949Z
-dc313bf971074c300a2819a6498f5ca4
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-has-props
+9bb85e62f49fafafdd703886a307b10f
+2014-07-16T19:41:26.962094Z
+3378
+josio
 
 
 
@@ -8354,7 +8319,8 @@ has-props
 
 
 
-163840
+
+6733
 
 rComprobantV.cs
 file
@@ -8390,17 +8356,18 @@ dgavidia
 
 5613
 
-rEgreCheqTrans.cs
+rComprobantV.rpt
 file
 
 
 
 
 2016-03-09T14:44:02.926949Z
-e9a384bcb60b358358ca7e1001ff0be4
+dc313bf971074c300a2819a6498f5ca4
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
+has-props
 
 
 
@@ -8421,8 +8388,7 @@ dgavidia
 
 
 
-
-5295
+163840
 
 rComparacion.rpt
 file
@@ -8458,14 +8424,14 @@ has-props
 
 16384
 
-rNotaCredit.cs
+rEgreCheqTrans.cs
 file
 
 
 
 
-2016-03-09T14:44:02.942548Z
-5c0572f9876b058a8ea1ce801286a26f
+2016-03-09T14:44:02.926949Z
+e9a384bcb60b358358ca7e1001ff0be4
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -8490,7 +8456,7 @@ dgavidia
 
 
 
-5271
+5295
 
 rAjtSalida.rpt
 file
@@ -8526,17 +8492,17 @@ has-props
 
 12288
 
-rGuiaFacturaAlCobro.cs
+rNotaCredit.cs
 file
 
 
 
 
 2016-03-09T14:44:02.942548Z
-42df35e741ed29fc5b7f1285e6999baa
-2014-07-16T19:41:26.962094Z
-3378
-josio
+5c0572f9876b058a8ea1ce801286a26f
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
 
 
 
@@ -8558,7 +8524,7 @@ josio
 
 
 
-6019
+5271
 
 rInfNotaCredEmit2.cs
 file
@@ -8594,18 +8560,17 @@ dgavidia
 
 5319
 
-rReorden.rpt
+rGuiaFacturaAlCobro.cs
 file
 
 
 
 
 2016-03-09T14:44:02.942548Z
-d0ca9d8f191253223db381664ad7ee26
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-has-props
+42df35e741ed29fc5b7f1285e6999baa
+2014-07-16T19:41:26.962094Z
+3378
+josio
 
 
 
@@ -8626,7 +8591,8 @@ has-props
 
 
 
-16384
+
+6019
 
 rListadoVer2.rpt
 file
@@ -8661,6 +8627,40 @@ has-props
 
 
 10752
+
+rReorden.rpt
+file
+
+
+
+
+2016-03-09T14:44:02.942548Z
+d0ca9d8f191253223db381664ad7ee26
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16384
 
 rChequeBOD.rpt
 file
@@ -8906,11 +8906,11 @@ file
 
 
 
-2016-03-09T14:44:02.958146Z
-8e26d36556df74477a250d680596d754
-2015-11-06T13:40:45.874210Z
-4155
-josio
+2016-06-29T17:17:54.270625Z
+d1d618a2e644655efb733bc8a48c502b
+2016-06-29T16:10:39.084376Z
+4247
+rferreira
 has-props
 
 
@@ -9654,10 +9654,10 @@ file
 
 
 
-2016-05-31T15:27:43.531165Z
-f21fc24f836e2a14870ccbf3c0972255
-2016-05-26T20:46:47.213341Z
-4220
+2016-06-29T17:17:54.270625Z
+b2f66314f9e71a9c1b0bc54d6dc9df3d
+2016-06-29T16:10:39.084376Z
+4247
 rferreira
 has-props
 

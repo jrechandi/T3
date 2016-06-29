@@ -1,7 +1,7 @@
 10
 
 dir
-4244
+4248
 https://192.168.1.9:443/svn/conssa/t3win2010/branches/sprint_1/T3_Popup/obj/Debug
 https://192.168.1.9:443/svn/conssa
 
@@ -60,40 +60,6 @@ has-props
 
 54152
 
-T3_Popup.Multimedia.close.bmp
-file
-
-
-
-
-2016-03-09T14:44:10.336237Z
-e890dae4aea264d7ec7429baac36b009
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1616
-
 T3_Popup.Multimedia.t3.wav
 file
 
@@ -128,14 +94,14 @@ has-props
 
 5538
 
-T3_Popup.Multimedia.logo_exterior.gif
+T3_Popup.Multimedia.close.bmp
 file
 
 
 
 
 2016-03-09T14:44:10.336237Z
-13a652b620c2cb452d264c0407f7b494
+e890dae4aea264d7ec7429baac36b009
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -160,7 +126,7 @@ has-props
 
 
 
-2114
+1616
 
 T3_Popup.Properties.Resources.resources
 file
@@ -195,6 +161,40 @@ has-props
 
 
 398846
+
+T3_Popup.Multimedia.logo_exterior.gif
+file
+
+
+
+
+2016-03-09T14:44:10.336237Z
+13a652b620c2cb452d264c0407f7b494
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2114
 
 T3_Popup.Frm_Popup.resources
 file
@@ -267,40 +267,6 @@ has-props
 TempPE
 dir
 
-CustomUIControls.TaskbarNotifier.resources
-file
-
-
-
-
-2016-03-09T14:44:10.351835Z
-b05a465fd94acd9a667fd6e4d8cfd2b1
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4395
-
 T3_Popup.Multimedia.logo_provincial.gif
 file
 
@@ -334,6 +300,40 @@ has-props
 
 
 3874
+
+CustomUIControls.TaskbarNotifier.resources
+file
+
+
+
+
+2016-03-09T14:44:10.351835Z
+b05a465fd94acd9a667fd6e4d8cfd2b1
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4395
 
 T3_Popup.Multimedia.logo_sofitasa.gif
 file

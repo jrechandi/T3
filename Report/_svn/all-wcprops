@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 60
-/svn/conssa/!svn/ver/4220/t3win2010/branches/sprint_1/Report
+/svn/conssa/!svn/ver/4247/t3win2010/branches/sprint_1/Report
 END
 rCobranzaDetallada.cs
 K 25
@@ -45,17 +45,11 @@ svn:wc:ra_dav:version-url
 V 76
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rZonaCliente.cs
 END
-rInfNDcxp_demo.cs
+rTarjetas.cs
 K 25
 svn:wc:ra_dav:version-url
-V 78
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfNDcxp_demo.cs
-END
-CrystalReport2.rpt
-K 25
-svn:wc:ra_dav:version-url
-V 79
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/CrystalReport2.rpt
+V 73
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rTarjetas.cs
 END
 rComprobRetiene.rpt
 K 25
@@ -63,23 +57,23 @@ svn:wc:ra_dav:version-url
 V 80
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rComprobRetiene.rpt
 END
-rTarjetas.cs
+CrystalReport2.rpt
 K 25
 svn:wc:ra_dav:version-url
-V 73
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rTarjetas.cs
+V 79
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/CrystalReport2.rpt
 END
-rInfAcumVta1.rpt
+rInfNDcxp_demo.cs
 K 25
 svn:wc:ra_dav:version-url
-V 77
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfAcumVta1.rpt
+V 78
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfNDcxp_demo.cs
 END
-rTcurrency.cs
+rVentporProvee.rpt
 K 25
 svn:wc:ra_dav:version-url
-V 74
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rTcurrency.cs
+V 79
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rVentporProvee.rpt
 END
 rUser.rpt
 K 25
@@ -87,11 +81,17 @@ svn:wc:ra_dav:version-url
 V 70
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rUser.rpt
 END
-rVentporProvee.rpt
+rTcurrency.cs
 K 25
 svn:wc:ra_dav:version-url
-V 79
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rVentporProvee.rpt
+V 74
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rTcurrency.cs
+END
+rInfAcumVta1.rpt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfAcumVta1.rpt
 END
 rChequeGuayana.rpt
 K 25
@@ -175,7 +175,7 @@ rPreCargaListado.cs
 K 25
 svn:wc:ra_dav:version-url
 V 80
-/svn/conssa/!svn/ver/4220/t3win2010/branches/sprint_1/Report/rPreCargaListado.cs
+/svn/conssa/!svn/ver/4247/t3win2010/branches/sprint_1/Report/rPreCargaListado.cs
 END
 rInfRetencionIva2.rpt
 K 25
@@ -183,29 +183,29 @@ svn:wc:ra_dav:version-url
 V 82
 /svn/conssa/!svn/ver/3830/t3win2010/branches/sprint_1/Report/rInfRetencionIva2.rpt
 END
-rCobranzaDetalladaConDetalleDePago.cs
-K 25
-svn:wc:ra_dav:version-url
-V 98
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rCobranzaDetalladaConDetalleDePago.cs
-END
 rFactComparada1.rpt
 K 25
 svn:wc:ra_dav:version-url
 V 80
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rFactComparada1.rpt
 END
-rInfNCcxp.rpt
+rCobranzaDetalladaConDetalleDePago.cs
 K 25
 svn:wc:ra_dav:version-url
-V 74
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfNCcxp.rpt
+V 98
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rCobranzaDetalladaConDetalleDePago.cs
 END
 rVerificacionTar.rpt
 K 25
 svn:wc:ra_dav:version-url
 V 81
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rVerificacionTar.rpt
+END
+rInfNCcxp.rpt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfNCcxp.rpt
 END
 rZonaCliente.rpt
 K 25
@@ -219,17 +219,17 @@ svn:wc:ra_dav:version-url
 V 76
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rListadoVer.rpt
 END
-rInventValorResProveedorImp.cs
-K 25
-svn:wc:ra_dav:version-url
-V 91
-/svn/conssa/!svn/ver/4042/t3win2010/branches/sprint_1/Report/rInventValorResProveedorImp.cs
-END
 rTarjInv.cs
 K 25
 svn:wc:ra_dav:version-url
 V 72
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rTarjInv.cs
+END
+rInventValorResProveedorImp.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/conssa/!svn/ver/4042/t3win2010/branches/sprint_1/Report/rInventValorResProveedorImp.cs
 END
 rGuiaFacturaAlCobro2.cs
 K 25
@@ -249,17 +249,17 @@ svn:wc:ra_dav:version-url
 V 87
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInventValorSinLoteyPMV.cs
 END
-rInfRetencionIva.rpt
-K 25
-svn:wc:ra_dav:version-url
-V 81
-/svn/conssa/!svn/ver/3830/t3win2010/branches/sprint_1/Report/rInfRetencionIva.rpt
-END
 rverpedblo01.rpt
 K 25
 svn:wc:ra_dav:version-url
 V 77
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rverpedblo01.rpt
+END
+rInfRetencionIva.rpt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/conssa/!svn/ver/3830/t3win2010/branches/sprint_1/Report/rInfRetencionIva.rpt
 END
 rPrecarga.rpt
 K 25
@@ -267,29 +267,29 @@ svn:wc:ra_dav:version-url
 V 74
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rPrecarga.rpt
 END
-rInfAcumVtaZona.rpt
-K 25
-svn:wc:ra_dav:version-url
-V 80
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfAcumVtaZona.rpt
-END
 rRelacionFacturas.rpt
 K 25
 svn:wc:ra_dav:version-url
 V 82
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rRelacionFacturas.rpt
 END
-rInfAcumVtaVd.cs
+rInfAcumVtaZona.rpt
 K 25
 svn:wc:ra_dav:version-url
-V 77
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfAcumVtaVd.cs
+V 80
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfAcumVtaZona.rpt
 END
 rCajaCxCTotalIngreso.cs
 K 25
 svn:wc:ra_dav:version-url
 V 84
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rCajaCxCTotalIngreso.cs
+END
+rInfAcumVtaVd.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfAcumVtaVd.cs
 END
 rChequeMERCANTIL1.cs
 K 25
@@ -303,17 +303,17 @@ svn:wc:ra_dav:version-url
 V 69
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rTax.rpt
 END
-rListCprProvDetCimp.cs
-K 25
-svn:wc:ra_dav:version-url
-V 83
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rListCprProvDetCimp.cs
-END
 rTraspasoDocumentos.rpt
 K 25
 svn:wc:ra_dav:version-url
 V 84
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rTraspasoDocumentos.rpt
+END
+rListCprProvDetCimp.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rListCprProvDetCimp.cs
 END
 {E7F2D922-55EC-46A4-8376-B35378C19EA9}.rpt
 K 25
@@ -345,17 +345,17 @@ svn:wc:ra_dav:version-url
 V 78
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/notrecpfilial.rpt
 END
-rInfANDcxp.rpt
-K 25
-svn:wc:ra_dav:version-url
-V 75
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfANDcxp.rpt
-END
 rInfANDcxp.cs
 K 25
 svn:wc:ra_dav:version-url
 V 74
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfANDcxp.cs
+END
+rInfANDcxp.rpt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfANDcxp.rpt
 END
 rTrasladoCartera.cs
 K 25
@@ -363,17 +363,17 @@ svn:wc:ra_dav:version-url
 V 80
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rTrasladoCartera.cs
 END
-rInfCheqDev.cs
-K 25
-svn:wc:ra_dav:version-url
-V 75
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfCheqDev.cs
-END
 rRelacionCobranza.cs
 K 25
 svn:wc:ra_dav:version-url
 V 81
 /svn/conssa/!svn/ver/3320/t3win2010/branches/sprint_1/Report/rRelacionCobranza.cs
+END
+rInfCheqDev.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfCheqDev.cs
 END
 rInventValorImp.rpt
 K 25
@@ -801,17 +801,17 @@ svn:wc:ra_dav:version-url
 V 82
 /svn/conssa/!svn/ver/3824/t3win2010/branches/sprint_1/Report/rListCprProductos.rpt
 END
-listadoPorProveedor.cs
-K 25
-svn:wc:ra_dav:version-url
-V 83
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/listadoPorProveedor.cs
-END
 rverpedblo02.rpt
 K 25
 svn:wc:ra_dav:version-url
 V 77
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rverpedblo02.rpt
+END
+listadoPorProveedor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/listadoPorProveedor.cs
 END
 rInfNotaDebEmit.cs
 K 25
@@ -819,23 +819,17 @@ svn:wc:ra_dav:version-url
 V 79
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfNotaDebEmit.cs
 END
-rCajaCxCPrueba.cs
-K 25
-svn:wc:ra_dav:version-url
-V 78
-/svn/conssa/!svn/ver/3311/t3win2010/branches/sprint_1/Report/rCajaCxCPrueba.cs
-END
 rOrdPago.rpt
 K 25
 svn:wc:ra_dav:version-url
 V 73
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rOrdPago.rpt
 END
-rListCprProductosCimp.rpt
+rCajaCxCPrueba.cs
 K 25
 svn:wc:ra_dav:version-url
-V 86
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rListCprProductosCimp.rpt
+V 78
+/svn/conssa/!svn/ver/3311/t3win2010/branches/sprint_1/Report/rCajaCxCPrueba.cs
 END
 rSaldoAnalisisDetClieCI.rpt
 K 25
@@ -843,17 +837,23 @@ svn:wc:ra_dav:version-url
 V 88
 /svn/conssa/!svn/ver/3963/t3win2010/branches/sprint_1/Report/rSaldoAnalisisDetClieCI.rpt
 END
-rListadoVer2.cs
+rListCprProductosCimp.rpt
 K 25
 svn:wc:ra_dav:version-url
-V 76
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rListadoVer2.cs
+V 86
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rListCprProductosCimp.rpt
 END
 rReorden.cs
 K 25
 svn:wc:ra_dav:version-url
 V 72
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rReorden.cs
+END
+rListadoVer2.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rListadoVer2.cs
 END
 rCxPdemo.rpt
 K 25
@@ -873,17 +873,17 @@ svn:wc:ra_dav:version-url
 V 74
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rPrecarga2.cs
 END
-rInventValorResProveedor.rpt
-K 25
-svn:wc:ra_dav:version-url
-V 89
-/svn/conssa/!svn/ver/4042/t3win2010/branches/sprint_1/Report/rInventValorResProveedor.rpt
-END
 rNotaEntrega.cs
 K 25
 svn:wc:ra_dav:version-url
 V 76
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rNotaEntrega.cs
+END
+rInventValorResProveedor.rpt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/conssa/!svn/ver/4042/t3win2010/branches/sprint_1/Report/rInventValorResProveedor.rpt
 END
 rNotaDebitoSDet.rpt
 K 25
@@ -933,29 +933,29 @@ svn:wc:ra_dav:version-url
 V 78
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rGroupcompany.rpt
 END
-rMatBanco.cs
-K 25
-svn:wc:ra_dav:version-url
-V 73
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rMatBanco.cs
-END
 rListCprProvDet.cs
 K 25
 svn:wc:ra_dav:version-url
 V 79
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rListCprProvDet.cs
 END
-rInfAcumVtaZona.cs
+rMatBanco.cs
 K 25
 svn:wc:ra_dav:version-url
-V 79
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfAcumVtaZona.cs
+V 73
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rMatBanco.cs
 END
 rRelacionFacturas.cs
 K 25
 svn:wc:ra_dav:version-url
 V 81
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rRelacionFacturas.cs
+END
+rInfAcumVtaZona.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfAcumVtaZona.cs
 END
 rreladefacemit01.cs
 K 25
@@ -975,29 +975,29 @@ svn:wc:ra_dav:version-url
 V 79
 /svn/conssa/!svn/ver/3733/t3win2010/branches/sprint_1/Report/rCajaCxCPrueba.rpt
 END
-rGuiaDespacho.cs
-K 25
-svn:wc:ra_dav:version-url
-V 77
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rGuiaDespacho.cs
-END
 rSaldoAnalisisDetVendSI.rpt
 K 25
 svn:wc:ra_dav:version-url
 V 88
 /svn/conssa/!svn/ver/3963/t3win2010/branches/sprint_1/Report/rSaldoAnalisisDetVendSI.rpt
 END
-rConsulGrupVent.cs
+rGuiaDespacho.cs
 K 25
 svn:wc:ra_dav:version-url
-V 79
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rConsulGrupVent.cs
+V 77
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rGuiaDespacho.cs
 END
 rralafactanul01.cs
 K 25
 svn:wc:ra_dav:version-url
 V 79
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rralafactanul01.cs
+END
+rConsulGrupVent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rConsulGrupVent.cs
 END
 rCajaNC2.cs
 K 25
@@ -1017,11 +1017,11 @@ svn:wc:ra_dav:version-url
 V 76
 /svn/conssa/!svn/ver/4042/t3win2010/branches/sprint_1/Report/rInventValor.cs
 END
-rCajaCxCver.rpt
+rcomprobante.rpt
 K 25
 svn:wc:ra_dav:version-url
-V 76
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rCajaCxCver.rpt
+V 77
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rcomprobante.rpt
 END
 rFactPorPagar.rpt
 K 25
@@ -1029,11 +1029,11 @@ svn:wc:ra_dav:version-url
 V 78
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rFactPorPagar.rpt
 END
-rcomprobante.rpt
+rCajaCxCver.rpt
 K 25
 svn:wc:ra_dav:version-url
-V 77
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rcomprobante.rpt
+V 76
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rCajaCxCver.rpt
 END
 rValorCostoUtilidad.cs
 K 25
@@ -1065,29 +1065,29 @@ svn:wc:ra_dav:version-url
 V 73
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rPrecarga.cs
 END
-rCajaCxCDepositos.cs
-K 25
-svn:wc:ra_dav:version-url
-V 81
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rCajaCxCDepositos.cs
-END
 rMovimiento.rpt
 K 25
 svn:wc:ra_dav:version-url
 V 76
 /svn/conssa/!svn/ver/4126/t3win2010/branches/sprint_1/Report/rMovimiento.rpt
 END
-rMayor.rpt
+rCajaCxCDepositos.cs
 K 25
 svn:wc:ra_dav:version-url
-V 71
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rMayor.rpt
+V 81
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rCajaCxCDepositos.cs
 END
 rPrecargac.rpt
 K 25
 svn:wc:ra_dav:version-url
 V 75
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rPrecargac.rpt
+END
+rMayor.rpt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rMayor.rpt
 END
 rCajaCxCTotEgreso.rpt
 K 25
@@ -1107,17 +1107,17 @@ svn:wc:ra_dav:version-url
 V 75
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfAcumVta.cs
 END
-rNotaCreditoCSDet.cs
-K 25
-svn:wc:ra_dav:version-url
-V 81
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rNotaCreditoCSDet.cs
-END
 rT2count.rpt
 K 25
 svn:wc:ra_dav:version-url
 V 73
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rT2count.rpt
+END
+rNotaCreditoCSDet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rNotaCreditoCSDet.cs
 END
 rpedibloq01.cs
 K 25
@@ -1131,17 +1131,17 @@ svn:wc:ra_dav:version-url
 V 73
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/Cabecera.rpt
 END
-rInfClienteZonaRuta.rpt
-K 25
-svn:wc:ra_dav:version-url
-V 84
-/svn/conssa/!svn/ver/3482/t3win2010/branches/sprint_1/Report/rInfClienteZonaRuta.rpt
-END
 rComprobant.rpt
 K 25
 svn:wc:ra_dav:version-url
 V 76
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rComprobant.rpt
+END
+rInfClienteZonaRuta.rpt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/conssa/!svn/ver/3482/t3win2010/branches/sprint_1/Report/rInfClienteZonaRuta.rpt
 END
 rAcumCobranza.cs
 K 25
@@ -1155,11 +1155,11 @@ svn:wc:ra_dav:version-url
 V 74
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rTarjInvg2.cs
 END
-rInfAcumVtaProvNcNd.rpt
+rTarjInvg3.rpt
 K 25
 svn:wc:ra_dav:version-url
-V 84
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfAcumVtaProvNcNd.rpt
+V 75
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rTarjInvg3.rpt
 END
 rFactComparada2.cs
 K 25
@@ -1167,17 +1167,11 @@ svn:wc:ra_dav:version-url
 V 79
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rFactComparada2.cs
 END
-rTarjInvg3.rpt
+rInfAcumVtaProvNcNd.rpt
 K 25
 svn:wc:ra_dav:version-url
-V 75
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rTarjInvg3.rpt
-END
-rConsultProvee.rpt
-K 25
-svn:wc:ra_dav:version-url
-V 79
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rConsultProvee.rpt
+V 84
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfAcumVtaProvNcNd.rpt
 END
 rNotaDebitoSDet.cs
 K 25
@@ -1185,17 +1179,17 @@ svn:wc:ra_dav:version-url
 V 79
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rNotaDebitoSDet.cs
 END
-rInfNDcxp.rpt
+rConsultProvee.rpt
 K 25
 svn:wc:ra_dav:version-url
-V 74
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfNDcxp.rpt
+V 79
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rConsultProvee.rpt
 END
-rCajaCxCver.cs
+rcomprobante.cs
 K 25
 svn:wc:ra_dav:version-url
-V 75
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rCajaCxCver.cs
+V 76
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rcomprobante.cs
 END
 rFactPorPagar.cs
 K 25
@@ -1203,11 +1197,17 @@ svn:wc:ra_dav:version-url
 V 77
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rFactPorPagar.cs
 END
-rcomprobante.cs
+rCajaCxCver.cs
 K 25
 svn:wc:ra_dav:version-url
-V 76
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rcomprobante.cs
+V 75
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rCajaCxCver.cs
+END
+rInfNDcxp.rpt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfNDcxp.rpt
 END
 rValorCostoUtilidad.rpt
 K 25
@@ -1227,17 +1227,17 @@ svn:wc:ra_dav:version-url
 V 79
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rPreordCompra2.rpt
 END
-rInfAcumVta3.rpt
-K 25
-svn:wc:ra_dav:version-url
-V 77
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfAcumVta3.rpt
-END
 rContInv.cs
 K 25
 svn:wc:ra_dav:version-url
 V 72
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rContInv.cs
+END
+rInfAcumVta3.rpt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfAcumVta3.rpt
 END
 rInventValorSinLoteyPMV.rpt
 K 25
@@ -1251,17 +1251,17 @@ svn:wc:ra_dav:version-url
 V 76
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfAcumVta5.cs
 END
-rInfRetencionIva.cs
-K 25
-svn:wc:ra_dav:version-url
-V 80
-/svn/conssa/!svn/ver/3751/t3win2010/branches/sprint_1/Report/rInfRetencionIva.cs
-END
 rverpedblo01.cs
 K 25
 svn:wc:ra_dav:version-url
 V 76
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rverpedblo01.cs
+END
+rInfRetencionIva.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/conssa/!svn/ver/3751/t3win2010/branches/sprint_1/Report/rInfRetencionIva.cs
 END
 rComparativo.rpt
 K 25
@@ -1275,17 +1275,17 @@ svn:wc:ra_dav:version-url
 V 72
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rBalance.cs
 END
-rInventValorImpSinLoteyPMV.rpt
-K 25
-svn:wc:ra_dav:version-url
-V 91
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInventValorImpSinLoteyPMV.rpt
-END
 rSaldoAnalisisDetZonaCI.rpt
 K 25
 svn:wc:ra_dav:version-url
 V 88
 /svn/conssa/!svn/ver/3963/t3win2010/branches/sprint_1/Report/rSaldoAnalisisDetZonaCI.rpt
+END
+rInventValorImpSinLoteyPMV.rpt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInventValorImpSinLoteyPMV.rpt
 END
 rNotaDebito.rpt
 K 25
@@ -1293,23 +1293,17 @@ svn:wc:ra_dav:version-url
 V 76
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rNotaDebito.rpt
 END
-rGuiaFacturaAlCobro2Sub.rpt
-K 25
-svn:wc:ra_dav:version-url
-V 88
-/svn/conssa/!svn/ver/3672/t3win2010/branches/sprint_1/Report/rGuiaFacturaAlCobro2Sub.rpt
-END
 rChequeVENEZUELA.rpt
 K 25
 svn:wc:ra_dav:version-url
 V 81
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rChequeVENEZUELA.rpt
 END
-rTcompany.cs
+rGuiaFacturaAlCobro2Sub.rpt
 K 25
 svn:wc:ra_dav:version-url
-V 73
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rTcompany.cs
+V 88
+/svn/conssa/!svn/ver/3672/t3win2010/branches/sprint_1/Report/rGuiaFacturaAlCobro2Sub.rpt
 END
 rTcompany.rpt
 K 25
@@ -1317,23 +1311,29 @@ svn:wc:ra_dav:version-url
 V 74
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rTcompany.rpt
 END
+rTcompany.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rTcompany.cs
+END
 rComparacion.cs
 K 25
 svn:wc:ra_dav:version-url
 V 76
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rComparacion.cs
 END
-rGuiaDespacho.rpt
-K 25
-svn:wc:ra_dav:version-url
-V 78
-/svn/conssa/!svn/ver/3571/t3win2010/branches/sprint_1/Report/rGuiaDespacho.rpt
-END
 rChequeEXTERIOR.cs
 K 25
 svn:wc:ra_dav:version-url
 V 79
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rChequeEXTERIOR.cs
+END
+rGuiaDespacho.rpt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/conssa/!svn/ver/3571/t3win2010/branches/sprint_1/Report/rGuiaDespacho.rpt
 END
 rActivoFijo.cs
 K 25
@@ -1347,29 +1347,17 @@ svn:wc:ra_dav:version-url
 V 81
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rChequeBExterior.rpt
 END
-rInfcomprobante.rpt
-K 25
-svn:wc:ra_dav:version-url
-V 80
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfcomprobante.rpt
-END
 rSaldoAnalisisClienteCI.rpt
 K 25
 svn:wc:ra_dav:version-url
 V 88
 /svn/conssa/!svn/ver/3963/t3win2010/branches/sprint_1/Report/rSaldoAnalisisClienteCI.rpt
 END
-rInventValorResProveedor.cs
+rInfcomprobante.rpt
 K 25
 svn:wc:ra_dav:version-url
-V 88
-/svn/conssa/!svn/ver/4042/t3win2010/branches/sprint_1/Report/rInventValorResProveedor.cs
-END
-rGuiaFacturaAlCobroSub.rpt
-K 25
-svn:wc:ra_dav:version-url
-V 87
-/svn/conssa/!svn/ver/3378/t3win2010/branches/sprint_1/Report/rGuiaFacturaAlCobroSub.rpt
+V 80
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfcomprobante.rpt
 END
 rSaldoAnalisisDetZonaSI.rpt
 K 25
@@ -1377,17 +1365,29 @@ svn:wc:ra_dav:version-url
 V 88
 /svn/conssa/!svn/ver/3963/t3win2010/branches/sprint_1/Report/rSaldoAnalisisDetZonaSI.rpt
 END
-rComprobRetencion.rpt
+rGuiaFacturaAlCobroSub.rpt
 K 25
 svn:wc:ra_dav:version-url
-V 82
-/svn/conssa/!svn/ver/4212/t3win2010/branches/sprint_1/Report/rComprobRetencion.rpt
+V 87
+/svn/conssa/!svn/ver/3378/t3win2010/branches/sprint_1/Report/rGuiaFacturaAlCobroSub.rpt
+END
+rInventValorResProveedor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/conssa/!svn/ver/4042/t3win2010/branches/sprint_1/Report/rInventValorResProveedor.cs
 END
 rComprobantNV.rpt
 K 25
 svn:wc:ra_dav:version-url
 V 78
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rComprobantNV.rpt
+END
+rComprobRetencion.rpt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/conssa/!svn/ver/4212/t3win2010/branches/sprint_1/Report/rComprobRetencion.rpt
 END
 rInfNDcxp.cs
 K 25
@@ -1413,17 +1413,17 @@ svn:wc:ra_dav:version-url
 V 81
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rReportePreOrden.rpt
 END
-rGuiaResumen.cs
-K 25
-svn:wc:ra_dav:version-url
-V 76
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rGuiaResumen.cs
-END
 rEmisionNC.rpt
 K 25
 svn:wc:ra_dav:version-url
 V 75
 /svn/conssa/!svn/ver/4156/t3win2010/branches/sprint_1/Report/rEmisionNC.rpt
+END
+rGuiaResumen.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rGuiaResumen.cs
 END
 rPruebaT3.rpt
 K 25
@@ -1437,11 +1437,11 @@ svn:wc:ra_dav:version-url
 V 88
 /svn/conssa/!svn/ver/3963/t3win2010/branches/sprint_1/Report/rSaldoAnalisisClienteSI.rpt
 END
-rFacturasEmitidas.rpt
+rNRFiliales.rpt
 K 25
 svn:wc:ra_dav:version-url
-V 82
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rFacturasEmitidas.rpt
+V 76
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rNRFiliales.rpt
 END
 rCajaCxCTotEgreso.cs
 K 25
@@ -1449,17 +1449,11 @@ svn:wc:ra_dav:version-url
 V 81
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rCajaCxCTotEgreso.cs
 END
-rNRFiliales.rpt
+rFacturasEmitidas.rpt
 K 25
 svn:wc:ra_dav:version-url
-V 76
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rNRFiliales.rpt
-END
-rInfNotaDebAnul.rpt
-K 25
-svn:wc:ra_dav:version-url
-V 80
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfNotaDebAnul.rpt
+V 82
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rFacturasEmitidas.rpt
 END
 rGuiaFacturaAlCobro2Sub.cs
 K 25
@@ -1467,11 +1461,11 @@ svn:wc:ra_dav:version-url
 V 87
 /svn/conssa/!svn/ver/3378/t3win2010/branches/sprint_1/Report/rGuiaFacturaAlCobro2Sub.cs
 END
-rComprobantV.cs
+rInfNotaDebAnul.rpt
 K 25
 svn:wc:ra_dav:version-url
-V 76
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rComprobantV.cs
+V 80
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfNotaDebAnul.rpt
 END
 rComprobantV.rpt
 K 25
@@ -1479,11 +1473,11 @@ svn:wc:ra_dav:version-url
 V 77
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rComprobantV.rpt
 END
-rComparacion.rpt
+rComprobantV.cs
 K 25
 svn:wc:ra_dav:version-url
-V 77
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rComparacion.rpt
+V 76
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rComprobantV.cs
 END
 rEgreCheqTrans.cs
 K 25
@@ -1491,11 +1485,11 @@ svn:wc:ra_dav:version-url
 V 78
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rEgreCheqTrans.cs
 END
-rAjtSalida.rpt
+rComparacion.rpt
 K 25
 svn:wc:ra_dav:version-url
-V 75
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rAjtSalida.rpt
+V 77
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rComparacion.rpt
 END
 rNotaCredit.cs
 K 25
@@ -1503,11 +1497,11 @@ svn:wc:ra_dav:version-url
 V 75
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rNotaCredit.cs
 END
-rInfNotaCredEmit2.cs
+rAjtSalida.rpt
 K 25
 svn:wc:ra_dav:version-url
-V 81
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfNotaCredEmit2.cs
+V 75
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rAjtSalida.rpt
 END
 rGuiaFacturaAlCobro.cs
 K 25
@@ -1515,17 +1509,23 @@ svn:wc:ra_dav:version-url
 V 83
 /svn/conssa/!svn/ver/3378/t3win2010/branches/sprint_1/Report/rGuiaFacturaAlCobro.cs
 END
-rListadoVer2.rpt
+rInfNotaCredEmit2.cs
 K 25
 svn:wc:ra_dav:version-url
-V 77
-/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rListadoVer2.rpt
+V 81
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rInfNotaCredEmit2.cs
 END
 rReorden.rpt
 K 25
 svn:wc:ra_dav:version-url
 V 73
 /svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rReorden.rpt
+END
+rListadoVer2.rpt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/conssa/!svn/ver/3130/t3win2010/branches/sprint_1/Report/rListadoVer2.rpt
 END
 rChequeBOD.rpt
 K 25
@@ -1573,7 +1573,7 @@ rFacturaEmision.rpt
 K 25
 svn:wc:ra_dav:version-url
 V 80
-/svn/conssa/!svn/ver/4155/t3win2010/branches/sprint_1/Report/rFacturaEmision.rpt
+/svn/conssa/!svn/ver/4247/t3win2010/branches/sprint_1/Report/rFacturaEmision.rpt
 END
 rChequeVENEZUELA1.cs
 K 25
@@ -1705,7 +1705,7 @@ rPreCargaListado.rpt
 K 25
 svn:wc:ra_dav:version-url
 V 81
-/svn/conssa/!svn/ver/4220/t3win2010/branches/sprint_1/Report/rPreCargaListado.rpt
+/svn/conssa/!svn/ver/4247/t3win2010/branches/sprint_1/Report/rPreCargaListado.rpt
 END
 rChequeCaroni.rpt
 K 25

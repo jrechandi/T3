@@ -1,7 +1,7 @@
 10
 
 dir
-4244
+4248
 https://192.168.1.9:443/svn/conssa/t3win2010/branches/sprint_1/Resources
 https://192.168.1.9:443/svn/conssa
 
@@ -264,40 +264,6 @@ has-props
 
 1259
 
-I1.png
-file
-
-
-
-
-2016-03-09T14:44:04.237223Z
-7d056f88ae2a84d265b934ea4e3d5f10
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-331262
-
 imgreportefalla.jpg
 file
 
@@ -332,17 +298,17 @@ has-props
 
 64964
 
-papelera.gif
+I1.png
 file
 
 
 
 
 2016-03-09T14:44:04.237223Z
-2869f7b596f00ba686dd5e09ef61cfcd
-2014-01-23T13:24:42.325260Z
-2788
-apetit
+7d056f88ae2a84d265b934ea4e3d5f10
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
 has-props
 
 
@@ -364,7 +330,7 @@ has-props
 
 
 
-685
+331262
 
 I2.png
 file
@@ -399,6 +365,40 @@ has-props
 
 
 201028
+
+papelera.gif
+file
+
+
+
+
+2016-03-09T14:44:04.237223Z
+2869f7b596f00ba686dd5e09ef61cfcd
+2014-01-23T13:24:42.325260Z
+2788
+apetit
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+685
 
 check.png
 file
@@ -1046,14 +1046,14 @@ has-props
 
 82769
 
-switch.png
+application-view-detail-icon.png
 file
 
 
 
 
-2016-03-09T14:44:04.268420Z
-a0ebc21a07191e3bbd11cf7b84765df7
+2016-03-09T14:44:04.284019Z
+070fbd229ac8b2918b4e8b1b4f41c7f8
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -1078,41 +1078,7 @@ has-props
 
 
 
-542
-
-magnifier.png
-file
-
-
-
-
-2016-03-09T14:44:04.268420Z
-d659c24902eb4c2e00ec088602def89f
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-706
+576
 
 LOGO_MOGOSA.jpg
 file
@@ -1148,14 +1114,14 @@ has-props
 
 2068
 
-application-view-detail-icon.png
+magnifier.png
 file
 
 
 
 
-2016-03-09T14:44:04.284019Z
-070fbd229ac8b2918b4e8b1b4f41c7f8
+2016-03-09T14:44:04.268420Z
+d659c24902eb4c2e00ec088602def89f
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -1180,7 +1146,41 @@ has-props
 
 
 
-576
+706
+
+switch.png
+file
+
+
+
+
+2016-03-09T14:44:04.268420Z
+a0ebc21a07191e3bbd11cf7b84765df7
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+542
 
 handshake2.png
 file
@@ -1284,40 +1284,6 @@ has-props
 
 721
 
-t3login-original.bmp
-file
-
-
-
-
-2016-03-09T14:44:04.284019Z
-d1ae85bfeda129d750dbf3b58c55801f
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-241004
-
 nadal.jpg
 file
 
@@ -1351,6 +1317,40 @@ has-props
 
 
 17994
+
+t3login-original.bmp
+file
+
+
+
+
+2016-03-09T14:44:04.284019Z
+d1ae85bfeda129d750dbf3b58c55801f
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+241004
 
 table-icon.png
 file
@@ -1386,48 +1386,14 @@ has-props
 
 566
 
-text-padding-top-icon.png
-file
-
-
-
-
-2016-03-09T14:44:04.284019Z
-07d1e3212a6e4962d8bef5dd592b7f77
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-236
-
-cerrar.png
+lifebuoy.png
 file
 
 
 
 
 2016-03-09T14:44:04.299617Z
-8993232928bfa4bf270ec562d950445e
+79df75083450ec49ba4a14615c63b10b
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -1452,41 +1418,7 @@ has-props
 
 
 
-2329
-
-card_address.png
-file
-
-
-
-
-2016-03-09T14:44:04.299617Z
-e07cf1312b4a0dcbfbc390b08e894d22
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-578
+897
 
 LOGO_SODICA.jpg
 file
@@ -1522,14 +1454,14 @@ has-props
 
 1946
 
-lifebuoy.png
+card_address.png
 file
 
 
 
 
 2016-03-09T14:44:04.299617Z
-79df75083450ec49ba4a14615c63b10b
+e07cf1312b4a0dcbfbc390b08e894d22
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -1554,7 +1486,75 @@ has-props
 
 
 
-897
+578
+
+cerrar.png
+file
+
+
+
+
+2016-03-09T14:44:04.299617Z
+8993232928bfa4bf270ec562d950445e
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2329
+
+text-padding-top-icon.png
+file
+
+
+
+
+2016-03-09T14:44:04.284019Z
+07d1e3212a6e4962d8bef5dd592b7f77
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+236
 
 application-form-magnify-icon.png
 file
@@ -1658,40 +1658,6 @@ has-props
 
 796
 
-excel.JPG
-file
-
-
-
-
-2016-03-09T14:44:04.299617Z
-3001eeee0a9cdae002b4bc92fada3ee6
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8814
-
 group.png
 file
 
@@ -1725,6 +1691,40 @@ has-props
 
 
 753
+
+excel.JPG
+file
+
+
+
+
+2016-03-09T14:44:04.299617Z
+3001eeee0a9cdae002b4bc92fada3ee6
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8814
 
 modelo_1.png
 file
@@ -1760,40 +1760,6 @@ has-props
 
 68598
 
-paste-plain-icon.png
-file
-
-
-
-
-2016-03-09T14:44:04.315216Z
-57d6662c0cf4fd76b9bb0a1ab5354938
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-605
-
 arrow_circle_315.png
 file
 
@@ -1827,6 +1793,40 @@ has-props
 
 
 830
+
+paste-plain-icon.png
+file
+
+
+
+
+2016-03-09T14:44:04.315216Z
+57d6662c0cf4fd76b9bb0a1ab5354938
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+605
 
 documents_text.png
 file
@@ -1862,40 +1862,6 @@ has-props
 
 674
 
-chart-line-icon.png
-file
-
-
-
-
-2016-03-09T14:44:04.315216Z
-61f7ee1d30fadfd9652468e6d6ddb05b
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-526
-
 excel_1.jpg
 file
 
@@ -1930,14 +1896,14 @@ has-props
 
 6386
 
-cursor.png
+chart-line-icon.png
 file
 
 
 
 
 2016-03-09T14:44:04.315216Z
-a6bf7527550218cdb8b0e7bcaad94d6e
+61f7ee1d30fadfd9652468e6d6ddb05b
 2012-08-01T12:37:29.569608Z
 1381
 dgavidia
@@ -1962,7 +1928,7 @@ has-props
 
 
 
-354
+526
 
 imgreportefalla.png
 file
@@ -1997,6 +1963,40 @@ has-props
 
 
 193905
+
+cursor.png
+file
+
+
+
+
+2016-03-09T14:44:04.315216Z
+a6bf7527550218cdb8b0e7bcaad94d6e
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+354
 
 eraser.png
 file
@@ -2100,40 +2100,6 @@ has-props
 
 511
 
-receipt_pencil.png
-file
-
-
-
-
-2016-03-09T14:44:04.330814Z
-ca3871dfa8b7a4d4bf15281b8ede0e36
-2012-08-01T12:37:29.569608Z
-1381
-dgavidia
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-633
-
 filter.png
 file
 
@@ -2167,6 +2133,40 @@ has-props
 
 
 491
+
+receipt_pencil.png
+file
+
+
+
+
+2016-03-09T14:44:04.330814Z
+ca3871dfa8b7a4d4bf15281b8ede0e36
+2012-08-01T12:37:29.569608Z
+1381
+dgavidia
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+633
 
 logo_Banesco.jpg
 file

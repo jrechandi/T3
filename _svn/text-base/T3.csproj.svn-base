@@ -184,6 +184,10 @@
       <Name>myxpbutton</Name>
       <HintPath>D:\RESPALDO ROBERTH\CONSSA\T3\bin\Debug\myxpbutton.dll</HintPath>
     </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>packages\Oracle.ManagedDataAccess.12.1.24160419\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="SevenObjects.MySqlClient">
       <Name>SevenObjects.MySqlClient</Name>
       <HintPath>D:\RESPALDO ROBERTH\CONSSA\T3\bin\Debug\SevenObjects.MySqlClient.dll</HintPath>
@@ -276,6 +280,7 @@
     <Content Include="Multimedia\logo_guayana.jpg" />
     <Content Include="Multimedia\Logo_Micasa.jpg" />
     <Content Include="Resources\check.png" />
+    <None Include="packages.config" />
     <None Include="Resources\papelera.gif" />
     <None Include="Resources\t3.png" />
     <None Include="Resources\filter.png" />

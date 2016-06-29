@@ -523,7 +523,7 @@ namespace T3
 
             DataSet _Ds = new DataSet();
 
-            _Int_NumeroDocumento = Convert.ToInt64(_Str_NumeroDocumento);
+            //_Int_NumeroDocumento = Convert.ToInt64(_Str_NumeroDocumento);
             _Str_NumeroDocumentoSinCeros = _Int_NumeroDocumento.ToString();
 
             _Str_Cadena = "select cidfactxp, dbo.Fnc_Formatear(calicuota) as calicuota, dbo.Fnc_Formatear(ctotal) as ctotal, dbo.Fnc_Formatear(cmontoinvendible) as cmontoinvendible, dbo.Fnc_Formatear(ctotalimp) as ctotalimp, convert(VARCHAR,cdateemifactura,103) as cfechaemision, convert(VARCHAR,cfechavencimiento,103) as cfechavencimiento, cnumdocuctrl, ctipodocument, dbo.Fnc_Formatear(ctotalsimp) as ctotalsimp, dbo.Fnc_Formatear(ctotmontexcento) as ctotmontexcento from dbo.TFACTPPAGARM " +

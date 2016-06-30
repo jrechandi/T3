@@ -1698,7 +1698,17 @@ namespace T3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            if (_Txt_Debe.Text == _Txt_Haber.Text){
+                Tcomproban();}
+            else{
+                DialogResult dialogResult = MessageBox.Show("Sure", "Cuenta no Balanceada", MessageBoxButtons.YesNo);
+                if (dialogResult == DialogResult.Yes){
+                    Tcomproban();}
+            }
+        }
+
+        public void Tcomproban()
+        {
             var ccomp = dsn.Tables[0].Rows[0][0].ToString().Trim();
             var cfechacom = dsn.Tables[0].Rows[0][4].ToString().Trim();
             var cano = dsn.Tables[0].Rows[0][5].ToString().Trim();
@@ -1724,18 +1734,18 @@ namespace T3
                         cidcom + ", 0) \n";
 
                     _Str_Sql +=
-                        "INSERT INTO TCOMPROBAND (ccompany,cidcomprob,corder,ccount,cdescrip,ctdocument,cnumdocu,ctotdebe,ctothaber,cdateadd,cuseradd) VALUES ('" + 
-                                                            Frm_Padre._Str_Comp + "', " +
-                                                            cidcom + ", " +
-                                                            _Dg_Row.Index + 1 + ", '" +
-                                                            _Dg_Row.Cells[0].Value.ToString() + "', '" +
-                                                            _Dg_Row.Cells[2].Value.ToString() + "', '" +
-                                                            _Dg_Row.Cells[5].Value.ToString() + "', '" +
-                                                            _Dg_Row.Cells[6].Value.ToString() + "', " +
-                                                            Val_Null(Convert.ToDecimal(_Dg_Row.Cells[7].Value).ToString().Replace(',', '.')) + ", " +
-                                                            Val_Null(Convert.ToDecimal(_Dg_Row.Cells[8].Value).ToString().Replace(',', '.')) + ", " +
-                                                            "GETDATE(), '" +
-                                                            Frm_Padre._Str_Use + "') \n";
+                        "INSERT INTO TCOMPROBAND (ccompany,cidcomprob,corder,ccount,cdescrip,ctdocument,cnumdocu,ctotdebe,ctothaber,cdateadd,cuseradd) VALUES ('" +
+                        Frm_Padre._Str_Comp + "', " +
+                        cidcom + ", " +
+                        _Dg_Row.Index + 1 + ", '" +
+                        _Dg_Row.Cells[0].Value.ToString() + "', '" +
+                        _Dg_Row.Cells[2].Value.ToString() + "', '" +
+                        _Dg_Row.Cells[5].Value.ToString() + "', '" +
+                        _Dg_Row.Cells[6].Value.ToString() + "', " +
+                        Val_Null(Convert.ToDecimal(_Dg_Row.Cells[7].Value).ToString().Replace(',', '.')) + ", " +
+                        Val_Null(Convert.ToDecimal(_Dg_Row.Cells[8].Value).ToString().Replace(',', '.')) + ", " +
+                        "GETDATE(), '" +
+                        Frm_Padre._Str_Use + "') \n";
                 }
             }
 
@@ -1748,12 +1758,14 @@ namespace T3
             catch (Exception Ex)
             {
                 MessageBox.Show("Error al procesar");
-                
             }
         }
 
         public string Tcomprobanc_Ins2()
         {
+            DataSet _Ds = Program._MyClsCnn._mtd_conexion._Mtd_RetornarDataset("SELECT ('N'+cnombre1 + ' A' + capellido1 + 'C' + CAST(ccedula as varchar)) as result FROM TEMPLEADOS_SPI WHERE cid_templeado_spi = 1");
+            var a = _Ds.Tables[0].Rows[0][0].ToString();
+
             string _Str_Sql = "INSERT INTO TCOMPROBANC VALUES ('" +
                                 Frm_Padre._Str_Comp + "', " +
                                 _Cls_Variosmetodos._Mtd_Consecutivo_TCOMPROBANC() + ", " +
@@ -1762,9 +1774,9 @@ namespace T3
                                 dsn.Tables[0].Rows[0][5].ToString().Trim() + ", " +
                                 dsn.Tables[0].Rows[0][6].ToString().Trim() + ", " +
                                 "GETDATE(), " +
-                                _Txt_Debe.Text.Replace(',', '.') + ", " +
-                                _Txt_Haber.Text.Replace(',', '.') + ", " +
-                                _Txt_Saldo.Text.Replace(',', '.') + ", " +
+                                Convert.ToDecimal(_Txt_Debe.Text).ToString().Replace(',', '.') + ", " +
+                                Convert.ToDecimal(_Txt_Haber.Text).ToString().Replace(',', '.') + ", " +
+                                Convert.ToDecimal(_Txt_Saldo.Text).ToString().Replace(',', '.') + ", " +
                                 "0, 0, 0, '0', '0', '0', '0', 0, 0, GETDATE(), '" +
                                 Frm_Padre._Str_Use + "', " +
                                 "GETDATE(), GETDATE(), '" +

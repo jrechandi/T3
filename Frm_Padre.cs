@@ -2478,7 +2478,7 @@ namespace T3
 
         private void consultaDeComprobantesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-                        if (CLASES._Cls_Varios_Metodos._Mtd_VerificarCnn(this))
+            if (CLASES._Cls_Varios_Metodos._Mtd_VerificarCnn(this))
             {
                 Frm_ConsultaComprobante _Frm = new Frm_ConsultaComprobante();
                 if (!_Mtd_AbiertoOno(_Frm))
@@ -4313,14 +4313,15 @@ namespace T3
             }
         }
 
-        public void PRUEBAToolStripMenuItem1_Click_1(object sender, EventArgs e)
+        private void Import_Nomina_ToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             if (CLASES._Cls_Varios_Metodos._Mtd_VerificarCnn(this))
             {
                 Frm_ImportNomina _Frm = new Frm_ImportNomina();
                 if (!_Mtd_AbiertoOno(_Frm))
                 {
-                    _Frm.MdiParent = this; _Frm.Dock = DockStyle.Fill; _Frm.Show(); }
+                    _Frm.MdiParent = this; _Frm.Dock = DockStyle.Fill; _Frm.Show();
+                }
                 else
                 { _Frm.Dispose(); }
             }

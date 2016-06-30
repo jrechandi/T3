@@ -7639,14 +7639,17 @@ namespace T3.CLASES
 
             string allData = sr.ReadToEnd();
             string[] rows = allData.Split("\r".ToCharArray());
-
+            
+            ////var rows2 = rows.ToList().ForEach(x=>x.Split(delimiter.ToCharArray());
             rows.ToList().ForEach(r => dataset2.Tables[0].Rows.Add(r.Split(delimiter.ToCharArray()).Select(x => x.Replace('"', ' ').Trim()).ToArray()));
+            //var a = dataset2.Tables[0].Rows[0][0];
         }
 
         public string cficha(string cficha)
         {
             if (cficha.Length > 1){
-                return (" - "+cficha);
+                var res = Program._MyClsCnn._mtd_conexion._Mtd_RetornarDataset("SELECT ('"+ cficha + "' + ' - ' + cnombre1 + ' ' + capellido1) as result FROM TEMPLEADOS_SPI WHERE CAST(cficha as int) = " + Convert.ToInt32(cficha)).Tables[0].Rows[0][0].ToString();
+                return (" - "+res);
             }else{return null;}
         }
 

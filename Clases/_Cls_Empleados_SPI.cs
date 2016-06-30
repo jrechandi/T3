@@ -147,6 +147,8 @@ namespace T3.CLASES
                     if ((_Int_CantidadDeRegistros > 1) && (i < (_Int_CantidadDeRegistros - 1))) _Str_Retornar += " OR ";
                 }
             }
+            //borrar
+            _Str_Retornar = " WHERE (NMT001_EMPRE.CIACON = 'S07') ";
             return _Str_Retornar;
         }
 
@@ -344,9 +346,9 @@ namespace T3.CLASES
         {
             bool _Bol_Retornar = true;
 
-            if (!File.Exists("C://CONSSA//T3//Debug//oci.dll")) _Bol_Retornar = false;
-            if (!File.Exists("C://CONSSA//T3//Debug//oraociicus11.dll")) _Bol_Retornar = false;
-            if (!File.Exists("C://CONSSA//T3//Debug//orannzsbb11.dll")) _Bol_Retornar = false;
+            //if (!File.Exists("C://CONSSA//T3//Debug//oci.dll")) _Bol_Retornar = false;
+            //if (!File.Exists("C://CONSSA//T3//Debug//oraociicus11.dll")) _Bol_Retornar = false;
+            //if (!File.Exists("C://CONSSA//T3//Debug//orannzsbb11.dll")) _Bol_Retornar = false;
 
             return _Bol_Retornar;
         }
@@ -586,7 +588,7 @@ namespace T3.CLASES
                 _Str_SQL += "LEFT JOIN EO_EMPRESA ON NMT001_EMPRE.CODCIA = EO_EMPRESA.ID ";
                 _Str_SQL += "LEFT JOIN SPI_ENTIDAD_FEDERAL ESTADO2 ON (EO_EMPRESA.ID_PAIS = ESTADO2.CODIGO_PAIS) AND (EO_EMPRESA.ID_ENTFE = ESTADO2.CODIGO) ";
                 _Str_SQL += "LEFT JOIN (SELECT * FROM NMM001_EMPLEADO WHERE NMM001_EMPLEADO.FECHA_FIN IS NULL) NMM001_EMPLEADO ON (NMM001_LABORAL.CIA_CODCIA = NMM001_EMPLEADO.CIA_CODCIA) AND (NMM001_LABORAL.FICHA = NMM001_EMPLEADO.FICHA) ";
-                _Str_SQL += "INNER JOIN TA_RELACION_LABORAL on (EO_PERSONA.ID=TA_RELACION_LABORAL.ID_PERSONA)";
+                _Str_SQL += "INNER JOIN TA_RELACION_LABORAL on (EO_PERSONA.ID=TA_RELACION_LABORAL.ID_PERSONA AND TA_RELACION_LABORAL.FICHA = NMM001_LABORAL.FICHA)";
                 _Str_SQL += _Mtd_SQLWhereCompaniasParaSPI();
                 _Str_SQL += "ORDER BY NMT001_EMPRE.CIACON, EO_PERSONA.ID ";
                 _Ds_Oracle = _Mtd_ConsultarOracle(_Str_SQL);

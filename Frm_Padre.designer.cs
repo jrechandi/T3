@@ -4404,7 +4404,7 @@
             this.Import_Nomina_ToolStripMenuItem1.Name = "Import_Nomina_ToolStripMenuItem1";
             this.Import_Nomina_ToolStripMenuItem1.Size = new System.Drawing.Size(261, 22);
             this.Import_Nomina_ToolStripMenuItem1.Text = "Importar Nomina";
-            this.Import_Nomina_ToolStripMenuItem1.Click += new System.EventHandler(this.PRUEBAToolStripMenuItem1_Click_1);
+            this.Import_Nomina_ToolStripMenuItem1.Click += new System.EventHandler(this.Import_Nomina_ToolStripMenuItem1_Click);
             // 
             // ayudaToolStripMenuItem
             // 

@@ -29,6 +29,13 @@ namespace T3.CLASES
         /// el archivo debe estar en: C:\CONSSA\T3\T3_Sucursal.xml
         /// </summary>
         /// <returns></returns>
+        ////para solo desarrollo
+        //private int _Mtd_ObtenerSucursal()
+        //{
+        //    _Bol_UsuarioRemoto = false;
+        //    _Bol_Rdp = false;
+        //    return 97;
+        //}
         private int _Mtd_ObtenerSucursal()
         {
 
